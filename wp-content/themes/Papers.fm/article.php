@@ -11,10 +11,6 @@
 		<?php } ?>
 		
 
-
-<?php include('player.php');?>
-
-
 		<!--BEGIN .hentry-->
 		<div id="post-<?php the_ID(); ?>" class="<?php semantic_entries(); ?> col-md-12">
 

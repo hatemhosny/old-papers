@@ -1,4 +1,3 @@
-<!-- Player -->
 
 <script type="text/javascript" src="/player/jquery.jplayer.min.js"></script>
 <script type="text/javascript">
@@ -6,6 +5,8 @@
     var paper_playing_id = '';
     var currentTime = 0;
     var playerReady = false;
+
+    var paperPath = {};
 
 
     $.noConflict()
@@ -60,12 +61,13 @@
     function play_paper(paper_id)
     {
         // if playing, then pause
-        if (paper_playing == true)
+        if ((paper_playing == true) && (paper_playing_id == paper_id))
         {
             currentTime = jQuery("#papers_player").data("jPlayer").status.currentTime
             jQuery('#papers_player').jPlayer('pause');
             jQuery('.article-play-button-' + paper_id).html('<span class="fa fa-play-circle fa-lg"></span> Play');
             paper_playing = false;
+
         }
         else    // else play
         {
@@ -73,13 +75,15 @@
             {
                 jQuery('#papers_player').jPlayer("setMedia", {
                     title: "Bubble",
-                    mp3: "/test/" + paper_id + ".mp3"
+                    mp3: "https://s3.amazonaws.com/cdn01.papers.fm/" + paperPath[paper_id] + ".mp3"
                 });
 
-                // if a new paper, reset the timer 
+                // if a new paper, reset the timer and the button
                 if (paper_playing_id != paper_id)
                 {
                     currentTime = 0;
+                    jQuery('.article-play-button-' + paper_playing_id).html('<span class="fa fa-play-circle fa-lg"></span> Play');
+
                 }
 
                 jQuery('#papers_player').jPlayer('play', currentTime);
@@ -91,15 +95,17 @@
 
             }
         }
+
+        return false;
     }
 
 </script>
 
 
 <div id="papers_player" class="jp-jplayer"></div>
-<div class="navbar navbar-default navbar-fixed-bottom">
+<div id="player-bar" class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
-      <p class="navbar-text pull-left">© 2014 - Site Built By Mr. M.</p>
+      <p class="navbar-text pull-left">The Player Controls to be put here</p>
 
 
         <!-- for testing -->
@@ -110,6 +116,6 @@
             <span class="visible-lg">LG</span>
         </p>
 
-        <!-- testing Git -->
+
     </div>
 </div>
