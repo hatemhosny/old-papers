@@ -1,0 +1,140 @@
+/*
+Theme Name: Papers.fm
+Description: Child theme for Evolve-old theme
+Author: Hatem Hosny
+Template: evolve-old
+*/
+
+
+.abstractText { text-align: justify; }
+
+#ajax-wrapper {
+    padding: 0;
+    margin: 0;
+    min-height: 300px;
+}
+
+#ajax-container {
+    padding: 0;
+    margin: 0;
+}
+.authors {
+font-size:15px;
+clear:both;
+font-style:italic;
+margin:20px 0;
+padding-top:15px;
+color:#ccc;
+}.authors a {
+                
+color:#ccc;        
+}    .authors a:hover {
+                
+color:#777;        
+}
+
+.article-title, .article-separator {
+    
+background:url('../evolve-old/library/media/images/shadow.png') no-repeat bottom center;
+padding-bottom:20px;}
+
+button.article-panel-header {
+
+}
+
+.publish-meta {
+        
+padding-top: 15px;
+}
+    
+.publish-meta a {
+        
+font-size:16px;    color:#777;}    
+
+.form-allowed-tags {
+        display: none;
+    }    
+
+.article-list {
+    text-align: justify;
+}
+
+.article-buttons{
+    font-size:13px;
+    clear:both;
+    font-style:italic;
+    margin:10px 10px 20px 10px;
+    color:#ccc;
+     }
+.article-buttons div{
+    margin-right: 30px;
+}
+.add-to-playlist-icon 
+{
+    margin: -2px 5px -5px -10px;
+}
+
+.item-controls
+{
+    margin-bottom: 10px;
+}
+
+.item-controls a:link {
+    color: Grey;
+}
+
+.item-controls a:visited {
+    color: Grey;
+}
+
+.item-controls a:hover {
+    color: #525151;
+}
+
+.item-controls a:active {
+    color: Grey;
+}
+
+
+
+.entry-list-title a{
+       color:#777;
+    }    
+
+.entry-list-title a:hover{
+       color:#ccc;
+    }    
+
+/*
+.abstractText .entry-meta .read-more a {
+    margin-bottom: -15px;
+}
+    */
+a.abstract-title-toggle{
+    display: block;
+    text-align: right;
+    color: #000;
+}
+
+.article-item-subtitle, .article-item-subtitle a{
+    color: #777;
+}
+ .article-item-subtitle a:hover{
+    color: #b7b4b4;
+}
+.btn-default.collapse-toggle{
+    padding: 5px;
+    margin: 10px;
+}
+
+.footer-section {
+padding:20px;
+color:#fff;
+margin: 0;
+font-size:12px;
+line-height:12px;
+letter-spacing:0px;
+font-weight:normal;
+background-color: #525151;
+height: 250px;
+}

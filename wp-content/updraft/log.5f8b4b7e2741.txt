@@ -1,0 +1,253 @@
+0000.007 () Opened log file at time: Tue, 01 Dec 2015 23:19:05 +0000 on http://localhost:40454
+0000.008 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.3.1 PHP: 5.4.24 (Windows NT ATIV 6.2 build 9200 (Unknown Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.7M | 13.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.009 () Free space on disk containing Updraft's temporary directory: 7282.1 Mb
+0000.009 () Restore job started. Entities to restore: db
+0001.077 () Entity: db
+0001.077 () restore_backup(backup_file=backup_2015-12-01-2215_Papersfm_0ca8d9cd5e55-db.gz, type=db, info=a:0:{}, last_one=1)
+0001.078 () Unpacking backup...
+0001.086 () Database successfully unpacked
+0002.094 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0002.095 () Using direct MySQL access; value of use_mysqli is: 0
+0002.101 () Tried to raise max_allowed_packet from 1 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0002.101 () Max packet size: 1 Mb
+0002.101 () Entering maintenance mode
+0002.101 () Enabling Maintenance mode&#8230;
+0002.104 () <strong>Backup of:</strong> http://papers.fm
+0002.127 () Content URL: http://papers.fm/wp-content
+0002.127 () Old table prefix: wp_
+0002.127 () Site information: multisite=0
+0002.131 () New table prefix: wp_
+0002.158 () Restoring table (InnoDB): wp_options
+0002.378 () Restoring prior UD configuration (table: wp_options; keys: 94)
+0003.452 () Search and replacing table: wp_options: rows: 485
+0003.762 () Restoring table (InnoDB): wp_users
+0003.834 () Search and replacing table: wp_users: rows: 2
+0003.835 () Restoring table (InnoDB): wp_usermeta
+0003.896 () Search and replacing table: wp_usermeta: rows: 53
+0003.900 () Restoring table (InnoDB): wp_commentmeta
+0003.987 () Search and replacing table: wp_commentmeta: rows: 0
+0003.987 () Restoring table (InnoDB): wp_comments
+0004.060 () Search and replacing table: wp_comments: rows: 0
+0004.060 () Restoring table (InnoDB): wp_links
+0004.168 () Search and replacing table: wp_links: rows: 0
+0004.168 () Restoring table (InnoDB): wp_postmeta
+0011.338 () Database queries processed: 50 in 9.24 seconds
+0011.723 () Search and replacing table: wp_postmeta: rows: 26
+0012.225 () Restoring table (InnoDB): wp_posts
+0012.537 () Skipping search/replace on GUID column in posts table
+0012.539 () Search and replacing table: wp_posts: rows: 1237
+0012.801 () Restoring table (MyISAM): wp_signups
+0012.831 () Search and replacing table: wp_signups: rows: 0
+0012.831 () Restoring table (InnoDB): wp_term_relationships
+0012.876 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0012.877 () Restoring table (InnoDB): wp_term_taxonomy
+0012.936 () Search and replacing table: wp_term_taxonomy: rows: 5
+0012.937 () Restoring table (InnoDB): wp_terms
+0012.982 () Search and replacing table: wp_terms: rows: 5
+0012.983 () Restoring table (MyISAM): wp_bp_activity
+0013.011 () Search and replacing table: wp_bp_activity: rows: 1
+0013.011 () Restoring table (MyISAM): wp_bp_activity_meta
+0013.039 () Search and replacing table: wp_bp_activity_meta: rows: 0
+0013.039 () Restoring table (MyISAM): wp_bp_notifications
+0013.070 () Search and replacing table: wp_bp_notifications: rows: 0
+0013.071 () Restoring table (MyISAM): wp_bp_notifications_meta
+0013.095 () Search and replacing table: wp_bp_notifications_meta: rows: 0
+0013.096 () Restoring table (MyISAM): wp_bp_xprofile_data
+0013.196 () Search and replacing table: wp_bp_xprofile_data: rows: 1
+0013.196 () Restoring table (MyISAM): wp_bp_xprofile_fields
+0013.232 () Search and replacing table: wp_bp_xprofile_fields: rows: 1
+0013.232 () Restoring table (MyISAM): wp_bp_xprofile_groups
+0013.262 () Search and replacing table: wp_bp_xprofile_groups: rows: 1
+0013.263 () Restoring table (MyISAM): wp_bp_xprofile_meta
+0013.292 () Search and replacing table: wp_bp_xprofile_meta: rows: 0
+0013.292 () Restoring table (MyISAM): wp_oiopub_affiliates
+0013.319 () Search and replacing table: wp_oiopub_affiliates: rows: 0
+0013.319 () Restoring table (MyISAM): wp_oiopub_affiliates_hits
+0013.360 () Search and replacing table: wp_oiopub_affiliates_hits: rows: 0
+0013.361 () Restoring table (MyISAM): wp_oiopub_affiliates_sales
+0013.392 () Search and replacing table: wp_oiopub_affiliates_sales: rows: 0
+0013.393 () Restoring table (MyISAM): wp_oiopub_config
+0013.432 () Search and replacing table: wp_oiopub_config: rows: 69
+0013.434 () Database queries processed: 100 in 11.34 seconds
+0013.437 () Restoring table (MyISAM): wp_oiopub_coupons
+0013.469 () Search and replacing table: wp_oiopub_coupons: rows: 0
+0013.469 () Restoring table (MyISAM): wp_oiopub_purchases
+0013.504 () Search and replacing table: wp_oiopub_purchases: rows: 0
+0013.504 () Restoring table (MyISAM): wp_oiopub_purchases_history
+0013.532 () Search and replacing table: wp_oiopub_purchases_history: rows: 0
+0013.532 () Restoring table (MyISAM): wp_oiopub_tracker_archive
+0013.562 () Search and replacing table: wp_oiopub_tracker_archive: rows: 0
+0013.562 () Restoring table (MyISAM): wp_oiopub_tracker_clicks
+0013.595 () Search and replacing table: wp_oiopub_tracker_clicks: rows: 0
+0013.595 () Restoring table (MyISAM): wp_oiopub_tracker_visits
+0013.620 () Search and replacing table: wp_oiopub_tracker_visits: rows: 0
+0013.620 () Restoring table (MyISAM): wp_pmxi_files
+0013.648 () Search and replacing table: wp_pmxi_files: rows: 1
+0013.649 () Restoring table (MyISAM): wp_pmxi_history
+0013.695 () Search and replacing table: wp_pmxi_history: rows: 169
+0013.704 () Restoring table (MyISAM): wp_pmxi_imports
+0013.741 () Search and replacing table: wp_pmxi_imports: rows: 1
+0013.745 () Restoring table (MyISAM): wp_pmxi_posts
+0013.869 () Search and replacing table: wp_pmxi_posts: rows: 1046
+0013.926 () Restoring table (MyISAM): wp_pmxi_templates
+0013.959 () Search and replacing table: wp_pmxi_templates: rows: 1
+0013.961 () Restoring table (InnoDB): wp_slim_events
+0014.006 () Search and replacing table: wp_slim_events: rows: 0
+0014.006 () Restoring table (InnoDB): wp_slim_stats
+0014.045 () Skipping this table: data in this table (wp_slim_stats) should not be search/replaced
+0014.045 () Restoring table (InnoDB): wp_slim_stats_archive
+0014.079 () Search and replacing table: wp_slim_stats_archive: rows: 0
+0014.080 () Restoring table (MyISAM): wp_statistics_exclusions
+0014.133 () Search and replacing table: wp_statistics_exclusions: rows: 0
+0014.133 () Restoring table (MyISAM): wp_statistics_historical
+0014.185 () Search and replacing table: wp_statistics_historical: rows: 0
+0014.185 () Restoring table (MyISAM): wp_statistics_pages
+0014.226 () Search and replacing table: wp_statistics_pages: rows: 94
+0014.237 () Restoring table (MyISAM): wp_statistics_search
+0014.276 () Search and replacing table: wp_statistics_search: rows: 0
+0014.276 () Restoring table (MyISAM): wp_statistics_useronline
+0014.314 () Search and replacing table: wp_statistics_useronline: rows: 1
+0014.315 () Restoring table (MyISAM): wp_statistics_visit
+0014.353 () Search and replacing table: wp_statistics_visit: rows: 14
+0014.354 () Restoring table (MyISAM): wp_statistics_visitor
+0014.382 () Database queries processed: 150 in 12.28 seconds
+0014.400 () Search and replacing table: wp_statistics_visitor: rows: 73
+0014.427 () Restoring table (MyISAM): wp_users_ultra_pm
+0014.454 () Search and replacing table: wp_users_ultra_pm: rows: 0
+0014.454 () Restoring table (MyISAM): wp_usersultra_activity
+0014.484 () Search and replacing table: wp_usersultra_activity: rows: 0
+0014.484 () Restoring table (MyISAM): wp_usersultra_ajaxrating_vote
+0014.517 () Search and replacing table: wp_usersultra_ajaxrating_vote: rows: 0
+0014.517 () Restoring table (MyISAM): wp_usersultra_ajaxrating_votesummary
+0014.547 () Search and replacing table: wp_usersultra_ajaxrating_votesummary: rows: 0
+0014.547 () Restoring table (MyISAM): wp_usersultra_credits
+0014.578 () Search and replacing table: wp_usersultra_credits: rows: 0
+0014.579 () Restoring table (MyISAM): wp_usersultra_followers
+0014.618 () Search and replacing table: wp_usersultra_followers: rows: 0
+0014.618 () Restoring table (MyISAM): wp_usersultra_friends
+0014.644 () Search and replacing table: wp_usersultra_friends: rows: 0
+0014.644 () Restoring table (MyISAM): wp_usersultra_galleries
+0014.681 () Search and replacing table: wp_usersultra_galleries: rows: 0
+0014.681 () Restoring table (MyISAM): wp_usersultra_groups
+0014.712 () Search and replacing table: wp_usersultra_groups: rows: 0
+0014.712 () Restoring table (MyISAM): wp_usersultra_groups_post_rel
+0014.746 () Search and replacing table: wp_usersultra_groups_post_rel: rows: 0
+0014.746 () Restoring table (MyISAM): wp_usersultra_groups_users_groups_rel
+0014.782 () Search and replacing table: wp_usersultra_groups_users_groups_rel: rows: 0
+0014.782 () Restoring table (MyISAM): wp_usersultra_ip_defender
+0014.811 () Search and replacing table: wp_usersultra_ip_defender: rows: 0
+0014.811 () Restoring table (MyISAM): wp_usersultra_likes
+0014.846 () Search and replacing table: wp_usersultra_likes: rows: 0
+0014.846 () Restoring table (MyISAM): wp_usersultra_orders
+0014.881 () Search and replacing table: wp_usersultra_orders: rows: 0
+0014.881 () Restoring table (MyISAM): wp_usersultra_packages
+0014.909 () Search and replacing table: wp_usersultra_packages: rows: 0
+0014.909 () Restoring table (MyISAM): wp_usersultra_photo_cat_rel
+0014.940 () Search and replacing table: wp_usersultra_photo_cat_rel: rows: 0
+0014.940 () Restoring table (MyISAM): wp_usersultra_photo_categories
+0014.971 () Search and replacing table: wp_usersultra_photo_categories: rows: 0
+0014.971 () Restoring table (MyISAM): wp_usersultra_photos
+0015.004 () Search and replacing table: wp_usersultra_photos: rows: 0
+0015.005 () Restoring table (MyISAM): wp_usersultra_stats
+0015.034 () Search and replacing table: wp_usersultra_stats: rows: 1
+0015.035 () Restoring table (MyISAM): wp_usersultra_stats_raw
+0015.080 () Search and replacing table: wp_usersultra_stats_raw: rows: 1
+0015.080 () Restoring table (MyISAM): wp_usersultra_ticket_categories
+0015.144 () Search and replacing table: wp_usersultra_ticket_categories: rows: 0
+0015.144 () Restoring table (MyISAM): wp_usersultra_ticket_departments
+0015.189 () Search and replacing table: wp_usersultra_ticket_departments: rows: 0
+0015.190 () Restoring table (MyISAM): wp_usersultra_ticket_replies
+0015.225 () Database queries processed: 200 in 13.13 seconds
+0015.233 () Search and replacing table: wp_usersultra_ticket_replies: rows: 0
+0015.233 () Restoring table (MyISAM): wp_usersultra_tickets
+0015.274 () Search and replacing table: wp_usersultra_tickets: rows: 0
+0015.274 () Restoring table (MyISAM): wp_usersultra_videos
+0015.313 () Search and replacing table: wp_usersultra_videos: rows: 0
+0015.313 () Restoring table (MyISAM): wp_usersultra_wall
+0015.349 () Search and replacing table: wp_usersultra_wall: rows: 0
+0015.349 () Restoring table (MyISAM): wp_usersultra_wall_replies
+0015.390 () Search and replacing table: wp_usersultra_wall_replies: rows: 0
+0015.390 () Restoring table (MyISAM): wp_wpfront_ure_options
+0015.415 () Leaving maintenance mode
+0015.415 () Disabling Maintenance mode&#8230;
+0015.422 () Search and replacing table: wp_wpfront_ure_options: rows: 1
+0015.422 () Finished: lines processed: 213 in 13.32 seconds
+0015.423 () Cleaning up rubbish...
+0015.424 () Begin search and replace (updraftplus_restored_db)
+0015.425 () Restored pre-migration site ID for this installation
+0015.457 () Database search and replace: replace http://papers.fm in backup dump with http://localhost:40454
+0015.458 () Search and replacing table: wp_bp_activity: already done
+0015.459 () Search and replacing table: wp_bp_activity_meta: already done
+0015.459 () Search and replacing table: wp_bp_notifications: already done
+0015.459 () Search and replacing table: wp_bp_notifications_meta: already done
+0015.459 () Search and replacing table: wp_bp_xprofile_data: already done
+0015.459 () Search and replacing table: wp_bp_xprofile_fields: already done
+0015.459 () Search and replacing table: wp_bp_xprofile_groups: already done
+0015.459 () Search and replacing table: wp_bp_xprofile_meta: already done
+0015.459 () Search and replacing table: wp_commentmeta: already done
+0015.459 () Search and replacing table: wp_comments: already done
+0015.459 () Search and replacing table: wp_links: already done
+0015.459 () Search and replacing table: wp_oiopub_affiliates: already done
+0015.459 () Search and replacing table: wp_oiopub_affiliates_hits: already done
+0015.459 () Search and replacing table: wp_oiopub_affiliates_sales: already done
+0015.459 () Search and replacing table: wp_oiopub_config: already done
+0015.459 () Search and replacing table: wp_oiopub_coupons: already done
+0015.459 () Search and replacing table: wp_oiopub_purchases: already done
+0015.459 () Search and replacing table: wp_oiopub_purchases_history: already done
+0015.459 () Search and replacing table: wp_oiopub_tracker_archive: already done
+0015.459 () Search and replacing table: wp_oiopub_tracker_clicks: already done
+0015.459 () Search and replacing table: wp_oiopub_tracker_visits: already done
+0015.459 () Search and replacing table: wp_options: already done
+0015.459 () Search and replacing table: wp_pmxi_files: already done
+0015.459 () Search and replacing table: wp_pmxi_history: already done
+0015.459 () Search and replacing table: wp_pmxi_imports: already done
+0015.459 () Search and replacing table: wp_pmxi_posts: already done
+0015.459 () Search and replacing table: wp_pmxi_templates: already done
+0015.459 () Search and replacing table: wp_postmeta: already done
+0015.459 () Search and replacing table: wp_posts: already done
+0015.459 () Search and replacing table: wp_signups: already done
+0015.460 () Search and replacing table: wp_slim_events: already done
+0015.460 () Search and replacing table: wp_slim_stats: already done
+0015.460 () Search and replacing table: wp_slim_stats_archive: already done
+0015.460 () Search and replacing table: wp_statistics_exclusions: already done
+0015.460 () Search and replacing table: wp_statistics_historical: already done
+0015.460 () Search and replacing table: wp_statistics_pages: already done
+0015.460 () Search and replacing table: wp_statistics_search: already done
+0015.460 () Search and replacing table: wp_statistics_useronline: already done
+0015.460 () Search and replacing table: wp_statistics_visit: already done
+0015.460 () Search and replacing table: wp_statistics_visitor: already done
+0015.460 () Search and replacing table: wp_term_relationships: already done
+0015.460 () Search and replacing table: wp_term_taxonomy: already done
+0015.460 () Search and replacing table: wp_terms: already done
+0015.460 () Search and replacing table: wp_usermeta: already done
+0015.460 () Search and replacing table: wp_users: already done
+0015.460 () Search and replacing table: wp_users_ultra_pm: already done
+0015.460 () Search and replacing table: wp_usersultra_activity: already done
+0015.460 () Search and replacing table: wp_usersultra_ajaxrating_vote: already done
+0015.460 () Search and replacing table: wp_usersultra_ajaxrating_votesummary: already done
+0015.460 () Search and replacing table: wp_usersultra_credits: already done
+0015.460 () Search and replacing table: wp_usersultra_followers: already done
+0015.460 () Search and replacing table: wp_usersultra_friends: already done
+0015.460 () Search and replacing table: wp_usersultra_galleries: already done
+0015.460 () Search and replacing table: wp_usersultra_groups: already done
+0015.460 () Search and replacing table: wp_usersultra_groups_post_rel: already done
+0015.460 () Search and replacing table: wp_usersultra_groups_users_groups_rel: already done
+0015.460 () Search and replacing table: wp_usersultra_ip_defender: already done
+0015.460 () Search and replacing table: wp_usersultra_likes: already done
+0015.460 () Search and replacing table: wp_usersultra_orders: already done
+0015.460 () Search and replacing table: wp_usersultra_packages: already done
+0015.461 () Search and replacing table: wp_usersultra_photo_cat_rel: already done
+0015.461 () Search and replacing table: wp_usersultra_photo_categories: already done
+0015.461 () Search and replacing table: wp_usersultra_photos: already done
+0015.461 () Search and replacing table: wp_usersultra_stats: already done
+0015.461 () Search and replacing table: wp_usersultra_stats_raw: already done
+0015.461 () Search and replacing table: wp_usersultra_ticket_categories: already done
+0015.461 () Search and replacing table: wp_usersultra_ticket_departments: already done
+0015.461 () Search and replacing table: wp_usersultra_ticket_replies: already done
+0015.461 () Search and replacing table: wp_usersultra_tickets: already done
+0015.461 () Search and replacing table: wp_usersultra_videos: already done
+0015.461 () Search and replacing table: wp_usersultra_wall: already done
+0015.461 () Search and replacing table: wp_usersultra_wall_replies: already done
+0015.461 () Search and replacing table: wp_wpfront_ure_options: already done
+0015.507 () Restore successful!
+0015.507 () Restore successful

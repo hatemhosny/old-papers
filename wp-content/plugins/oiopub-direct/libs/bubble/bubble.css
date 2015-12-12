@@ -1,0 +1,26 @@
+.tooltip {
+	width: 200px;
+	color: #000;
+	font: lighter 11px/1.3 Arial,sans-serif;
+	text-decoration: none;
+	text-align: justify;
+}
+
+.tooltip span.bbltop {
+	padding: 30px 8px 0;
+    background: url('tooltip.gif') no-repeat top;
+}
+
+.tooltip b.bblbottom {
+	padding: 3px 8px 15px;
+	color: #548912;
+    background: url('tooltip.gif') no-repeat bottom;
+}
+
+#btc {
+	z-index: 99;
+}
+
+#oiopub-container .start {
+	margin: auto;
+}

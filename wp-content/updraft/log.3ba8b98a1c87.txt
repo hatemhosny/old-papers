@@ -1,0 +1,41 @@
+0000.021 () Opened log file at time: Wed, 02 Dec 2015 20:49:18 +0000 on http://localhost:40454
+0000.021 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.3.1 PHP: 5.4.24 (Windows NT ATIV 6.2 build 9200 (Unknown Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 35.1M | 36M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.022 () Free space on disk containing Updraft's temporary directory: 7977.7 Mb
+0000.022 () Restore job started. Entities to restore: plugins, themes, uploads, others
+0001.092 () Entity: plugins
+0001.092 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:66:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.093 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-plugins.zip, 55.2 Mb)
+0029.948 () Moving old data: filesystem method / updraft_dir is potentially possible
+0029.950 () Moving old data: can potentially use wp_filesystem method / -old
+0029.950 () Moving old data out of the way...
+0034.695 () Top-level entities being moved: addthis, adminimize, advanced-custom-fields-pro, ajaxify-wordpress-site-pro, apppresser, apppush, bibsonomy-csl, bnfw, bulk-delete, codepress-admin-columns, coming-soon, compact-archives, contact-form-7, display-widgets, elasticpress, flamingo, fullwidth-audio-player, index.php, jetpack, kcite, mojo-marketplace, oiopub-direct, papercite, posts-to-posts, redux-framework, remove-dashboard-access-for-non-admins, rewrite-rules-inspector, stops-core-theme-and-plugin-updates, term-management-tools, types, ultimate-posts-widget, updraftplus, user-role-editor, users-ultra-pro, widget-display-filter, widget-logic, wordpress-popular-posts, wordpress-popup, wp-all-import-pro, wp-crontrol, wp-pagenavi, wp-pubmed-reflist, wp-slimstat, wp-statistics, wp-super-cache, wpai-acf-add-on, wptouch
+0034.747 () Error message: Could not move the files into place. Check your file permissions.
+0034.747 () Error data (move_failed): C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/plugins/oiopub-direct -> C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/updraft/plugins-old/oiopub-direct
+0034.747 () plugins: C:/Users/Hatem/Documents/My Web Sites/Papers-fm/wp-content/plugins: deleting contents (as attempts to copy failed)
+0042.661 () Moving unpacked backup into place...
+0046.150 () Top-level entities being moved: addthis, adminimize, advanced-custom-fields-pro, ajaxify-wordpress-site-pro, apppresser, apppush, bibsonomy-csl, bnfw, bulk-delete, codepress-admin-columns, coming-soon, compact-archives, contact-form-7, display-widgets, elasticpress, flamingo, fullwidth-audio-player, index.php, jetpack, kcite, mojo-marketplace, oiopub-direct, papercite, posts-to-posts, redux-framework, remove-dashboard-access-for-non-admins, rewrite-rules-inspector, stops-core-theme-and-plugin-updates, term-management-tools, types, ultimate-posts-widget, updraftplus, user-role-editor, users-ultra-pro, widget-display-filter, widget-logic, wordpress-popular-posts, wordpress-popup, wp-all-import-pro, wp-crontrol, wp-pagenavi, wp-pubmed-reflist, wp-slimstat, wp-statistics, wp-super-cache, wpai-acf-add-on, wptouch
+0046.317 () Cleaning up rubbish...
+0046.374 () Entity: themes
+0046.374 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-themes.zip, type=themes, info=a:2:{s:4:"path";s:65:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0046.375 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-themes.zip, 17 Mb)
+0051.296 () Moving old data: filesystem method / updraft_dir is potentially possible
+0051.297 () Moving old data: can potentially use wp_filesystem method / -old
+0051.297 () Moving old data out of the way...
+0052.035 () Top-level entities being moved: apptheme, evolve, evolve-3.4.4.zip, evolve-old, evolve.zip, index.php, Papers.fm, Test
+0052.049 () Moving unpacked backup into place...
+0053.064 () Top-level entities being moved: apptheme, evolve, evolve-3.4.4, index.php, Papers-fm, responsive, twentyfifteen, twentyfourteen, twentythirteen
+0053.085 () Cleaning up rubbish...
+0053.151 () Entity: uploads
+0053.151 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:66:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0053.152 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-uploads.zip, 3.9 Mb)
+0054.240 () Moving old data: filesystem method / updraft_dir is potentially possible
+0054.241 () Moving old data: can potentially use wp_filesystem method / -old
+0054.241 () Moving old data out of the way...
+0054.676 () Moving unpacked backup into place...
+0054.929 () Cleaning up rubbish...
+0054.951 () Entity: others
+0054.951 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-others.zip, type=others, info=a:2:{s:4:"path";s:58:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0054.952 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-others.zip, 0 Mb)
+0054.989 () Cleaning up rubbish...
+0055.031 () Restore successful!
+0055.031 () Restore successful

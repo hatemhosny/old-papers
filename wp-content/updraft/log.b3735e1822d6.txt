@@ -1,0 +1,38 @@
+0000.012 () Opened log file at time: Tue, 01 Dec 2015 23:17:48 +0000 on http://localhost:40454
+0000.013 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.1 WP: 4.3.1 PHP: 5.4.24 (Windows NT ATIV 6.2 build 9200 (Unknown Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.2M | 12.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.013 () Free space on disk containing Updraft's temporary directory: 7483.7 Mb
+0000.013 () Restore job started. Entities to restore: plugins, themes, uploads, others
+0001.085 () Entity: plugins
+0001.085 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:66:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.086 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-plugins.zip, 55.2 Mb)
+0025.515 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.683 () Moving old data: can potentially use wp_filesystem method / -old
+0025.683 () Moving old data out of the way...
+0026.075 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0026.085 () Moving unpacked backup into place...
+0029.618 () Top-level entities being moved: addthis, adminimize, advanced-custom-fields-pro, ajaxify-wordpress-site-pro, apppresser, apppush, bibsonomy-csl, bnfw, bulk-delete, codepress-admin-columns, coming-soon, compact-archives, contact-form-7, display-widgets, elasticpress, flamingo, fullwidth-audio-player, index.php, jetpack, kcite, mojo-marketplace, oiopub-direct, papercite, posts-to-posts, redux-framework, remove-dashboard-access-for-non-admins, rewrite-rules-inspector, stops-core-theme-and-plugin-updates, term-management-tools, types, ultimate-posts-widget, updraftplus, user-role-editor, users-ultra-pro, widget-display-filter, widget-logic, wordpress-popular-posts, wordpress-popup, wp-all-import-pro, wp-crontrol, wp-pagenavi, wp-pubmed-reflist, wp-slimstat, wp-statistics, wp-super-cache, wpai-acf-add-on, wptouch
+0029.708 () Cleaning up rubbish...
+0029.854 () Entity: themes
+0029.854 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-themes.zip, type=themes, info=a:2:{s:4:"path";s:65:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0029.855 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-themes.zip, 17 Mb)
+0034.354 () Moving old data: filesystem method / updraft_dir is potentially possible
+0034.355 () Moving old data: can potentially use wp_filesystem method / -old
+0034.355 () Moving old data out of the way...
+0034.400 () Top-level entities being moved: index.php, twentyfifteen, twentyfourteen, twentythirteen
+0034.407 () Moving unpacked backup into place...
+0034.954 () Top-level entities being moved: apptheme, evolve, evolve-3.4.4, index.php, Papers-fm, responsive, twentyfifteen, twentyfourteen, twentythirteen
+0034.974 () Cleaning up rubbish...
+0035.065 () Entity: uploads
+0035.065 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:66:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0035.065 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-uploads.zip, 3.9 Mb)
+0035.966 () Moving old data: filesystem method / updraft_dir is potentially possible
+0035.966 () Moving old data: can potentially use wp_filesystem method / -old
+0035.966 () Moving old data out of the way...
+0035.972 () Moving unpacked backup into place...
+0036.222 () Cleaning up rubbish...
+0036.244 () Entity: others
+0036.244 () restore_backup(backup_file=backup_2015-11-30-1811_Papersfm_7f2cb89fa566-others.zip, type=others, info=a:2:{s:4:"path";s:58:"C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0036.245 () Unpacking backup... (backup_2015-11-30-1811_Papersfm_7f2cb89fa566-others.zip, 0 Mb)
+0036.268 () Cleaning up rubbish...
+0036.335 () Restore successful!
+0036.335 () Restore successful

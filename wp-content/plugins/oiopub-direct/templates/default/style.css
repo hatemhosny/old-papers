@@ -1,0 +1,60 @@
+body { background: #F3F1E0 url(images/bg.jpg) repeat-x;	font: 0.9em Georgia, "Times New Roman", Times, serif; color: #333; }
+body, form { margin: 0; padding: 0; }
+a {	color: #025D8C;	text-decoration: none; }
+a:hover { color: #0A93FC; text-decoration: underline; }
+h3 { margin-top: 0px; }
+
+/* WRAPPER */
+
+#oiopub-container { padding: 0 !important; }
+#wrap {	width: 750px; margin: 0 auto; }
+
+/* HEADER */
+
+#header { padding: 10px 0 30px; color: #025D8C; font-size: 1.1em; font-style: italic; font-weight: normal; font-variant: normal; }
+#header img { float: left; }
+#header h1 { text-align: right; }
+
+/* FOOTER */
+
+#footer { color: #999; text-align: center; padding-top: 40px; padding-bottom: 20px; font-style: italic; font-size: 0.8em; background: #FFF; border-top: none; border-right: 1px solid #36a4f9; border-bottom: 1px solid #36a4f9; border-left: 1px solid #36a4f9; }
+#footer a { color: #999; }
+#footer a:hover { color: #0A93FC; }
+
+/* MAIN CONTENT */
+
+#content { text-align: center; padding-top: 20px; border-top: 1px solid #36a4f9; border-right: 1px solid #36a4f9; border-bottom: none; border-left: 1px solid #36a4f9; background: #FFF url(images/gradient.gif) repeat-x top; }
+
+#content table { }
+#content table b { color: #025d8c; }
+#content table table {  }
+#content table h3 {	font-size: 1.4em; color: #025d8c; font-weight: normal; letter-spacing: 1px; }
+
+#content select { padding: 5px; font: 1em Georgia, "Times New Roman", Times, serif; width: 275px !important; text-align: left; border: 1px solid #025D8C; }
+#content .mini select { width: 100px !important; }
+#content .regular select { width: auto !important; }
+#content select option { margin: 3px 0; }
+#content input { padding: 5px; border: 1px solid #025D8C; }
+#content input[type="text"]:focus { border: 1px solid #0A93FC; }
+
+#paypal input { padding: 0px; border: 0px; margin-left:-16px; }
+
+table.start { background: #FFF; border-bottom: 1px solid #D9D6BC; border-top: 1px solid #D9D6BC; padding: 20px 10px; }
+table.start table td { padding: 5px; }
+
+table.start a { text-decoration: underline; }
+
+/* MISC ELEMENTS */ 
+
+#ad-details { display: none; }
+.error { color:red; }
+.start { padding: 10px; margin-top: 30px; text-align: left; }
+.payment-link, .payment-link a { font-weight: bold; padding: 40px 0 25px 0; }
+
+/* BUTTONS */
+
+.oiostartbutton { background: url(images/buy.gif) no-repeat; border: none !important; width: 290px; height: 50px; color: #025D8C; font: italic normal 1.2em Georgia, "Times New Roman", Times, serif; margin-left: 15px; }
+.oiopaymentbutton { background: url(images/chkout.gif) no-repeat; border: none !important; width: 275px; height: 50px; color: #025D8C; font: italic normal 1.259em Georgia, "Times New Roman", Times, serif; text-align: left; }
+.oiostartbutton:hover, .oiopaymentbutton:hover { cursor: pointer; color: #0A93FC; }
+
+h3 { font-size: 1.7em; color: #025d8c; font-weight: normal; margin: 0px; padding: 0px; height: 50px;	}

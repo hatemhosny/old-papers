@@ -1,0 +1,640 @@
+/*Admin - Main*/
+
+
+#loading-animation{display:none}
+#uultra-sync-results{display:none}
+
+#uultra-validation-results{display:none}
+.user-ultra-sect h3{ margin-left:0px}
+.user-ultra-sect h3{ font-size:20px;}
+
+.user-ultra-btn-red{ background: #F00 !important;  color:#FFF !important}
+
+/*users module*/
+.uuultra-users-membership-edition {  margin:10px 0px 10px 0px; padding-left:15px;}
+
+/**/
+
+
+.uuultra-top-noti-admin {  margin:10px 0px 10px 0px}
+
+/* ------------------------------------------------------------------------- *
+
+ *  Website Wall Style
+
+/* ------------------------------------------------------------------------- */
+
+
+
+.uultra-wall-wrapper
+{
+	position:	relative;
+	clear:both;
+	margin:10px auto 10px auto;
+	padding:5px;
+	width:90%;
+	
+}
+
+.uultra-wall-wrapper .uultra-publishContainer
+
+{
+
+
+
+    text-align: right;
+
+    background-color: #F2F2F2;  
+	border: solid 1px  #e6e6e6;
+
+    border-image: none;  
+
+    padding: 1em 1.2em ;
+
+    margin: 0 auto 2em auto ;
+	border-radius: 5px;
+
+	
+
+}
+
+
+.uultra-wall-wrapper .uultra-publishContainer .uultra-tool-bar-option-buttons{
+	clear:both;
+	float:none;
+	position:relative;
+
+
+}
+
+.uultra-wall-wrapper .uultra-publishContainer .uultra-tool-bar-option-buttons a{ 
+
+	text-decoration:none;
+
+
+}
+
+/*----SITE-WIDE UPLOADER BOX*/
+
+.uultra-wall-wrapper .uultra-publishContainer .uultra-site-wide-photo-uploader{
+	clear:both;
+	float:none;
+	position:relative;
+	display:none;
+
+
+}
+
+#drag-drop-area-sitewidewall {
+
+	position:relative;
+	border:none;	
+	padding:5px;	
+	margin:5px auto 5px auto;	
+	height: auto !important;	
+	width:92%
+}
+
+
+
+.uultra-wall-wrapper .uultra-img-to-share-id-refresh-cl{
+	clear:both;
+	float:none;
+	position:relative;
+	display:none;
+	text-align:center;
+	min-height:500px;
+
+
+}
+
+.uultra-wall-logged-in-usage{
+	display:none;
+	color:#F00;
+	
+
+
+}
+
+
+.uultra-wall-wrapper .uultra-msgTextArea
+
+{
+    width: 97%;
+    height: 80px;
+    border-radius: 7px;
+	margin-bottom:5px;
+	padding-top:5px;
+
+}
+
+
+
+.uultra-wall-wrapper .uultra-commentTextArea
+
+{
+
+    width: 97%;
+    border-radius: 7px;
+    height: 40px;
+	margin-bottom:5px;
+	margin-top:2px;
+	padding:0px;
+	padding-top:5px;
+	padding-left:4px;
+	
+
+}
+
+
+.uultra-wall-wrapper .uultra-publishComment
+
+{
+
+    text-align: right;
+    width: 100%;
+    display: none;
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+
+
+.xoouserultra-button-wall {background-image: none !important; background: #D1D1D1;  box-shadow:none !important;}
+.xoouserultra-button-wall:hover { background:#999}
+
+
+
+/* Buttons */
+
+.uultra-wall-wrapper input[type="submit"],
+input[type="button"],
+input[type="reset"],
+article.post-password-required input[type=submit]
+ {
+	padding: 6px 10px;
+	padding: 0.428571429rem 0.714285714rem;
+	font-size: 11px;
+	font-size: 0.785714286rem;
+	line-height: 1.428571429;
+	font-weight: normal;
+	color: #7c7c7c;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+	cursor:pointer;
+}
+
+.uultra-wall-wrapper  span.uultra-u-avatar{
+
+
+	  margin:0px 5px 5px 5px; padding:5px;
+
+	  float:left;
+
+	 vertical-align:top;
+
+		
+
+}
+
+
+
+.uultra-wall-wrapper span.uultra-u-avatar img{
+
+	  border-radius: 50% ;
+
+	-moz-border-radius: 50%;
+
+	padding-left:0px !important;
+
+	 margin-right: 7px;
+
+		
+
+}
+
+
+
+#msgHolder
+
+{
+
+
+
+}
+
+
+
+    #msgHolder img
+
+    {
+
+        float: left;
+
+        margin-right: 7px;
+
+    }
+
+
+
+    #msgHolder a
+
+    {
+
+        text-decoration: none;
+
+        color: #015BA7;
+
+    }
+
+
+
+        #msgHolder a:hover
+
+        {
+
+            text-decoration: underline;
+
+        }
+
+
+
+.uultra-wall-wrapper ul li
+
+{
+
+	/*margin:0px !important; 
+
+	padding:0px !important*/
+
+   
+
+}
+
+
+
+.uultra-postHolder
+
+{
+
+    padding: 5px;
+	 padding-top: 10px !important;
+
+    border-bottom: solid 1px #E6E6E6;
+
+    margin: 10px !important;
+
+    list-style:none;
+	position:relative;
+
+	/*padding-top:5px;
+
+	padding-bottom:5px;*/
+
+}
+
+
+
+span.uultraprofile-update-wall-delete {
+    height: 15px;
+    position: absolute;
+    right: 0px;
+	top: -5px;
+    width: 32px;
+}
+span.uultraprofile-update-wall-delete i {
+    font-size: 15px;
+}
+
+
+
+span.uultraprofile-wall-delete {
+    height: 15px;
+    position: absolute;
+    right: 0px;
+	top:2px;
+    width: 32px;
+	text-align:right;
+}
+span.uultraprofile-wall-delete i {
+    font-size: 15px;
+}
+
+
+span.uultraprofile-wall-edit {
+    height: 15px;
+    position: absolute;
+    right: 45px;
+    width: 15px;
+}
+span.uultraprofile-wall-edit i {
+    font-size: 15px;
+}
+
+
+
+.uultra-postHolder p
+
+{
+
+   text-align:left !important;
+   font-size:1.0em !important;
+   margin-top:15px !important;
+   margin-left:auto !important;
+   margin-bottom:7px !important;
+   /*margin-right: 50px !important;*/
+
+}
+
+
+
+.uultra-postHolder a
+
+{
+
+   font-weight: bold;
+
+}
+
+
+
+
+.uultra-commentFooter
+
+{
+
+}
+
+.uultra-postFooter
+
+{
+
+    font-size: 0.85em;
+
+   
+	clear:both;
+	float:none !important;
+
+	padding-top:5px !important;
+
+	padding-bottom:5px  !important;
+	padding-left:2px !important;
+
+}
+
+
+
+    .uultra-postFooter span
+
+    {
+
+        color: #7D7D84;
+
+    }
+
+
+
+    .uultra-postFooter a
+
+    {
+
+        font-weight: normal;
+
+    }
+
+
+
+#btnShare, .btnComment, .btnRequest
+
+{
+
+  background-color: #5B74A8;
+
+    border: 0 none;
+
+    color: #FFFFFF;
+
+    cursor: pointer;  
+
+    font-size: 13px;
+
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 5px;
+
+    text-align: center;
+
+    width: 50px;
+
+}
+
+.uultra-postHolder .uultra-edit-reply-fiv
+{
+	display:none;
+	background:#F9F9F9;
+	padding:5px;	
+
+}
+
+
+.uultra-postHolder .uultra-error-message-reply-empty
+
+{
+	display:none;
+	color:#F00;
+
+}
+
+.uultra-commentHolder .uultra-error-message-reply-empty
+
+{
+	display:none;
+	color:#F00;
+
+}
+
+.uultra-prof-cont ul li
+
+{
+
+	/*margin:0px !important; 
+
+	padding:0px !important*/
+	list-style:none !important;
+	
+	
+
+   
+
+}
+
+
+
+
+
+
+
+/*span.uultraprofile-wall-delete {
+    height: 15px;
+    position: absolute;
+    right: 25px;
+    width: 15px;
+}*/
+span.uultraprofile-wall-delete i {
+    font-size: 15px;
+}
+
+
+span.uultraprofile-wall-edit {
+    height: 15px;
+    position: absolute;
+    right: 45px;
+    width: 15px;
+}
+span.uultraprofile-wall-edit i {
+    font-size: 15px;
+}
+
+
+
+.uultra-postHolder p
+
+{
+
+   text-align:left !important;
+   font-size:1.0em !important;
+   margin-top:15px !important;
+   margin-left:auto !important;
+   margin-bottom:7px !important;
+   /*margin-right: 50px !important;*/
+
+}
+
+
+
+.uultra-postHolder a
+
+{
+
+   font-weight: bold;
+
+}
+
+
+
+
+.uultra-commentFooter
+
+{
+
+}
+
+
+
+    .uultra-postFooter span
+
+    {
+
+        color: #7D7D84;
+
+    }
+
+
+
+    .uultra-postFooter a
+
+    {
+
+        font-weight: normal;
+
+    }
+
+
+
+.uultra-commentHolder
+
+{
+
+    clear: both;
+
+    background-color: #EEF1F6;
+
+    padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	margin-left:0px !important;
+
+    border-bottom: 1px solid #DEE5EA;
+    border-top: 1px solid white;
+    list-style:none;
+	position:relative;
+
+}
+
+.uultra-commentHolder .uultra-b-edit-reply
+
+{
+    clear: both;
+	width:98%;
+	padding-bottom:10px;
+	padding-top:5px;
+	padding-left:5px;
+
+
+
+}
+
+.uultra-commentHolder .uultra-edit-reply-fiv
+{
+	display:none;
+
+}
+
+a.uultra-close-edit-reply-box
+{
+	font-size:11px ;
+	font-weight:normal;
+}
+
+a.uultra-close-edit-comment-box
+{
+	font-size:11px ;
+	font-weight:normal;
+}
+
+
+
+.uultra-postHolder .uultra-edit-reply-fiv
+{
+	display:none;
+	background:#F9F9F9;
+	padding:5px;	
+
+}
+
+
+.uultra-postHolder .uultra-error-message-reply-empty
+
+{
+	display:none;
+	color:#F00;
+
+}
+
+.uultra-commentHolder .uultra-error-message-reply-empty
+
+{
+	display:none;
+	color:#F00;
+
+}
+
+

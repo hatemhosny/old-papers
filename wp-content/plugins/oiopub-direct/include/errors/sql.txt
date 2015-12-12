@@ -1,0 +1,24 @@
+SQL: SELECT * FROM wp_oiopub_config
+Error: Table 'paperia_wrdp1.wp_oiopub_config' doesn't exist
+
+SQL: INSERT INTO wp_oiopub_config (name,value) VALUES ('plugin_url_saved','http://papers.fm/wp-content/plugins/oiopub-direct')
+Error: Table 'paperia_wrdp1.wp_oiopub_config' doesn't exist
+
+SQL: SELECT value FROM wp_oiopub_config WHERE name='site_name'
+Error: Table 'paperia_wrdp1.wp_oiopub_config' doesn't exist
+
+SQL: INSERT INTO wp_oiopub_config (name,value,api_load) VALUES ('site_name','Papers.fm','0')
+Error: Table 'paperia_wrdp1.wp_oiopub_config' doesn't exist
+
+SQL: SELECT value FROM wp_oiopub_config WHERE name='admin_mail'
+Error: Table 'paperia_wrdp1.wp_oiopub_config' doesn't exist
+
+SQL: INSERT INTO wp_oiopub_config (name,value,api_load) VALUES ('admin_mail','hatemhosny@gmail.com','0')
+Error: Table 'paperia_wrdp1.wp_oiopub_config' doesn't exist
+
+SQL: SHOW CREATE TABLE wp_oiopub_purchases
+Error: Table 'paperia_wrdp1.wp_oiopub_purchases' doesn't exist
+
+SQL: ALTER TABLE `wp_posts` ADD FULLTEXT `post_related` (`post_name`,`post_content`)
+Error: The used table type doesn't support FULLTEXT indexes
+

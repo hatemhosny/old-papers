@@ -1,0 +1,892 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BD_Addon	include/addons/base/class-bd-addon.php	/^abstract class BD_Addon {$/;"	c
+BD_Base_Addon	include/addons/base/class-bd-base-addon.php	/^abstract class BD_Base_Addon extends BD_Addon {$/;"	c
+BD_EDD_API_Wrapper	include/license/class-bd-edd-api-wrapper.php	/^class BD_EDD_API_Wrapper {$/;"	c
+BD_License	include/license/class-bd-license.php	/^class BD_License {$/;"	c
+BD_License_Handler	include/license/class-bd-license-handler.php	/^class BD_License_Handler {$/;"	c
+BD_Meta_Box_Module	include/base/class-bd-meta-box-module.php	/^abstract class BD_Meta_Box_Module {$/;"	c
+BD_Page	include/base/class-bd-page.php	/^abstract class BD_Page {$/;"	c
+BD_Scheduler_Addon	include/addons/base/class-bd-scheduler-addon.php	/^abstract class BD_Scheduler_Addon extends BD_Addon {$/;"	c
+BD_Settings	include/settings/class-bd-settings.php	/^class BD_Settings {$/;"	c
+BD_Settings_Page	include/settings/class-bd-settings-page.php	/^class BD_Settings_Page {$/;"	c
+BD_User_Meta_Box_Module	include/base/users/class-bd-user-meta-box-module.php	/^abstract class BD_User_Meta_Box_Module extends BD_Meta_Box_Module {$/;"	c
+BD_Users_Page	include/users/class-bd-users-page.php	/^class BD_Users_Page extends BD_Page  {$/;"	c
+BD_Util	include/util/class-bd-util.php	/^class BD_Util {$/;"	c
+BULK_DELETE	bulk-delete.php	/^function BULK_DELETE() {$/;"	f
+Bulk_Delete	bulk-delete.php	/^final class Bulk_Delete {$/;"	c
+Bulk_Delete_By_Days	include/util/class-bulk-delete-by-days.php	/^class Bulk_Delete_By_Days {$/;"	c
+Bulk_Delete_Comment_Meta	include/meta/class-bulk-delete-comment-meta.php	/^class Bulk_Delete_Comment_Meta {$/;"	c
+Bulk_Delete_Help_Screen	include/ui/class-bulk-delete-help-screen.php	/^class Bulk_Delete_Help_Screen {$/;"	c
+Bulk_Delete_Jetpack_Contact_Form_Message	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^class Bulk_Delete_Jetpack_Contact_Form_Message {$/;"	c
+Bulk_Delete_Meta	include/meta/class-bulk-delete-meta.php	/^class Bulk_Delete_Meta {$/;"	c
+Bulk_Delete_Misc	include/misc/class-bulk-delete-misc.php	/^class Bulk_Delete_Misc {$/;"	c
+Bulk_Delete_Pages	include/pages/class-bulk-delete-pages.php	/^class Bulk_Delete_Pages {$/;"	c
+Bulk_Delete_Post_Meta	include/meta/class-bulk-delete-post-meta.php	/^class Bulk_Delete_Post_Meta {$/;"	c
+Bulk_Delete_Posts	include/posts/class-bulk-delete-posts.php	/^class Bulk_Delete_Posts {$/;"	c
+Bulk_Delete_System_Info	include/system-info/class-bulk-delete-system-info.php	/^class Bulk_Delete_System_Info {$/;"	c
+Bulk_Delete_User_Meta	include/meta/class-bulk-delete-user-meta.php	/^class Bulk_Delete_User_Meta {$/;"	c
+Bulk_Delete_Users	include/deprecated/class-bulk-delete-users.php	/^class Bulk_Delete_Users {$/;"	c
+Bulk_Delete_Users_By_User_Meta	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^class Bulk_Delete_Users_By_User_Meta extends BD_User_Meta_Box_Module {$/;"	c
+Bulk_Delete_Users_By_User_Role	include/users/modules/class-bulk-delete-users-by-user-role.php	/^class Bulk_Delete_Users_By_User_Role extends BD_User_Meta_Box_Module {$/;"	c
+Cron_List_Table	include/cron/class-cron-list-table.php	/^class Cron_List_Table extends WP_List_Table {$/;"	c
+EDD_SL_Plugin_Updater	include/libraries/EDD_SL_Plugin_Updater.php	/^class EDD_SL_Plugin_Updater {$/;"	c
+License_List_Table	include/license/class-license-list-table.php	/^class License_List_Table extends WP_List_Table {$/;"	c
+PLUGIN_DIR	bulk-delete.php	/^	public static $PLUGIN_DIR;$/;"	v
+PLUGIN_FILE	bulk-delete.php	/^	public static $PLUGIN_FILE;$/;"	v
+PLUGIN_URL	bulk-delete.php	/^	public static $PLUGIN_URL;$/;"	v
+__clone	bulk-delete.php	/^	public function __clone() {$/;"	f
+__construct	include/addons/base/class-bd-addon.php	/^	public function __construct() {$/;"	f
+__construct	include/addons/base/class-bd-base-addon.php	/^	public function __construct() {$/;"	f
+__construct	include/addons/base/class-bd-scheduler-addon.php	/^	public function __construct() {$/;"	f
+__construct	include/base/class-bd-meta-box-module.php	/^	public function __construct() {$/;"	f
+__construct	include/base/class-bd-page.php	/^	public function __construct() {$/;"	f
+__construct	include/cron/class-cron-list-table.php	/^	public function __construct() {$/;"	f
+__construct	include/libraries/EDD_SL_Plugin_Updater.php	/^    function __construct( $_api_url, $_plugin_file, $_api_data = null ) {$/;"	f
+__construct	include/license/class-bd-license-handler.php	/^	public function __construct( $addon_name, $addon_code, $version, $plugin_file, $author = 'Sudar Muthu' ) {$/;"	f
+__construct	include/license/class-license-list-table.php	/^	public function __construct() {$/;"	f
+__construct	include/util/class-bulk-delete-by-days.php	/^	public function __construct() {$/;"	f
+__wakeup	bulk-delete.php	/^	public function __wakeup() {$/;"	f
+_action	include/libraries/EDD_SL_Plugin_Updater.php	/^    function plugins_api_filter( $_data, $_action = '', $_args = null ) {$/;"	v
+_api_data	include/libraries/EDD_SL_Plugin_Updater.php	/^    function __construct( $_api_url, $_plugin_file, $_api_data = null ) {$/;"	v
+_column_headers	include/cron/class-cron-list-table.php	/^		$this->_column_headers = array( $columns, $hidden, $sortable );$/;"	v
+_column_headers	include/license/class-license-list-table.php	/^		$this->_column_headers = array( $columns, $hidden, $sortable );$/;"	v
+_data	include/libraries/EDD_SL_Plugin_Updater.php	/^            $_data = $api_response;$/;"	v
+_transient_data	include/libraries/EDD_SL_Plugin_Updater.php	/^            $_transient_data = new stdClass;$/;"	v
+a	include/users/class-bd-users-page.php	/^	 * Make this class a "hybrid Singleton".$/;"	c
+a	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	 * Make this class a "hybrid Singleton".$/;"	c
+a	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	 * Make this class a "hybrid Singleton".$/;"	c
+about_plugin_tab	include/ui/class-bulk-delete-help-screen.php	/^		$about_plugin_tab = array($/;"	v
+action_label	include/license/class-license-list-table.php	/^			$action_label = __( 'Deactivate', 'bulk-delete' );$/;"	v
+action_label	include/license/class-license-list-table.php	/^		$action_label = __( 'Delete', 'bulk-delete' );$/;"	v
+action_name	include/license/class-license-list-table.php	/^			$action_name  = 'deactivate_license';$/;"	v
+action_name	include/license/class-license-list-table.php	/^		$action_name  = 'delete_license';$/;"	v
+action_prefix	include/base/class-bd-page.php	/^		$action_prefix = "delete_{$this->item_type}_";$/;"	v
+action_prefix	include/base/class-bd-page.php	/^		if ( $action_prefix === substr( $action, 0, strlen( $action_prefix ) )$/;"	v
+actions	include/cron/class-cron-list-table.php	/^		$actions = array($/;"	v
+actions	include/license/class-license-list-table.php	/^		$actions = array($/;"	v
+activate_license	include/license/class-bd-edd-api-wrapper.php	/^	public static function activate_license( $addon, $license ) {$/;"	f
+activate_license	include/license/class-bd-license.php	/^	public static function activate_license( $addon_name, $addon_code, $license ) {$/;"	f
+activated	include/license/class-bd-license-handler.php	/^					$activated = BD_License::activate_license( $this->addon_name, $this->addon_code, $license_code );$/;"	v
+active_plugins	include/system-info/class-bulk-delete-system-info.php	/^			$active_plugins = get_site_option( 'active_sitewide_plugins', array() );$/;"	v
+active_plugins	include/system-info/class-bulk-delete-system-info.php	/^		$active_plugins = get_option( 'active_plugins', array() );$/;"	v
+add_contextual_help	include/ui/class-bulk-delete-help-screen.php	/^	public static function add_contextual_help( $screen ) {$/;"	f
+add_delete_comment_meta_box	include/meta/class-bulk-delete-comment-meta.php	/^	public static function add_delete_comment_meta_box() {$/;"	f
+add_delete_jetpack_messages_meta_box	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^	public static function add_delete_jetpack_messages_meta_box() {$/;"	f
+add_delete_meta_meta_boxes	include/meta/class-bulk-delete-meta.php	/^	public static function add_delete_meta_meta_boxes() {$/;"	f
+add_delete_meta_settings_panel	include/meta/class-bulk-delete-meta.php	/^	public static function add_delete_meta_settings_panel() {$/;"	f
+add_delete_misc_meta_boxes	include/misc/class-bulk-delete-misc.php	/^	public static function add_delete_misc_meta_boxes() {$/;"	f
+add_delete_misc_settings_panel	include/misc/class-bulk-delete-misc.php	/^	public static function add_delete_misc_settings_panel() {$/;"	f
+add_delete_pages_meta_boxes	bulk-delete.php	/^	public function add_delete_pages_meta_boxes() {$/;"	f
+add_delete_pages_settings_panel	bulk-delete.php	/^	public function add_delete_pages_settings_panel() {$/;"	f
+add_delete_post_meta_box	include/meta/class-bulk-delete-post-meta.php	/^	public static function add_delete_post_meta_box() {$/;"	f
+add_delete_posts_meta_boxes	bulk-delete.php	/^	public function add_delete_posts_meta_boxes() {$/;"	f
+add_delete_posts_settings_panel	bulk-delete.php	/^	public function add_delete_posts_settings_panel() {$/;"	f
+add_delete_user_meta_box	include/meta/class-bulk-delete-user-meta.php	/^	public static function add_delete_user_meta_box() {$/;"	f
+add_help_tab	include/base/class-bd-page.php	/^	protected function add_help_tab( $help_tabs ) {$/;"	f
+add_help_tab	include/users/class-bd-users-page.php	/^	protected function add_help_tab( $help_tabs ) {$/;"	f
+add_license_field	include/license/class-bd-license-handler.php	/^	public function add_license_field() {$/;"	f
+add_menu	bulk-delete.php	/^	public function add_menu() {$/;"	f
+add_menu	include/base/class-bd-page.php	/^	public function add_menu() {$/;"	f
+add_menu	include/meta/class-bulk-delete-meta.php	/^	public static function add_menu() {$/;"	f
+add_menu	include/misc/class-bulk-delete-misc.php	/^	public static function add_menu() {$/;"	f
+add_menu	include/settings/class-bd-settings-page.php	/^	public static function add_menu() {$/;"	f
+add_meta_boxes	include/base/class-bd-page.php	/^	public function add_meta_boxes() {$/;"	f
+add_plugin_action_links	include/users/class-bd-users-page.php	/^	public function add_plugin_action_links( $links, $file ) {$/;"	f
+add_script	bulk-delete.php	/^	public function add_script() {$/;"	f
+add_settings_panel	include/base/class-bd-page.php	/^	public function add_settings_panel() {$/;"	f
+addon_author	include/addons/base/class-bd-addon.php	/^	protected $addon_author = 'Sudar Muthu';$/;"	v
+addon_class_name	include/addons/base/class-bd-scheduler-addon.php	/^	protected function check_base_addon( $addon_class_name = null ) {$/;"	v
+addon_class_name	include/addons/util.php	/^		$addon_class_name = str_replace( 'Bulk_Delete', 'BD', $addon_class_name );$/;"	v
+addon_class_name	include/addons/util.php	/^	$addon_class_name = str_replace( ' ', '_', $addon_name );$/;"	v
+addon_code	include/addons/base/class-bd-addon.php	/^	protected $addon_code;$/;"	v
+addon_code	include/license/class-bd-license-handler.php	/^		$this->addon_code      = $addon_code;$/;"	v
+addon_code	include/license/class-bd-license-handler.php	/^	private $addon_code;$/;"	v
+addon_code	include/license/class-bd-license.php	/^			$addon_code   = $_GET['addon-code'];$/;"	v
+addon_code	include/license/class-bd-license.php	/^			foreach ( $licenses as $addon_code => $license ) {$/;"	v
+addon_file	include/addons/base/class-bd-addon.php	/^		$this->addon_file = $plugin_file;$/;"	v
+addon_file	include/addons/base/class-bd-addon.php	/^	protected $addon_file;$/;"	v
+addon_missing_notice	include/addons/base/class-bd-scheduler-addon.php	/^	public function addon_missing_notice() {$/;"	f
+addon_name	include/addons/base/class-bd-addon.php	/^	protected $addon_name;$/;"	v
+addon_name	include/license/class-bd-license-handler.php	/^		$this->addon_name      = $addon_name;$/;"	v
+addon_name	include/license/class-bd-license-handler.php	/^	private $addon_name;$/;"	v
+addon_name	include/license/class-bd-license.php	/^			$addon_name   = $license_data['addon-name'];$/;"	v
+addon_page	bulk-delete.php	/^		$this->addon_page = add_submenu_page( self::POSTS_PAGE_SLUG, __( 'Addon Licenses'         , 'bulk-delete' ), __( 'Addon Licenses', 'bulk-delete' ), 'activate_plugins', self::ADDON_PAGE_SLUG, array( 'BD_License', 'display_addon_page' ) );$/;"	v
+addon_page	bulk-delete.php	/^	public $addon_page;$/;"	v
+addon_slug	include/addons/util.php	/^		$addon_slug = str_replace( 'bulk-delete-', '', $addon_name );$/;"	v
+addon_slug	include/addons/util.php	/^	$addon_slug = str_replace( ' ', '-', strtolower( $addon_name ) );$/;"	v
+addon_url	include/addons/base/class-bd-scheduler-addon.php	/^		$addon_url = bd_get_addon_url( $this->base_addon, $campaign_args );$/;"	v
+addon_url	include/addons/util.php	/^	$addon_url = $base . $addon_slug;$/;"	v
+addon_url	include/addons/util.php	/^	$addon_url = add_query_arg( $campaign_args, $addon_url );$/;"	v
+addon_url	include/license/class-bd-license-handler.php	/^		$addon_url = bd_get_addon_url( $this->addon_name, $campaign_args );$/;"	v
+addon_version	include/addons/base/class-bd-addon.php	/^	protected $addon_version;$/;"	v
+api_data	include/libraries/EDD_SL_Plugin_Updater.php	/^        $this->api_data = $_api_data;$/;"	v
+api_data	include/libraries/EDD_SL_Plugin_Updater.php	/^    private $api_data  = array();$/;"	v
+api_params	include/libraries/EDD_SL_Plugin_Updater.php	/^        $api_params = array($/;"	v
+api_params	include/license/class-bd-edd-api-wrapper.php	/^		$api_params = array($/;"	v
+api_request	include/libraries/EDD_SL_Plugin_Updater.php	/^    private function api_request( $_action, $_data ) {$/;"	f
+api_response	include/libraries/EDD_SL_Plugin_Updater.php	/^        $api_response = $this->api_request( 'plugin_information', $to_send );$/;"	v
+api_url	include/libraries/EDD_SL_Plugin_Updater.php	/^        $this->api_url  = trailingslashit( $_api_url );$/;"	v
+api_url	include/libraries/EDD_SL_Plugin_Updater.php	/^        if( $this->api_url == home_url() ) {$/;"	v
+api_url	include/libraries/EDD_SL_Plugin_Updater.php	/^    private $api_url   = '';$/;"	v
+array_get	include/util/class-bd-util.php	/^	function array_get( $array, $key, $default = null ) {$/;"	f
+array_get_bool	include/util/class-bd-util.php	/^	function array_get_bool( $array, $key, $default = false ) {$/;"	f
+author	include/license/class-bd-license-handler.php	/^		$this->author          = $author;$/;"	v
+author	include/license/class-bd-license-handler.php	/^	private $author;$/;"	v
+author	include/license/class-bd-license-handler.php	/^	public function __construct( $addon_name, $addon_code, $version, $plugin_file, $author = 'Sudar Muthu' ) {$/;"	v
+base	include/addons/util.php	/^	$base = 'http:\/\/bulkwp.com\/addons\/';$/;"	v
+base_addon	include/addons/base/class-bd-scheduler-addon.php	/^	protected $base_addon;$/;"	v
+base_addon_class_name	include/addons/base/class-bd-scheduler-addon.php	/^			$this->base_addon_class_name = $addon_class_name;$/;"	v
+base_addon_class_name	include/addons/base/class-bd-scheduler-addon.php	/^			$this->base_addon_class_name = bd_get_addon_class_name( $this->base_addon );$/;"	v
+base_addon_class_name	include/addons/base/class-bd-scheduler-addon.php	/^	protected $base_addon_class_name;$/;"	v
+base_addon_obj	include/addons/base/class-bd-scheduler-addon.php	/^			$this->base_addon_obj = call_user_func( array( $this->base_addon_class_name, 'factory' ) );$/;"	v
+base_addon_obj	include/addons/base/class-bd-scheduler-addon.php	/^	protected $base_addon_obj;$/;"	v
+base_addon_version	include/addons/base/class-bd-scheduler-addon.php	/^	protected $base_addon_version;$/;"	v
+bd	include/addons/base/class-bd-addon.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/addons/pages.php	/^	$bd = BULK_DELETE();$/;"	v
+bd	include/addons/posts.php	/^	$bd = BULK_DELETE();$/;"	v
+bd	include/base/class-bd-page.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/license/class-bd-license-handler.php	/^			$bd = BULK_DELETE();$/;"	v
+bd	include/license/class-bd-license.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/meta/class-bulk-delete-comment-meta.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/meta/class-bulk-delete-meta.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/meta/class-bulk-delete-post-meta.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/meta/class-bulk-delete-user-meta.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/misc/class-bulk-delete-misc.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/settings/class-bd-settings-page.php	/^		$bd = BULK_DELETE();$/;"	v
+bd	include/ui/class-bulk-delete-help-screen.php	/^		$bd = BULK_DELETE();$/;"	v
+bd_action	bulk-delete.php	/^			$bd_action = sanitize_text_field( $_POST['bd_action'] );$/;"	v
+bd_add_links_in_plugin_listing	include/ui/admin-ui.php	/^function bd_add_links_in_plugin_listing( $links, $file ) {$/;"	f
+bd_add_plugin_action_links	include/ui/admin-ui.php	/^function bd_add_plugin_action_links( $links, $file ) {$/;"	f
+bd_add_rating_link	include/ui/admin-ui.php	/^function bd_add_rating_link( $footer_text ) {$/;"	f
+bd_build_query_options	include/util/query.php	/^function bd_build_query_options( $delete_options, $options = array() ) {$/;"	f
+bd_delete_options_compatibility	include/deprecated/deprecated.php	/^function bd_delete_options_compatibility( $options ) {$/;"	f
+bd_deregister_acf_select2	include/compatibility/advanced-custom-fields-pro.php	/^function bd_deregister_acf_select2() {$/;"	f
+bd_deregister_woo_select2	include/compatibility/woocommerce.php	/^function bd_deregister_woo_select2() {$/;"	f
+bd_display_available_addon_list	include/addons/addon-list.php	/^function bd_display_available_addon_list() {$/;"	f
+bd_enable_cron_for_old_addons	include/deprecated/deprecated.php	/^function bd_enable_cron_for_old_addons( $js_array ) {$/;"	f
+bd_get_addon_class_name	include/addons/util.php	/^function bd_get_addon_class_name( $addon_name ) {$/;"	f
+bd_get_addon_url	include/addons/util.php	/^function bd_get_addon_url( $addon_name, $campaign_args = array() ) {$/;"	f
+bd_get_allowed_mime_types	include/util/class-bd-util.php	/^function bd_get_allowed_mime_types() {$/;"	f
+bd_get_last_login	include/compatibility/simple-login-log.php	/^function bd_get_last_login( $user_id ) {$/;"	f
+bd_header_callback	include/settings/setting-helpers.php	/^function bd_header_callback( $args ) {$/;"	f
+bd_is_simple_login_log_present	include/compatibility/simple-login-log.php	/^function bd_is_simple_login_log_present() {$/;"	f
+bd_modify_admin_footer	include/ui/admin-ui.php	/^function bd_modify_admin_footer() {$/;"	f
+bd_options	include/settings/setting-helpers.php	/^	$bd_options = get_option( $option_name );$/;"	v
+bd_query	include/util/query.php	/^function bd_query( $options ) {$/;"	f
+bd_register_page_addons	include/addons/pages.php	/^function bd_register_page_addons() {$/;"	f
+bd_register_post_addons	include/addons/posts.php	/^function bd_register_post_addons() {$/;"	f
+bd_remove_event_calendar_filter	include/compatibility/the-event-calendar.php	/^function bd_remove_event_calendar_filter() {$/;"	f
+bd_render_cron_settings	include/ui/form.php	/^function bd_render_cron_settings( $slug, $addon_url ) {$/;"	f
+bd_render_delete_pages_from_trash	include/addons/pages.php	/^function bd_render_delete_pages_from_trash() {$/;"	f
+bd_render_delete_posts_by_custom_field_box	include/addons/posts.php	/^function bd_render_delete_posts_by_custom_field_box() {$/;"	f
+bd_render_delete_posts_by_duplicate_title_box	include/addons/posts.php	/^function bd_render_delete_posts_by_duplicate_title_box() {$/;"	f
+bd_render_delete_posts_by_title_box	include/addons/posts.php	/^function bd_render_delete_posts_by_title_box() {$/;"	f
+bd_render_delete_posts_by_user_role_box	include/addons/posts.php	/^function bd_render_delete_posts_by_user_role_box() {$/;"	f
+bd_render_delete_posts_from_trash	include/addons/posts.php	/^function bd_render_delete_posts_from_trash() {$/;"	f
+bd_render_delete_settings	include/ui/form.php	/^function bd_render_delete_settings( $slug ) {$/;"	f
+bd_render_filtering_table_header	include/ui/form.php	/^function bd_render_filtering_table_header() {$/;"	f
+bd_render_limit_settings	include/ui/form.php	/^function bd_render_limit_settings( $slug, $item = 'posts' ) {$/;"	f
+bd_render_post_type_dropdown	include/ui/form.php	/^function bd_render_post_type_dropdown( $slug ) {$/;"	f
+bd_render_private_post_settings	include/ui/form.php	/^function bd_render_private_post_settings( $slug ) {$/;"	f
+bd_render_restrict_settings	include/ui/form.php	/^function bd_render_restrict_settings( $slug, $item = 'posts' ) {$/;"	f
+bd_render_submit_button	include/ui/form.php	/^function bd_render_submit_button( $action ) {$/;"	f
+bd_rich_editor_callback	include/settings/setting-helpers.php	/^function bd_rich_editor_callback( $args ) {$/;"	f
+bd_text_callback	include/settings/setting-helpers.php	/^function bd_text_callback( $args ) {$/;"	f
+bd_to_bool	include/util/class-bd-util.php	/^function bd_to_bool( $string ) {$/;"	f
+bool_keys	include/deprecated/deprecated.php	/^	$bool_keys = array( 'restrict', 'force_delete', 'private' );$/;"	v
+bulk_delete	bulk-delete.php	/^ * Example: `<?php $bulk_delete = BULK_DELETE(); ?>`$/;"	v
+cache_key	include/libraries/EDD_SL_Plugin_Updater.php	/^            $cache_key    = md5( 'edd_plugin_' .sanitize_key( $this->name ) . '_version_info' );$/;"	v
+call_edd_api	include/license/class-bd-edd-api-wrapper.php	/^	private static function call_edd_api( $api_params ) {$/;"	f
+campaign_args	include/addons/base/class-bd-scheduler-addon.php	/^		$campaign_args = array($/;"	v
+campaign_args	include/addons/util.php	/^function bd_get_addon_url( $addon_name, $campaign_args = array() ) {$/;"	v
+campaign_args	include/license/class-bd-license-handler.php	/^		$campaign_args = array($/;"	v
+can_delete	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^				$can_delete = apply_filters( 'bd_delete_jetpack_messages_can_delete', $delete_options, $post_id );$/;"	v
+can_delete_by_logged_date	include/base/users/class-bd-user-meta-box-module.php	/^	protected function can_delete_by_logged_date( $delete_options, $user ) {$/;"	f
+can_delete_by_post_count	include/base/users/class-bd-user-meta-box-module.php	/^	protected function can_delete_by_post_count( $delete_options, $user ) {$/;"	f
+capability	include/base/class-bd-page.php	/^	protected $capability = 'manage_options';$/;"	v
+capability	include/users/class-bd-users-page.php	/^		$this->capability = 'delete_users';$/;"	v
+categories	include/posts/class-bulk-delete-posts.php	/^		$categories = get_categories( array($/;"	v
+changelog_link	include/libraries/EDD_SL_Plugin_Updater.php	/^            $changelog_link = self_admin_url( 'index.php?edd_sl_action=view_plugin_changelog&plugin=' . $this->name . '&slug=' . $this->slug . '&TB_iframe=true&width=772&height=911' );$/;"	v
+check_base_addon	include/addons/base/class-bd-scheduler-addon.php	/^	protected function check_base_addon( $addon_class_name = null ) {$/;"	f
+check_license	include/license/class-bd-edd-api-wrapper.php	/^	public static function check_license( $addon, $license ) {$/;"	f
+check_license	include/license/class-bd-license-handler.php	/^	public function check_license() {$/;"	f
+check_license	include/settings/class-bd-settings.php	/^	public static function check_license( $input ) {$/;"	f
+check_update	include/libraries/EDD_SL_Plugin_Updater.php	/^    function check_update( $_transient_data ) {$/;"	f
+checkedurl	include/posts/class-bulk-delete-posts.php	/^				$checkedurl = get_site_url() . $checkedurl ;$/;"	v
+checkedurl	include/posts/class-bulk-delete-posts.php	/^			$checkedurl = $url;$/;"	v
+column_col_addon_name	include/license/class-license-list-table.php	/^	public function column_col_addon_name( $item ) {$/;"	f
+column_col_cron_due	include/cron/class-cron-list-table.php	/^	public function column_col_cron_due( $item ) {$/;"	f
+column_col_cron_options	include/cron/class-cron-list-table.php	/^	public function column_col_cron_options( $item ) {$/;"	f
+column_col_cron_schedule	include/cron/class-cron-list-table.php	/^	public function column_col_cron_schedule( $item ) {$/;"	f
+column_col_cron_type	include/cron/class-cron-list-table.php	/^	public function column_col_cron_type( $item ) {$/;"	f
+column_col_expires	include/license/class-license-list-table.php	/^	public function column_col_expires( $item ) {$/;"	f
+column_col_license	include/license/class-license-list-table.php	/^	public function column_col_license( $item ) {$/;"	f
+column_col_license_validity	include/license/class-license-list-table.php	/^	public function column_col_license_validity( $item ) {$/;"	f
+columns	include/cron/class-cron-list-table.php	/^		$columns = $this->get_columns();$/;"	v
+columns	include/license/class-license-list-table.php	/^		$columns  = $this->get_columns();$/;"	v
+comments	include/meta/class-bulk-delete-comment-meta.php	/^		$comments = get_comments( $options );$/;"	v
+count	include/addons/base/class-bd-scheduler-addon.php	/^		$count = $this->get_module()->delete( $delete_options );$/;"	v
+count	include/base/users/class-bd-user-meta-box-module.php	/^		$count = 0;$/;"	v
+count	include/meta/class-bulk-delete-comment-meta.php	/^		$count     = 0;$/;"	v
+count	include/meta/class-bulk-delete-post-meta.php	/^		$count     = 0;$/;"	v
+count	include/meta/class-bulk-delete-user-meta.php	/^		$count     = 0;$/;"	v
+count	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$count = 0;$/;"	v
+count	include/posts/class-bulk-delete-posts.php	/^		$count = 0;$/;"	v
+count	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$count = 0;$/;"	v
+create_settings	include/settings/class-bd-settings.php	/^	public static function create_settings() {$/;"	f
+cron	include/util/class-bd-util.php	/^		$cron = _get_cron_array();$/;"	v
+cron_hook	include/addons/base/class-bd-scheduler-addon.php	/^			$cron_hook = $this->base_addon_obj->get_cron_hook();$/;"	v
+cron_hook	include/addons/base/class-bd-scheduler-addon.php	/^		$cron_hook = $this->get_cron_hook();$/;"	v
+cron_hook	include/addons/base/class-bd-scheduler-addon.php	/^		$cron_hook = '';$/;"	v
+cron_hook	include/addons/base/class-bd-scheduler-addon.php	/^	protected $cron_hook;$/;"	v
+cron_hook	include/base/class-bd-meta-box-module.php	/^	protected $cron_hook;$/;"	v
+cron_hook	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->cron_hook     = 'do-bulk-delete-users-by-meta';$/;"	v
+cron_hook	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->cron_hook     = 'do-bulk-delete-users-by-role';$/;"	v
+cron_id	include/posts/class-bulk-delete-posts.php	/^			$cron_id = absint( $_GET['cron_id'] );$/;"	v
+cron_item	include/util/class-bd-util.php	/^					$cron_item = array();$/;"	v
+cron_items	include/cron/class-cron-list-table.php	/^		$cron_items = BD_Util::get_cron_schedules();$/;"	v
+cron_items	include/posts/class-bulk-delete-posts.php	/^			$cron_items = BD_Util::get_cron_schedules();$/;"	v
+cron_items	include/util/class-bd-util.php	/^		$cron_items = array();$/;"	v
+cron_list_table	bulk-delete.php	/^		$cron_list_table = new Cron_List_Table();$/;"	v
+cron_page	bulk-delete.php	/^		$this->cron_page  = add_submenu_page( self::POSTS_PAGE_SLUG, __( 'Bulk Delete Schedules'  , 'bulk-delete' ), __( 'Scheduled Jobs', 'bulk-delete' ), 'delete_posts'    , self::CRON_PAGE_SLUG , array( $this, 'display_cron_page' ) );$/;"	v
+cron_page	bulk-delete.php	/^	public $cron_page;$/;"	v
+current_user	include/base/class-bd-meta-box-module.php	/^		$current_user = wp_get_current_user();$/;"	v
+current_user	include/meta/class-bulk-delete-meta.php	/^		$current_user = wp_get_current_user();$/;"	v
+current_user	include/misc/class-bulk-delete-misc.php	/^		$current_user = wp_get_current_user();$/;"	v
+current_user	include/util/class-bd-util.php	/^		$current_user = wp_get_current_user();$/;"	v
+data	include/libraries/EDD_SL_Plugin_Updater.php	/^        $data = array_merge( $this->api_data, $_data );$/;"	v
+date_format	include/util/class-bd-util.php	/^		$date_format = _x( 'M j, Y @ G:i', 'Cron table date format', 'bulk-delete' );$/;"	v
+days	include/meta/class-bulk-delete-comment-meta.php	/^		$days      = $delete_options['days'];$/;"	v
+days	include/meta/class-bulk-delete-post-meta.php	/^		$days      = $delete_options['days'];$/;"	v
+days	include/util/class-bulk-delete-by-days.php	/^			$this->days = $query->query_vars['days'];$/;"	v
+days	include/util/class-bulk-delete-by-days.php	/^	var $days;$/;"	v
+deactivate_license	include/license/class-bd-edd-api-wrapper.php	/^	public static function deactivate_license( $addon, $license ) {$/;"	f
+deactivate_license	include/license/class-bd-license.php	/^	public static function deactivate_license() {$/;"	f
+deactivated	include/license/class-bd-license.php	/^			$deactivated  = BD_EDD_API_Wrapper::deactivate_license( $addon_name, $license );$/;"	v
+default	include/util/class-bd-util.php	/^	function array_get( $array, $key, $default = null ) {$/;"	v
+default	include/util/class-bd-util.php	/^	function array_get_bool( $array, $key, $default = false ) {$/;"	v
+defaults	include/util/query.php	/^	$defaults = array($/;"	v
+delete	include/base/class-bd-meta-box-module.php	/^	abstract public function delete( $delete_options );$/;"	f
+delete	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	public function delete( $delete_options ) {$/;"	f
+delete	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	public function delete( $delete_options ) {$/;"	f
+delete_action	include/base/class-bd-meta-box-module.php	/^	protected $delete_action;$/;"	v
+delete_action	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->delete_action = 'delete_users_by_meta';$/;"	v
+delete_action	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->delete_action = 'delete_users_by_role';$/;"	v
+delete_comment_meta	include/meta/class-bulk-delete-comment-meta.php	/^	public static function delete_comment_meta( $delete_options ) {$/;"	f
+delete_jetpack_messages	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^	public static function delete_jetpack_messages( $delete_options ) {$/;"	f
+delete_license	include/license/class-bd-license.php	/^	public static function delete_license() {$/;"	f
+delete_license_from_cache	include/license/class-bd-license.php	/^	private static function delete_license_from_cache( $addon_code ) {$/;"	f
+delete_options	include/meta/class-bulk-delete-comment-meta.php	/^		$delete_options              = array();$/;"	v
+delete_options	include/meta/class-bulk-delete-comment-meta.php	/^		$delete_options = apply_filters( 'bd_delete_comment_meta_options', $delete_options, $_POST );$/;"	v
+delete_options	include/meta/class-bulk-delete-post-meta.php	/^		$delete_options              = array();$/;"	v
+delete_options	include/meta/class-bulk-delete-post-meta.php	/^		$delete_options = apply_filters( 'bd_delete_post_meta_options', $delete_options, $_POST );$/;"	v
+delete_options	include/meta/class-bulk-delete-user-meta.php	/^		$delete_options              = array();$/;"	v
+delete_options	include/meta/class-bulk-delete-user-meta.php	/^		$delete_options = apply_filters( 'bd_delete_user_meta_options', $delete_options, $_POST );$/;"	v
+delete_options	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$delete_options                  = array();$/;"	v
+delete_options	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$delete_options = apply_filters( 'bd_delete_jetpack_messages_delete_options', $delete_options, $_POST );$/;"	v
+delete_options	include/pages/class-bulk-delete-pages.php	/^		$delete_options                 = array();$/;"	v
+delete_options	include/pages/class-bulk-delete-pages.php	/^		$delete_options = apply_filters( 'bd_delete_options', $delete_options );$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options                       = array();$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options                   = array();$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options                  = array();$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options                 = array();$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options = apply_filters( 'bd_delete_options', $delete_options );$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options = array( 'revisions' => array_get( $_POST, 'smbd_revisions' ) );$/;"	v
+delete_options	include/posts/class-bulk-delete-posts.php	/^		$delete_options = array();$/;"	v
+delete_options	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$delete_options                   = array();$/;"	v
+delete_options	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$delete_options                   = array();$/;"	v
+delete_pages_by_status	include/pages/class-bulk-delete-pages.php	/^	public static function delete_pages_by_status( $delete_options ) {$/;"	f
+delete_post_meta	include/meta/class-bulk-delete-post-meta.php	/^	public static function delete_post_meta( $delete_options ) {$/;"	f
+delete_posts_by_category	include/posts/class-bulk-delete-posts.php	/^	public static function delete_posts_by_category( $delete_options ) {$/;"	f
+delete_posts_by_post_type	include/posts/class-bulk-delete-posts.php	/^	public static function delete_posts_by_post_type( $delete_options ) {$/;"	f
+delete_posts_by_revision	include/posts/class-bulk-delete-posts.php	/^	public static function delete_posts_by_revision( $delete_options ) {$/;"	f
+delete_posts_by_status	include/posts/class-bulk-delete-posts.php	/^	public static function delete_posts_by_status( $delete_options ) {$/;"	f
+delete_posts_by_tag	include/posts/class-bulk-delete-posts.php	/^	public static function delete_posts_by_tag( $delete_options ) {$/;"	f
+delete_posts_by_taxonomy	include/posts/class-bulk-delete-posts.php	/^	public static function delete_posts_by_taxonomy( $delete_options ) {$/;"	f
+delete_posts_link	include/ui/admin-ui.php	/^		$delete_posts_link = '<a href="admin.php?page=' . Bulk_Delete::POSTS_PAGE_SLUG . '">' . __( 'Bulk Delete Posts', 'bulk-delete' ) . '<\/a>';$/;"	v
+delete_user_meta	include/meta/class-bulk-delete-user-meta.php	/^	public static function delete_user_meta( $delete_options ) {$/;"	f
+delete_users	include/base/users/class-bd-user-meta-box-module.php	/^	protected function delete_users( $options, $delete_options ) {$/;"	f
+delete_users_by_role	include/deprecated/class-bulk-delete-users.php	/^	public static function delete_users_by_role( $delete_options ) {$/;"	f
+delete_users_link	include/users/class-bd-users-page.php	/^			$delete_users_link = '<a href="admin.php?page=' . $this->page_slug . '">' . __( 'Bulk Delete Users', 'bulk-delete' ) . '<\/a>';$/;"	v
+deleted	include/base/users/class-bd-user-meta-box-module.php	/^			$deleted = wp_delete_user( $user->ID );$/;"	v
+deleted_count	include/base/class-bd-meta-box-module.php	/^			$deleted_count = $this->delete( $delete_options );$/;"	v
+deleted_count	include/meta/class-bulk-delete-comment-meta.php	/^			$deleted_count = self::delete_comment_meta( $delete_options );$/;"	v
+deleted_count	include/meta/class-bulk-delete-post-meta.php	/^			$deleted_count = self::delete_post_meta( $delete_options );$/;"	v
+deleted_count	include/meta/class-bulk-delete-user-meta.php	/^			$deleted_count = self::delete_user_meta( $delete_options );$/;"	v
+deleted_count	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$deleted_count = self::delete_jetpack_messages( $delete_options );$/;"	v
+deleted_count	include/pages/class-bulk-delete-pages.php	/^			$deleted_count = self::delete_pages_by_status( $delete_options );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^			$deleted_count = self::delete_posts_by_category( $delete_options );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^			$deleted_count = self::delete_posts_by_post_type( $delete_options );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^			$deleted_count = self::delete_posts_by_status( $delete_options );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^			$deleted_count = self::delete_posts_by_tag( $delete_options );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^			$deleted_count = self::delete_posts_by_taxonomy( $delete_options );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^		$deleted_count = count( $urls );$/;"	v
+deleted_count	include/posts/class-bulk-delete-posts.php	/^		$deleted_count = self::delete_posts_by_revision( $delete_options );$/;"	v
+dependencies_met	include/addons/base/class-bd-addon.php	/^	protected function dependencies_met() {$/;"	f
+disabled	include/base/users/class-bd-user-meta-box-module.php	/^			$disabled = '';$/;"	v
+disabled	include/base/users/class-bd-user-meta-box-module.php	/^			$disabled = 'disabled';$/;"	v
+display_activate_license_form	bulk-delete.php	/^	public $display_activate_license_form = false;$/;"	v
+display_activate_license_form	include/license/class-bd-license.php	/^	public static function display_activate_license_form() {$/;"	f
+display_addon_page	include/license/class-bd-license.php	/^	public static function display_addon_page() {$/;"	f
+display_cron_page	bulk-delete.php	/^	public function display_cron_page() {$/;"	f
+display_license_form	include/license/class-bd-license-handler.php	/^	public function display_license_form() {$/;"	f
+display_meta_page	include/meta/class-bulk-delete-meta.php	/^	public static function display_meta_page() {$/;"	f
+display_misc_page	include/misc/class-bulk-delete-misc.php	/^	public static function display_misc_page() {$/;"	f
+display_pages_page	bulk-delete.php	/^	public function display_pages_page() {$/;"	f
+display_post_type_status	include/util/class-bd-util.php	/^	public static function display_post_type_status( $str ) {$/;"	f
+display_posts_page	bulk-delete.php	/^	public function display_posts_page() {$/;"	f
+display_settings_page	include/settings/class-bd-settings-page.php	/^	public static function display_settings_page() {$/;"	f
+display_system_info	include/system-info/class-bulk-delete-system-info.php	/^	public static function display_system_info() {$/;"	f
+dives	include/libraries/EDD_SL_Plugin_Updater.php	/^     * This function dives into the update API just when WordPress creates its update array,$/;"	f
+do_delete	include/addons/base/class-bd-scheduler-addon.php	/^	public function do_delete( $delete_options ) {$/;"	f
+do_delete_comment_meta	include/meta/class-bulk-delete-comment-meta.php	/^	public static function do_delete_comment_meta() {$/;"	f
+do_delete_cron	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_cron() {$/;"	f
+do_delete_jetpack_messages	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^	public static function do_delete_jetpack_messages() {$/;"	f
+do_delete_pages_by_status	include/pages/class-bulk-delete-pages.php	/^	public static function do_delete_pages_by_status() {$/;"	f
+do_delete_post_meta	include/meta/class-bulk-delete-post-meta.php	/^	public static function do_delete_post_meta() {$/;"	f
+do_delete_posts_by_category	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_category() {$/;"	f
+do_delete_posts_by_post_type	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_post_type() {$/;"	f
+do_delete_posts_by_revision	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_revision() {$/;"	f
+do_delete_posts_by_status	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_status() {$/;"	f
+do_delete_posts_by_tag	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_tag() {$/;"	f
+do_delete_posts_by_taxonomy	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_taxonomy() {$/;"	f
+do_delete_posts_by_url	include/posts/class-bulk-delete-posts.php	/^	public static function do_delete_posts_by_url() {$/;"	f
+do_delete_user_meta	include/meta/class-bulk-delete-user-meta.php	/^	public static function do_delete_user_meta() {$/;"	f
+drafts	include/posts/class-bulk-delete-posts.php	/^		$drafts      = $posts_count->draft;$/;"	v
+err_response	include/license/class-bd-edd-api-wrapper.php	/^				$err_response = array($/;"	v
+extra_tablenav	include/cron/class-cron-list-table.php	/^	public function extra_tablenav( $which ) {$/;"	f
+extra_tablenav	include/license/class-license-list-table.php	/^	public function extra_tablenav( $which ) {$/;"	f
+factory	include/deprecated/class-bulk-delete-users.php	/^		$factory = Bulk_Delete_Users_By_User_Role::factory();$/;"	v
+factory	include/users/class-bd-users-page.php	/^	public static function factory() {$/;"	f
+factory	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	public static function factory() {$/;"	f
+factory	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	public static function factory() {$/;"	f
+feedback_count	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$feedback_count = wp_count_posts( self::FEEDBACK_POST_TYPE );$/;"	v
+field_slug	include/base/class-bd-meta-box-module.php	/^	protected $field_slug;$/;"	v
+field_slug	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->field_slug    = 'u_meta';$/;"	v
+field_slug	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->field_slug    = 'u_role';$/;"	v
+file	include/ui/admin-ui.php	/^	if ( $file == $plugin ) { \/\/ only for this plugin$/;"	v
+file	include/ui/admin-ui.php	/^	if ( $file == $this_plugin ) {$/;"	v
+file	include/users/class-bd-users-page.php	/^		if ( $file == $this_plugin ) {$/;"	v
+filter_js_array	include/addons/base/class-bd-scheduler-addon.php	/^	public function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/base/class-bd-meta-box-module.php	/^	public function filter_js_array( $js_array) {$/;"	f
+filter_js_array	include/meta/class-bulk-delete-comment-meta.php	/^	public static function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/meta/class-bulk-delete-post-meta.php	/^	public static function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/meta/class-bulk-delete-user-meta.php	/^	public static function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^	public static function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/pages/class-bulk-delete-pages.php	/^	public static function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/posts/class-bulk-delete-posts.php	/^	public static function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	public function filter_js_array( $js_array ) {$/;"	f
+filter_js_array	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	public function filter_js_array( $js_array ) {$/;"	f
+filter_where	include/util/class-bulk-delete-by-days.php	/^	public function filter_where( $where = '' ) {$/;"	f
+for	include/addons/base/class-bd-addon.php	/^ * Base class for BD Addons.$/;"	c
+for	include/addons/base/class-bd-addon.php	/^ * Base class for all BD Addons.$/;"	c
+for	include/addons/base/class-bd-base-addon.php	/^ * Base class for Base Addons.$/;"	c
+for	include/addons/base/class-bd-base-addon.php	/^ * Base class for all Base Addons.$/;"	c
+for	include/addons/base/class-bd-scheduler-addon.php	/^ * Base class for Base Addons.$/;"	c
+for	include/addons/base/class-bd-scheduler-addon.php	/^ * Base class for all Scheduler Addons.$/;"	c
+for	include/base/class-bd-meta-box-module.php	/^	 * Helper function for processing deletion.$/;"	f
+for	include/base/class-bd-meta-box-module.php	/^ * Base class for a Bulk Delete Meta Box Module.$/;"	c
+for	include/base/class-bd-page.php	/^ * Base class for Pages.$/;"	c
+for	include/base/class-bd-page.php	/^ * Base class for all Pages.$/;"	c
+for	include/base/users/class-bd-user-meta-box-module.php	/^ * Base class for a Bulk Delete User Meta Box Module.$/;"	c
+for	include/deprecated/class-bulk-delete-users.php	/^	 * Wire up proper class for backward compatibility.$/;"	c
+for	include/meta/class-bulk-delete-comment-meta.php	/^ * Utility class for deleting Comment Meta.$/;"	c
+for	include/meta/class-bulk-delete-meta.php	/^ * Utility class for deleting Meta Fields.$/;"	c
+for	include/meta/class-bulk-delete-post-meta.php	/^ * Utility class for deleting Post Meta.$/;"	c
+for	include/meta/class-bulk-delete-user-meta.php	/^ * Utility class for deleting User Meta.$/;"	c
+for	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^ * Utility class for deleting Jetpack Contact Form Messages$/;"	c
+for	include/misc/class-bulk-delete-misc.php	/^ * Utility class for deleting Misc stuff$/;"	c
+for	include/pages/class-bulk-delete-pages.php	/^ * Utility class for deleting pages$/;"	c
+for	include/posts/class-bulk-delete-posts.php	/^	 * lazy to create a separate class for a single function$/;"	c
+for	include/posts/class-bulk-delete-posts.php	/^ * Utility class for deleting posts$/;"	c
+for	include/settings/class-bd-settings-page.php	/^ * Utility class for Settings page$/;"	c
+force_delete	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$force_delete = false;$/;"	v
+force_delete	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$force_delete = true;$/;"	v
+force_delete	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$force_delete = $delete_options['force_delete'];$/;"	v
+force_delete	include/posts/class-bulk-delete-posts.php	/^		$force_delete = array_get_bool( $_POST, 'smbd_specific_force_delete', false );$/;"	v
+freq	include/base/class-bd-meta-box-module.php	/^			$freq = $_POST[ 'smbd_' . $this->field_slug . '_cron_freq' ];$/;"	v
+freq	include/meta/class-bulk-delete-comment-meta.php	/^			$freq = $_POST['smbd_cm_cron_freq'];$/;"	v
+freq	include/meta/class-bulk-delete-comment-meta.php	/^			if ( $freq == -1 ) {$/;"	v
+freq	include/meta/class-bulk-delete-post-meta.php	/^			$freq = $_POST['smbd_pm_cron_freq'];$/;"	v
+freq	include/meta/class-bulk-delete-post-meta.php	/^			if ( $freq == -1 ) {$/;"	v
+freq	include/meta/class-bulk-delete-user-meta.php	/^			$freq = $_POST['smbd_um_cron_freq'];$/;"	v
+freq	include/meta/class-bulk-delete-user-meta.php	/^			if ( $freq == -1 ) {$/;"	v
+freq	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$freq = $_POST['smbd_feedback_cron_freq'];$/;"	v
+freq	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			if ( $freq == -1 ) {$/;"	v
+freq	include/pages/class-bulk-delete-pages.php	/^			$freq = $_POST['smbd_pages_cron_freq'];$/;"	v
+freq	include/pages/class-bulk-delete-pages.php	/^			if ( $freq == -1 ) {$/;"	v
+freq	include/posts/class-bulk-delete-posts.php	/^			$freq = $_POST['smbd_cats_cron_freq'];$/;"	v
+freq	include/posts/class-bulk-delete-posts.php	/^			$freq = $_POST['smbd_post_status_cron_freq'];$/;"	v
+freq	include/posts/class-bulk-delete-posts.php	/^			$freq = $_POST['smbd_tags_cron_freq'];$/;"	v
+freq	include/posts/class-bulk-delete-posts.php	/^			$freq = $_POST['smbd_taxs_cron_freq'];$/;"	v
+freq	include/posts/class-bulk-delete-posts.php	/^			$freq = $_POST['smbd_types_cron_freq'];$/;"	v
+freq	include/posts/class-bulk-delete-posts.php	/^			if ( $freq == -1 ) {$/;"	v
+future	include/posts/class-bulk-delete-posts.php	/^		$future      = $posts_count->future;$/;"	v
+generate_sysinfo_download	include/system-info/class-bulk-delete-system-info.php	/^	public static function generate_sysinfo_download() {$/;"	f
+get_addon_class_name	include/addons/base/class-bd-addon.php	/^	protected function get_addon_class_name() {$/;"	f
+get_addon_settings	include/settings/class-bd-settings-page.php	/^	public static function get_addon_settings() {$/;"	f
+get_columns	include/cron/class-cron-list-table.php	/^	public function get_columns() {$/;"	f
+get_columns	include/license/class-license-list-table.php	/^	public function get_columns() {$/;"	f
+get_cron_hook	include/addons/base/class-bd-base-addon.php	/^	public function get_cron_hook() {$/;"	f
+get_cron_hook	include/addons/base/class-bd-scheduler-addon.php	/^	protected function get_cron_hook() {$/;"	f
+get_cron_hook	include/base/class-bd-meta-box-module.php	/^	public function get_cron_hook() {$/;"	f
+get_cron_schedules	include/util/class-bd-util.php	/^	public static function get_cron_schedules() {$/;"	f
+get_field_slug	include/base/class-bd-meta-box-module.php	/^	public function get_field_slug() {$/;"	f
+get_help_tabs	include/ui/class-bulk-delete-help-screen.php	/^	private static function get_help_tabs( $screen ) {$/;"	f
+get_hidden_box_user_meta_field	include/base/class-bd-meta-box-module.php	/^	protected function get_hidden_box_user_meta_field() {$/;"	f
+get_license	include/license/class-bd-license.php	/^	public static function get_license( $addon_code ) {$/;"	f
+get_license_code	include/license/class-bd-license.php	/^	public static function get_license_code( $addon_code ) {$/;"	f
+get_licenses	include/license/class-bd-license.php	/^	public static function get_licenses() {$/;"	f
+get_meta_hidden_boxes	include/meta/class-bulk-delete-meta.php	/^	private static function get_meta_hidden_boxes() {$/;"	f
+get_misc_hidden_boxes	include/misc/class-bulk-delete-misc.php	/^	private static function get_misc_hidden_boxes() {$/;"	f
+get_module	include/addons/base/class-bd-base-addon.php	/^	public function get_module() {$/;"	f
+get_module	include/addons/base/class-bd-scheduler-addon.php	/^	protected function get_module() {$/;"	f
+get_page_slug	include/base/class-bd-page.php	/^	public function get_page_slug() {$/;"	f
+get_pages_hidden_boxes	include/util/class-bd-util.php	/^	public static function get_pages_hidden_boxes() {$/;"	f
+get_posts_hidden_boxes	include/util/class-bd-util.php	/^	public static function get_posts_hidden_boxes() {$/;"	f
+get_screen	include/base/class-bd-page.php	/^	public function get_screen() {$/;"	f
+get_sortable_columns	include/cron/class-cron-list-table.php	/^	public function get_sortable_columns() {$/;"	f
+get_sortable_columns	include/license/class-license-list-table.php	/^	public function get_sortable_columns() {$/;"	f
+get_unique_meta_keys	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	private function get_unique_meta_keys() {$/;"	f
+get_users_hidden_boxes	include/util/class-bd-util.php	/^	public static function get_users_hidden_boxes() {$/;"	f
+has_valid_license	include/license/class-bd-license.php	/^	public static function has_valid_license( $addon_name, $addon_code ) {$/;"	f
+help_tabs	include/base/class-bd-page.php	/^			$help_tabs = $this->add_help_tab( $help_tabs );$/;"	v
+help_tabs	include/ui/class-bulk-delete-help-screen.php	/^		$help_tabs = array();$/;"	v
+help_tabs	include/ui/class-bulk-delete-help-screen.php	/^		$help_tabs = self::get_help_tabs( $screen );$/;"	v
+hidden	include/cron/class-cron-list-table.php	/^		$hidden = array();$/;"	v
+hidden	include/license/class-license-list-table.php	/^		$hidden   = array();$/;"	v
+hidden_boxes	include/base/class-bd-meta-box-module.php	/^		$hidden_boxes = get_user_meta( $current_user->ID, $user_meta_field, true );$/;"	v
+hidden_boxes	include/meta/class-bulk-delete-meta.php	/^		$hidden_boxes = self::get_meta_hidden_boxes();$/;"	v
+hidden_boxes	include/misc/class-bulk-delete-misc.php	/^		$hidden_boxes = self::get_misc_hidden_boxes();$/;"	v
+hidden_boxes	include/util/class-bd-util.php	/^		$hidden_boxes = self::get_pages_hidden_boxes();$/;"	v
+hidden_boxes	include/util/class-bd-util.php	/^		$hidden_boxes = self::get_posts_hidden_boxes();$/;"	v
+hidden_boxes	include/util/class-bd-util.php	/^		$hidden_boxes = self::get_users_hidden_boxes();$/;"	v
+hook	include/util/class-bd-util.php	/^			foreach ( (array) $cronhooks as $hook => $events ) {$/;"	v
+hook_updater	include/license/class-bd-license-handler.php	/^	private function hook_updater( $license_code ) {$/;"	f
+hooks	include/license/class-bd-license-handler.php	/^	private function hooks() {$/;"	f
+host	include/system-info/class-bulk-delete-system-info.php	/^			$host = 'Pagely';$/;"	v
+host	include/system-info/class-bulk-delete-system-info.php	/^			$host = 'WP Engine';$/;"	v
+host	include/system-info/class-bulk-delete-system-info.php	/^		$host = false;$/;"	v
+html	include/settings/setting-helpers.php	/^	$html = '<input type="text" class="' . $size . '-text" id="' . $option_name . '[' . $args['id'] . ']" name="' . $option_name . '[' . $args['id'] . ']" value="' . esc_attr( stripslashes( $value ) ) . '">';$/;"	v
+html	include/settings/setting-helpers.php	/^	$html = ob_get_clean();$/;"	v
+http_request_args	include/libraries/EDD_SL_Plugin_Updater.php	/^    function http_request_args( $args, $url ) {$/;"	f
+i	include/util/class-bd-util.php	/^		$i = 0;$/;"	v
+in	include/base/class-bd-page.php	/^	 * Help tabs can be added by overriding this function in the child class.$/;"	f
+includes	bulk-delete.php	/^	private function includes() {$/;"	f
+increase_timeout	bulk-delete.php	/^	public function increase_timeout() {$/;"	f
+info_page	bulk-delete.php	/^		$this->info_page  = add_submenu_page( self::POSTS_PAGE_SLUG, __( 'Bulk Delete System Info', 'bulk-delete' ), __( 'System Info'   , 'bulk-delete' ), 'manage_options'  , self::INFO_PAGE_SLUG , array( 'Bulk_Delete_System_Info', 'display_system_info' ) );$/;"	v
+info_page	bulk-delete.php	/^	public $info_page;$/;"	v
+init	include/libraries/EDD_SL_Plugin_Updater.php	/^    public function init() {$/;"	f
+initialize	include/addons/base/class-bd-addon.php	/^	abstract protected function initialize();$/;"	f
+initialize	include/base/class-bd-meta-box-module.php	/^	abstract protected function initialize();$/;"	f
+initialize	include/base/class-bd-page.php	/^	abstract protected function initialize();$/;"	f
+initialize	include/users/class-bd-users-page.php	/^	protected function initialize() {$/;"	f
+initialize	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	protected function initialize() {$/;"	f
+initialize	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	protected function initialize() {$/;"	f
+input	include/settings/class-bd-settings-page.php	/^	public static function sanitize_settings( $input = array() ) {$/;"	v
+instance	bulk-delete.php	/^	private static $instance;$/;"	v
+instance	bulk-delete.php	/^	public static function instance() {$/;"	f
+instance	include/users/class-bd-users-page.php	/^			$instance = new self;$/;"	v
+instance	include/users/class-bd-users-page.php	/^		static $instance = false;$/;"	v
+instance	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^			$instance = new self;$/;"	v
+instance	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		static $instance = false;$/;"	v
+instance	include/users/modules/class-bulk-delete-users-by-user-role.php	/^			$instance = new self;$/;"	v
+instance	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		static $instance = false;$/;"	v
+is	bulk-delete.php	/^		\/\/ Cloning instances of the class is forbidden$/;"	c
+is	bulk-delete.php	/^		\/\/ Unserializing instances of the class is forbidden$/;"	c
+is	include/class-bulk-delete-by-days.php	/^ * The Bulk_Delete_By_Days class is moved to \/includes\/util\/ directory in v5.5.$/;"	c
+is_hidden	include/base/class-bd-meta-box-module.php	/^	protected function is_hidden() {$/;"	f
+is_jetpack_contact_active	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^	public static function is_jetpack_contact_active() {$/;"	f
+is_meta_box_hidden	include/meta/class-bulk-delete-meta.php	/^	public static function is_meta_box_hidden( $box ) {$/;"	f
+is_misc_box_hidden	include/misc/class-bulk-delete-misc.php	/^	public static function is_misc_box_hidden( $box ) {$/;"	f
+is_pages_box_hidden	include/util/class-bd-util.php	/^	public static function is_pages_box_hidden( $box ) {$/;"	f
+is_posts_box_hidden	include/util/class-bd-util.php	/^	public static function is_posts_box_hidden( $box ) {$/;"	f
+is_users_box_hidden	include/util/class-bd-util.php	/^	public static function is_users_box_hidden( $box ) {$/;"	f
+item	include/ui/form.php	/^function bd_render_limit_settings( $slug, $item = 'posts' ) {$/;"	v
+item	include/ui/form.php	/^function bd_render_restrict_settings( $slug, $item = 'posts' ) {$/;"	v
+item_type	include/base/class-bd-meta-box-module.php	/^	protected $item_type = 'posts';$/;"	v
+item_type	include/base/class-bd-page.php	/^	protected $item_type;$/;"	v
+item_type	include/users/class-bd-users-page.php	/^		$this->item_type  = 'users';$/;"	v
+item_type	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->item_type     = 'users';$/;"	v
+item_type	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->item_type     = 'users';$/;"	v
+items	include/cron/class-cron-list-table.php	/^		$this->items = $cron_items;$/;"	v
+items	include/license/class-license-list-table.php	/^		$this->items = BD_License::get_licenses();$/;"	v
+jetpack_active_modules	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$jetpack_active_modules = get_option( 'jetpack_active_modules' );$/;"	v
+key	include/license/class-bd-license.php	/^				$key = Bulk_Delete::LICENSE_CACHE_KEY_PREFIX . $addon_code;$/;"	v
+key	include/license/class-bd-license.php	/^		$key = Bulk_Delete::LICENSE_CACHE_KEY_PREFIX . $addon_code;$/;"	v
+key	include/meta/class-bulk-delete-comment-meta.php	/^		foreach ( $schedules as $key => $value ) {$/;"	v
+key	include/meta/class-bulk-delete-post-meta.php	/^		foreach ( $schedules as $key => $value ) {$/;"	v
+key	include/meta/class-bulk-delete-user-meta.php	/^		foreach ( $schedules as $key => $value ) {$/;"	v
+key	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			foreach ( $schedules as $key => $value ) {$/;"	v
+key	include/system-info/class-bulk-delete-system-info.php	/^			foreach ( $post_count as $key => $value ) {$/;"	v
+key	include/ui/form.php	/^	foreach ( $schedules as $key => $value ) {$/;"	v
+key	include/util/class-bd-util.php	/^					foreach ( (array) $events as $key => $event ) {$/;"	v
+key	include/util/class-bd-util.php	/^	foreach ( $mime_types as $key => $value ) {$/;"	v
+label	include/base/class-bd-page.php	/^	protected $label = array();$/;"	v
+label	include/users/class-bd-users-page.php	/^		$this->label = array($/;"	v
+label	include/util/class-bd-util.php	/^				$label = $type . ' - Draft Posts';$/;"	v
+label	include/util/class-bd-util.php	/^				$label = $type . ' - Pending Posts';$/;"	v
+label	include/util/class-bd-util.php	/^				$label = $type . ' - Private Posts';$/;"	v
+label	include/util/class-bd-util.php	/^				$label = $type . ' - Published Posts';$/;"	v
+label	include/util/class-bd-util.php	/^				$label = $type . ' - Scheduled Posts';$/;"	v
+label	include/util/class-bd-util.php	/^		$label  = '';$/;"	v
+last_login	include/base/users/class-bd-user-meta-box-module.php	/^			$last_login = bd_get_last_login( $user->ID );$/;"	v
+last_value	include/util/class-bd-util.php	/^			$last_value = $prefix;$/;"	v
+last_value	include/util/class-bd-util.php	/^	$last_value = '';$/;"	v
+license	include/license/class-bd-license.php	/^			$license      = $license_data['license'];$/;"	v
+license_code	include/license/class-bd-license-handler.php	/^				$license_code = BD_License::get_license_code( $this->addon_code );$/;"	v
+license_code	include/license/class-bd-license-handler.php	/^			$license_code = trim( $input[ $this->addon_code ] );$/;"	v
+license_code	include/license/class-bd-license-handler.php	/^		$license_code = BD_License::get_license_code( $this->addon_code );$/;"	v
+license_data	include/license/class-bd-edd-api-wrapper.php	/^		$license_data = array($/;"	v
+license_data	include/license/class-bd-license.php	/^				$license_data = BD_EDD_API_Wrapper::check_license( $addon_name, $licenses[ $addon_code ] );$/;"	v
+license_data	include/license/class-bd-license.php	/^			$license_data = BD_EDD_API_Wrapper::check_license( $addon_name, $licenses[ $addon_code ] );$/;"	v
+license_data	include/license/class-bd-license.php	/^			$license_data = self::get_license( $addon_code );$/;"	v
+license_data	include/license/class-bd-license.php	/^		$license_data = BD_EDD_API_Wrapper::activate_license( $addon_name, $license );$/;"	v
+license_data	include/license/class-bd-license.php	/^		$license_data = array();$/;"	v
+license_data	include/license/class-bd-license.php	/^		$license_data = get_option( $key, false );$/;"	v
+license_handler	include/addons/base/class-bd-addon.php	/^		$this->license_handler = new BD_License_Handler($/;"	v
+license_list_table	include/license/class-bd-license.php	/^		$license_list_table = new License_List_Table();$/;"	v
+license_object	include/license/class-bd-edd-api-wrapper.php	/^		$license_object = json_decode( wp_remote_retrieve_body( $response ) );$/;"	v
+licenses	include/license/class-bd-license.php	/^			$licenses = get_option( Bulk_Delete::SETTING_OPTION_NAME );$/;"	v
+licenses	include/license/class-bd-license.php	/^		$licenses = get_option( Bulk_Delete::SETTING_OPTION_NAME );$/;"	v
+like	bulk-delete.php	/^ * Use this function like you would a global variable, except without needing$/;"	f
+limit_to	include/meta/class-bulk-delete-comment-meta.php	/^		$limit_to  = $delete_options['limit_to'];$/;"	v
+limit_to	include/meta/class-bulk-delete-post-meta.php	/^		$limit_to  = $delete_options['limit_to'];$/;"	v
+limit_to	include/meta/class-bulk-delete-user-meta.php	/^		$limit_to  = $delete_options['limit_to'];$/;"	v
+limit_to	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$limit_to = $delete_options['limit_to'];$/;"	v
+load_textdomain	bulk-delete.php	/^	public function load_textdomain() {$/;"	f
+login_days	include/base/users/class-bd-user-meta-box-module.php	/^			$login_days = $delete_options['login_days'];$/;"	v
+messages	include/base/class-bd-meta-box-module.php	/^	protected $messages = array();$/;"	v
+messages	include/base/class-bd-page.php	/^	protected $messages = array();$/;"	v
+messages	include/users/class-bd-users-page.php	/^		$this->messages = array($/;"	v
+messages	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->messages = array($/;"	v
+messages	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->messages = array($/;"	v
+meta_box_hook	include/base/class-bd-meta-box-module.php	/^	protected $meta_box_hook;$/;"	v
+meta_box_hook	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->meta_box_hook = "bd_add_meta_box_for_{$this->item_type}";$/;"	v
+meta_box_hook	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->meta_box_hook = "bd_add_meta_box_for_{$this->item_type}";$/;"	v
+meta_box_slug	include/base/class-bd-meta-box-module.php	/^	protected $meta_box_slug;$/;"	v
+meta_box_slug	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->meta_box_slug = 'bd_users_by_meta';$/;"	v
+meta_box_slug	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->meta_box_slug = 'bd_users_by_role';$/;"	v
+meta_key	include/meta/class-bulk-delete-comment-meta.php	/^		$meta_key  = $delete_options['meta_key'];$/;"	v
+meta_key	include/meta/class-bulk-delete-post-meta.php	/^		$meta_key  = $delete_options['meta_key'];$/;"	v
+meta_key	include/meta/class-bulk-delete-user-meta.php	/^		$meta_key  = $delete_options['meta_key'];$/;"	v
+meta_keys	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$meta_keys = $this->get_unique_meta_keys();$/;"	v
+meta_page	bulk-delete.php	/^	public $meta_page;$/;"	v
+mime_types	include/util/class-bd-util.php	/^	$mime_types = get_allowed_mime_types();$/;"	v
+misc_page	bulk-delete.php	/^	public $misc_page;$/;"	v
+modify_admin_footer	include/base/class-bd-page.php	/^	public function modify_admin_footer() {$/;"	f
+module	include/addons/base/class-bd-addon.php	/^	protected $module;$/;"	v
+module.exports	Gruntfile.js	/^module.exports = function( grunt ) {$/;"	f
+msg	include/base/class-bd-meta-box-module.php	/^			$msg = $this->messages['scheduled'] . ' ' .$/;"	v
+msg	include/base/class-bd-meta-box-module.php	/^			$msg = sprintf( _n( $this->messages['deleted_single'], $this->messages['deleted_plural'] , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/license/class-bd-license.php	/^			$msg          = array( 'msg' => '', 'type' => 'error' );$/;"	v
+msg	include/license/class-bd-license.php	/^			$msg          = array( 'msg' => '', 'type' => 'updated' );$/;"	v
+msg	include/license/class-bd-license.php	/^		$msg          = array($/;"	v
+msg	include/meta/class-bulk-delete-comment-meta.php	/^			$msg = __( 'Comment meta fields from the comments with the selected criteria are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/meta/class-bulk-delete-comment-meta.php	/^			$msg = sprintf( _n( 'Deleted comment meta field from %d comment', 'Deleted comment meta field from %d comments' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/meta/class-bulk-delete-post-meta.php	/^			$msg = __( 'Post meta fields from the posts with the selected criteria are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/meta/class-bulk-delete-post-meta.php	/^			$msg = sprintf( _n( 'Deleted post meta field from %d post', 'Deleted post meta field from %d posts' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/meta/class-bulk-delete-user-meta.php	/^			$msg = __( 'User meta fields from the users with the selected criteria are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/meta/class-bulk-delete-user-meta.php	/^			$msg = sprintf( _n( 'Deleted user meta field from %d user', 'Deleted user meta field from %d users' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$msg = __( 'Jetpack contact form messages with the selected criteria are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$msg = sprintf( _n( 'Deleted %d Jetpack contact form message', 'Deleted %d Jetpack contact form messages' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/pages/class-bulk-delete-pages.php	/^			$msg = __( 'The selected pages are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/pages/class-bulk-delete-pages.php	/^			$msg = sprintf( _n( 'Deleted %d page', 'Deleted %d pages' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = __( 'Posts from the selected categories are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = __( 'Posts from the selected custom post type are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = __( 'Posts from the selected custom taxonomies are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = __( 'Posts from the selected tags are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = __( 'Posts with the selected status are scheduled for deletion.', 'bulk-delete' ) . ' ' .$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = __( 'The selected scheduled job was successfully deleted ', 'bulk-delete' );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = sprintf( _n( 'Deleted %d post from the selected categories', 'Deleted %d posts from the selected categories' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = sprintf( _n( 'Deleted %d post from the selected custom post type', 'Deleted %d posts from the selected custom post type' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = sprintf( _n( 'Deleted %d post from the selected custom taxonomies', 'Deleted %d posts from the selected custom taxonomies' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = sprintf( _n( 'Deleted %d post from the selected tags', 'Deleted %d posts from the selected tags' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^			$msg = sprintf( _n( 'Deleted %d post with the selected post status', 'Deleted %d posts with the selected post status' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^		$msg = sprintf( _n( 'Deleted %d post revision', 'Deleted %d post revisions' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+msg	include/posts/class-bulk-delete-posts.php	/^		$msg = sprintf( _n( 'Deleted %d post with the specified urls', 'Deleted %d posts with the specified urls' , $deleted_count, 'bulk-delete' ), $deleted_count );$/;"	v
+name	include/addons/base/class-bd-addon.php	/^	 * @return string Addon class name$/;"	c
+name	include/addons/base/class-bd-addon.php	/^	 * Get addon class name.$/;"	c
+name	include/addons/base/class-bd-scheduler-addon.php	/^	 * @param string Base Addon class name. Default null. If not specified then it is auto calculated based on addon name.$/;"	c
+name	include/addons/base/class-bd-scheduler-addon.php	/^	 * @var Base addon class name.$/;"	c
+name	include/addons/util.php	/^	 * @param string $addon_class_name Addon class name$/;"	c
+name	include/addons/util.php	/^	 * Filter to modify addon class name.$/;"	c
+name	include/addons/util.php	/^ * @return string Computed class name for the addon.$/;"	c
+name	include/addons/util.php	/^ * Compute class name from addon name.$/;"	c
+name	include/libraries/EDD_SL_Plugin_Updater.php	/^        $this->name     = plugin_basename( $_plugin_file );$/;"	v
+name	include/libraries/EDD_SL_Plugin_Updater.php	/^    private $name      = '';$/;"	v
+no_base_addon	include/addons/base/class-bd-scheduler-addon.php	/^	protected $no_base_addon = false;$/;"	v
+no_items	include/cron/class-cron-list-table.php	/^	public function no_items() {$/;"	f
+no_items	include/license/class-license-list-table.php	/^	public function no_items() {$/;"	f
+nonce_check	include/base/class-bd-page.php	/^	public function nonce_check( $result, $action ) {$/;"	f
+nonce_valid	bulk-delete.php	/^				$nonce_valid = true;$/;"	v
+nonce_valid	bulk-delete.php	/^			$nonce_valid = false;$/;"	v
+notice_msg	include/license/class-bd-license-handler.php	/^				$this->notice_msg = sprintf( __( 'The license for "%1$s" addon is either invalid or has expired. Please <a href="%2$s" target="_blank">renew the license<\/a> or <a href="%3$s">enter a new license key<\/a> to receive updates and support.', 'bulk-delete' ), $this->addon_name, esc_url( $addon_url ), esc_url( get_bloginfo( 'wpurl' ) . '\/wp-admin\/admin.php?page=' . Bulk_Delete::ADDON_PAGE_SLUG ) );$/;"	v
+notice_msg	include/license/class-bd-license-handler.php	/^			$this->notice_msg = sprintf( __( '"%1$s" addon is installed but not activated. To activate the addon, please <a href="%2$s">enter your license key<\/a>. If you don\\'t have a license key, then you can <a href="%3$s" target="_blank">purchase one<\/a>.', 'bulk-delete' ), $this->addon_name, esc_url( get_bloginfo( 'wpurl' ) . '\/wp-admin\/admin.php?page=' . Bulk_Delete::ADDON_PAGE_SLUG ), esc_url( $addon_url ) );$/;"	v
+notice_msg	include/license/class-bd-license-handler.php	/^	private $notice_msg = '';$/;"	v
+op	include/meta/class-bulk-delete-comment-meta.php	/^					$op      => "{$days} day ago",$/;"	v
+op	include/meta/class-bulk-delete-comment-meta.php	/^		$op        = $delete_options['op'];$/;"	v
+op	include/meta/class-bulk-delete-post-meta.php	/^					$op      => "{$days} day ago",$/;"	v
+op	include/meta/class-bulk-delete-post-meta.php	/^		$op        = $delete_options['op'];$/;"	v
+op	include/util/class-bulk-delete-by-days.php	/^			$this->op = $query->query_vars['op'];$/;"	v
+op	include/util/class-bulk-delete-by-days.php	/^	var $op;$/;"	v
+option_name	include/settings/setting-helpers.php	/^	$option_name = $args['option'];$/;"	v
+options	include/meta/class-bulk-delete-comment-meta.php	/^		$options = array($/;"	v
+options	include/meta/class-bulk-delete-post-meta.php	/^		$options = array($/;"	v
+options	include/meta/class-bulk-delete-user-meta.php	/^		$options = array($/;"	v
+options	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$options = array($/;"	v
+options	include/pages/class-bulk-delete-pages.php	/^		$options = array($/;"	v
+options	include/pages/class-bulk-delete-pages.php	/^		$options = bd_build_query_options( $delete_options, $options );$/;"	v
+options	include/posts/class-bulk-delete-posts.php	/^			$options = array($/;"	v
+options	include/posts/class-bulk-delete-posts.php	/^			$options = bd_build_query_options( $delete_options, $options );$/;"	v
+options	include/posts/class-bulk-delete-posts.php	/^		$options = array($/;"	v
+options	include/posts/class-bulk-delete-posts.php	/^		$options = array();$/;"	v
+options	include/posts/class-bulk-delete-posts.php	/^		$options = bd_build_query_options( $delete_options, $options );$/;"	v
+options	include/settings/class-bd-settings-page.php	/^		$options = get_option( self::ADDON_SETTING_OPTION_NAME, array() );$/;"	v
+options	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$options = array($/;"	v
+options	include/users/modules/class-bulk-delete-users-by-user-role.php	/^			$options = array('role' => $role);$/;"	v
+options	include/util/query.php	/^	$options = wp_parse_args( $options, $defaults );$/;"	v
+options	include/util/query.php	/^function bd_build_query_options( $delete_options, $options = array() ) {$/;"	v
+overview_tab	include/ui/class-bulk-delete-help-screen.php	/^				$overview_tab = array($/;"	v
+overview_tab	include/users/class-bd-users-page.php	/^		$overview_tab = array($/;"	v
+page_drafts	include/pages/class-bulk-delete-pages.php	/^		$page_drafts  = $pages_count->draft;$/;"	v
+page_future	include/pages/class-bulk-delete-pages.php	/^		$page_future  = $pages_count->future;$/;"	v
+page_pending	include/pages/class-bulk-delete-pages.php	/^		$page_pending = $pages_count->pending;$/;"	v
+page_private	include/pages/class-bulk-delete-pages.php	/^		$page_private = $pages_count->private;$/;"	v
+page_slug	include/base/class-bd-meta-box-module.php	/^		$this->page_slug = $page_slug;$/;"	v
+page_slug	include/base/class-bd-meta-box-module.php	/^	protected $page_slug;$/;"	v
+page_slug	include/base/class-bd-page.php	/^	protected $page_slug;$/;"	v
+page_slug	include/users/class-bd-users-page.php	/^		$this->page_slug  = 'bulk-delete-users';$/;"	v
+pages	include/pages/class-bulk-delete-pages.php	/^		$pages        = $pages_count->publish;$/;"	v
+pages	include/pages/class-bulk-delete-pages.php	/^		$pages = $wp_query->query( $options );$/;"	v
+pages_count	include/pages/class-bulk-delete-pages.php	/^		$pages_count  = wp_count_posts( 'page' );$/;"	v
+pages_page	bulk-delete.php	/^		$this->pages_page = add_submenu_page( self::POSTS_PAGE_SLUG, __( 'Bulk Delete Pages', 'bulk-delete' ), __( 'Bulk Delete Pages', 'bulk-delete' ), 'delete_pages', self::PAGES_PAGE_SLUG, array( $this, 'display_pages_page' ) );$/;"	v
+pages_page	bulk-delete.php	/^	public $pages_page;$/;"	v
+parse_license_input	include/license/class-bd-license-handler.php	/^	public function parse_license_input( $input ) {$/;"	f
+parse_query	include/util/class-bulk-delete-by-days.php	/^	public function parse_query( $query ) {$/;"	f
+pending	include/posts/class-bulk-delete-posts.php	/^		$pending     = $posts_count->pending;$/;"	v
+perpage	include/cron/class-cron-list-table.php	/^		$perpage = 50;$/;"	v
+plugin	include/system-info/class-bulk-delete-system-info.php	/^				$plugin = get_plugin_data( $plugin_path );$/;"	v
+plugin	include/ui/admin-ui.php	/^	$plugin = plugin_basename( Bulk_Delete::$PLUGIN_FILE );$/;"	v
+plugin_base	include/system-info/class-bulk-delete-system-info.php	/^				$plugin_base = plugin_basename( $plugin_path );$/;"	v
+plugin_basename	include/license/class-bd-license-handler.php	/^		$this->plugin_basename = plugin_basename( $plugin_file );$/;"	v
+plugin_basename	include/license/class-bd-license-handler.php	/^	private $plugin_basename;$/;"	v
+plugin_file	include/license/class-bd-license-handler.php	/^		$this->plugin_file     = $plugin_file;$/;"	v
+plugin_file	include/license/class-bd-license-handler.php	/^	private $plugin_file;$/;"	v
+plugin_path	include/system-info/class-bulk-delete-system-info.php	/^		foreach ( $plugins as $plugin_path => $plugin ) {$/;"	v
+plugin_row	include/license/class-bd-license-handler.php	/^	public function plugin_row( $plugin_file, $plugin_data, $status ) {$/;"	f
+plugin_row_msg	include/license/class-bd-license-handler.php	/^				$plugin_row_msg = sprintf( __( 'The license for this addon is either invalid or has expired. Please <a href="%1$s" target="_blank">renew the license<\/a> or <a href="%2$s">enter a new license key<\/a> to receive updates and support.', 'bulk-delete' ), esc_url( $addon_url ), esc_url( get_bloginfo( 'wpurl' ) . '\/wp-admin\/admin.php?page=' . Bulk_Delete::ADDON_PAGE_SLUG ) );$/;"	v
+plugin_row_msg	include/license/class-bd-license-handler.php	/^			$plugin_row_msg = sprintf( __( 'Addon is not activated. To activate the addon, please <a href="%1$s">enter your license key<\/a>. If you don\\'t have a license key, then you can <a href="%2$s" target="_blank">purchase one<\/a>.', 'bulk-delete' ), esc_url( get_bloginfo( 'wpurl' ) . '\/wp-admin\/admin.php?page=' . Bulk_Delete::ADDON_PAGE_SLUG ), esc_url( $addon_url ) );$/;"	v
+plugins	include/system-info/class-bulk-delete-system-info.php	/^			$plugins = wp_get_active_network_plugins();$/;"	v
+plugins	include/system-info/class-bulk-delete-system-info.php	/^		$plugins = get_plugins();$/;"	v
+plugins_api_filter	include/libraries/EDD_SL_Plugin_Updater.php	/^    function plugins_api_filter( $_data, $_action = '', $_args = null ) {$/;"	f
+post_count	include/posts/class-bulk-delete-posts.php	/^				$post_count = wp_count_posts( $type );$/;"	v
+post_count	include/system-info/class-bulk-delete-system-info.php	/^			$post_count = wp_count_posts( $post_type );$/;"	v
+post_ids	include/meta/class-bulk-delete-post-meta.php	/^		$post_ids = bd_query( $options );$/;"	v
+post_ids	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$post_ids = bd_query( $options );$/;"	v
+post_ids	include/posts/class-bulk-delete-posts.php	/^			$post_ids = bd_query( $options );$/;"	v
+post_ids	include/posts/class-bulk-delete-posts.php	/^		$post_ids = bd_query( $options );$/;"	v
+post_status	include/pages/class-bulk-delete-pages.php	/^		$post_status = array();$/;"	v
+post_status	include/posts/class-bulk-delete-posts.php	/^		$post_status = array();$/;"	v
+post_type	include/meta/class-bulk-delete-comment-meta.php	/^		$post_type = $delete_options['post_type'];$/;"	v
+post_type	include/meta/class-bulk-delete-post-meta.php	/^		$post_type = $delete_options['post_type'];$/;"	v
+post_type	include/posts/class-bulk-delete-posts.php	/^		$post_type = array_get( $delete_options, 'post_type', 'post' );$/;"	v
+post_types	include/system-info/class-bulk-delete-system-info.php	/^		$post_types = get_post_types();$/;"	v
+postfix	bulk-delete.php	/^		$postfix = ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ) ? '' : '.min';$/;"	v
+postid	include/posts/class-bulk-delete-posts.php	/^			$postid = url_to_postid( $checkedurl );$/;"	v
+posts	include/util/query.php	/^	$posts = $wp_query->query( $options );$/;"	v
+posts_count	include/posts/class-bulk-delete-posts.php	/^		$posts_count = wp_count_posts();$/;"	v
+posts_deleted	include/posts/class-bulk-delete-posts.php	/^		$posts_deleted = 0;$/;"	v
+posts_page	bulk-delete.php	/^		$this->posts_page = add_submenu_page( self::POSTS_PAGE_SLUG, __( 'Bulk Delete Posts', 'bulk-delete' ), __( 'Bulk Delete Posts', 'bulk-delete' ), 'delete_posts', self::POSTS_PAGE_SLUG, array( $this, 'display_posts_page' ) );$/;"	v
+posts_page	bulk-delete.php	/^	public $posts_page;$/;"	v
+prefix	include/util/class-bd-util.php	/^		$prefix = $splitted[0];$/;"	v
+prepare_items	include/cron/class-cron-list-table.php	/^	public function prepare_items() {$/;"	f
+prepare_items	include/license/class-license-list-table.php	/^	public function prepare_items() {$/;"	f
+print_about_plugin_tab_content	include/ui/class-bulk-delete-help-screen.php	/^	public static function print_about_plugin_tab_content() {$/;"	f
+print_license_key_field	include/license/class-bd-license-handler.php	/^	public function print_license_key_field() {$/;"	f
+private	include/posts/class-bulk-delete-posts.php	/^		$private     = $posts_count->private;$/;"	v
+pro_class	include/ui/form.php	/^	$pro_class = 'bd-' . str_replace( '_', '-', $slug ) . '-pro';$/;"	v
+process	include/base/class-bd-meta-box-module.php	/^	abstract public function process();$/;"	f
+process	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	public function process() {$/;"	f
+process	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	public function process() {$/;"	f
+process_delete	include/base/class-bd-meta-box-module.php	/^	protected function process_delete( $delete_options ) {$/;"	f
+processed_mime_types	include/util/class-bd-util.php	/^	$processed_mime_types = array();$/;"	v
+publish	include/posts/class-bulk-delete-posts.php	/^		$publish     = $posts_count->publish;$/;"	v
+rating_text	include/ui/admin-ui.php	/^	$rating_text = apply_filters( 'bd_rating_link', $rating_text );$/;"	v
+rating_text	include/ui/admin-ui.php	/^	$rating_text = sprintf( __( 'Thank you for using <a href = "%1$s">Bulk Delete<\/a> plugin! Kindly <a href = "%2$s">rate us<\/a> at <a href = "%2$s">WordPress.org<\/a>', 'bulk-delete' ),$/;"	v
+remove_where	include/util/class-bulk-delete-by-days.php	/^	public function remove_where() {$/;"	f
+render	include/base/class-bd-meta-box-module.php	/^	abstract public function render();$/;"	f
+render	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^	public function render() {$/;"	f
+render	include/users/modules/class-bulk-delete-users-by-user-role.php	/^	public function render() {$/;"	f
+render_box	include/base/class-bd-meta-box-module.php	/^	public function render_box() {$/;"	f
+render_cron_settings	include/base/class-bd-meta-box-module.php	/^	protected function render_cron_settings() {$/;"	f
+render_delete_comment_meta_box	include/meta/class-bulk-delete-comment-meta.php	/^	public static function render_delete_comment_meta_box() {$/;"	f
+render_delete_jetpack_messages_box	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^	public static function render_delete_jetpack_messages_box() {$/;"	f
+render_delete_pages_by_status_box	include/pages/class-bulk-delete-pages.php	/^	public static function render_delete_pages_by_status_box() {$/;"	f
+render_delete_post_meta_box	include/meta/class-bulk-delete-post-meta.php	/^	public static function render_delete_post_meta_box() {$/;"	f
+render_delete_posts_by_category_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_delete_posts_by_category_box() {$/;"	f
+render_delete_posts_by_post_type_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_delete_posts_by_post_type_box() {$/;"	f
+render_delete_posts_by_status_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_delete_posts_by_status_box() {$/;"	f
+render_delete_posts_by_tag_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_delete_posts_by_tag_box() {$/;"	f
+render_delete_posts_by_taxonomy_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_delete_posts_by_taxonomy_box() {$/;"	f
+render_delete_posts_by_url_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_delete_posts_by_url_box() {$/;"	f
+render_delete_settings	include/base/class-bd-meta-box-module.php	/^	protected function render_delete_settings() {$/;"	f
+render_delete_user_meta_box	include/meta/class-bulk-delete-user-meta.php	/^	public static function render_delete_user_meta_box() {$/;"	f
+render_filtering_table_header	include/base/class-bd-meta-box-module.php	/^	protected function render_filtering_table_header() {$/;"	f
+render_help_tab	include/base/class-bd-page.php	/^	public function render_help_tab( $help_tabs, $screen ) {$/;"	f
+render_limit_settings	include/base/class-bd-meta-box-module.php	/^	protected function render_limit_settings() {$/;"	f
+render_page	include/base/class-bd-page.php	/^	public function render_page() {$/;"	f
+render_posts_by_revision_box	include/posts/class-bulk-delete-posts.php	/^	public static function render_posts_by_revision_box() {$/;"	f
+render_restrict_settings	include/base/class-bd-meta-box-module.php	/^	protected function render_restrict_settings() {$/;"	f
+render_submit_button	include/base/class-bd-meta-box-module.php	/^	protected function render_submit_button() {$/;"	f
+render_user_login_restrict_settings	include/base/users/class-bd-user-meta-box-module.php	/^	protected function render_user_login_restrict_settings() {$/;"	f
+render_user_with_no_posts_settings	include/base/users/class-bd-user-meta-box-module.php	/^	protected function render_user_with_no_posts_settings() {$/;"	f
+request	include/libraries/EDD_SL_Plugin_Updater.php	/^            $request = false;$/;"	v
+request	include/libraries/EDD_SL_Plugin_Updater.php	/^            $request = json_decode( wp_remote_retrieve_body( $request ) );$/;"	v
+request	include/libraries/EDD_SL_Plugin_Updater.php	/^        $request = wp_remote_post( $this->api_url, array( 'timeout' => 15, 'sslverify' => false, 'body' => $api_params ) );$/;"	v
+request_handler	bulk-delete.php	/^	public function request_handler() {$/;"	f
+response	include/libraries/EDD_SL_Plugin_Updater.php	/^        $response = $this->api_request( 'plugin_latest_version', array( 'slug' => $_REQUEST['slug'] ) );$/;"	v
+response	include/license/class-bd-edd-api-wrapper.php	/^		$response = self::call_edd_api( $api_params );$/;"	v
+response	include/license/class-bd-edd-api-wrapper.php	/^		$response = wp_remote_get( add_query_arg( $api_params, self::STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );$/;"	v
+responsible	bulk-delete.php	/^ * The main function responsible for returning the one true Bulk_Delete$/;"	f
+restrict	include/meta/class-bulk-delete-comment-meta.php	/^		$restrict  = $delete_options['restrict'];$/;"	v
+restrict	include/meta/class-bulk-delete-post-meta.php	/^		$restrict  = $delete_options['restrict'];$/;"	v
+revisions	include/posts/class-bulk-delete-posts.php	/^			$revisions = $wpdb->get_results( "select ID from $wpdb->posts where post_type = 'revision'" );$/;"	v
+revisions	include/posts/class-bulk-delete-posts.php	/^		$revisions = $wpdb->get_var( "select count(*) from $wpdb->posts where post_type = 'revision'" );$/;"	v
+role	include/meta/class-bulk-delete-user-meta.php	/^		foreach ( $users_count['avail_roles'] as $role => $count ) {$/;"	v
+role	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		foreach ( $users_count['avail_roles'] as $role => $count ) {$/;"	v
+sanitize_settings	include/settings/class-bd-settings-page.php	/^	public static function sanitize_settings( $input = array() ) {$/;"	f
+scheduler_url	include/base/class-bd-meta-box-module.php	/^	protected $scheduler_url;$/;"	v
+scheduler_url	include/users/modules/class-bulk-delete-users-by-user-meta.php	/^		$this->scheduler_url = 'http:\/\/bulkwp.com\/addons\/scheduler-for-deleting-users-by-meta\/?utm_source=wpadmin&utm_campaign=BulkDelete&utm_medium=buynow&utm_content=bd-u-ma';$/;"	v
+scheduler_url	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$this->scheduler_url = 'http:\/\/bulkwp.com\/addons\/scheduler-for-deleting-users-by-role\/?utm_source=wpadmin&utm_campaign=BulkDelete&utm_medium=buynow&utm_content=bd-u-ur';$/;"	v
+schedules	include/meta/class-bulk-delete-comment-meta.php	/^		$schedules = wp_get_schedules();$/;"	v
+schedules	include/meta/class-bulk-delete-post-meta.php	/^		$schedules = wp_get_schedules();$/;"	v
+schedules	include/meta/class-bulk-delete-user-meta.php	/^		$schedules = wp_get_schedules();$/;"	v
+schedules	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$schedules = wp_get_schedules();$/;"	v
+schedules	include/ui/form.php	/^	$schedules = wp_get_schedules();$/;"	v
+screen	include/base/class-bd-meta-box-module.php	/^		$this->screen = $screen;$/;"	v
+screen	include/base/class-bd-meta-box-module.php	/^	protected $screen;$/;"	v
+screen	include/base/class-bd-page.php	/^		$this->screen = add_submenu_page($/;"	v
+screen	include/base/class-bd-page.php	/^		if ( $this->screen == $screen ) {$/;"	v
+screen	include/base/class-bd-page.php	/^	protected $screen;$/;"	v
+selected_cats	include/posts/class-bulk-delete-posts.php	/^		$selected_cats = $delete_options['selected_cats'];$/;"	v
+selected_tags	include/posts/class-bulk-delete-posts.php	/^		$selected_tags = $delete_options['selected_tags'];$/;"	v
+selected_tax_terms	include/posts/class-bulk-delete-posts.php	/^		$selected_tax_terms = $delete_options['selected_tax_terms'];$/;"	v
+selected_taxs	include/posts/class-bulk-delete-posts.php	/^		$selected_taxs      = $delete_options['selected_taxs'];$/;"	v
+selected_types	include/posts/class-bulk-delete-posts.php	/^		$selected_types = $delete_options['selected_types'];$/;"	v
+settings_page	bulk-delete.php	/^	public $settings_page;$/;"	v
+settings_page_needed	include/settings/class-bd-settings-page.php	/^		$settings_page_needed = apply_filters( 'bd_settings_page_needed', false );$/;"	v
+setup	include/addons/base/class-bd-addon.php	/^	protected function setup() {$/;"	f
+setup	include/base/class-bd-meta-box-module.php	/^	protected function setup() {$/;"	f
+setup	include/base/class-bd-page.php	/^	protected function setup() {$/;"	f
+setup_actions	bulk-delete.php	/^	private function setup_actions() {$/;"	f
+setup_hooks	include/addons/base/class-bd-base-addon.php	/^	protected function setup_hooks() {$/;"	f
+setup_hooks	include/addons/base/class-bd-scheduler-addon.php	/^	protected function setup_hooks() {$/;"	f
+setup_hooks	include/base/class-bd-meta-box-module.php	/^	protected function setup_hooks() {$/;"	f
+setup_hooks	include/base/class-bd-page.php	/^	protected function setup_hooks() {$/;"	f
+setup_license_handler	include/addons/base/class-bd-addon.php	/^	public function setup_license_handler( $plugin_file ) {$/;"	f
+setup_metabox	include/base/class-bd-meta-box-module.php	/^	public function setup_metabox( $screen, $page_slug ) {$/;"	f
+setup_paths	bulk-delete.php	/^	private function setup_paths() {$/;"	f
+setup_translation	include/addons/base/class-bd-addon.php	/^	protected function setup_translation() {$/;"	f
+show_admin_notices	include/license/class-bd-license-handler.php	/^	public function show_admin_notices() {$/;"	f
+show_changelog	include/libraries/EDD_SL_Plugin_Updater.php	/^    public function show_changelog() {$/;"	f
+show_update_notification	include/libraries/EDD_SL_Plugin_Updater.php	/^    public function show_update_notification( $file, $plugin ) {$/;"	f
+simple_login_log_table	include/compatibility/simple-login-log.php	/^	$simple_login_log_table = 'simple_login_log';$/;"	v
+size	include/settings/setting-helpers.php	/^	$size = ( isset( $args['size'] ) && ! is_null( $args['size'] ) ) ? $args['size'] : 'regular';$/;"	v
+slug	include/libraries/EDD_SL_Plugin_Updater.php	/^        $this->slug     = basename( $_plugin_file, '.php' );$/;"	v
+slug	include/libraries/EDD_SL_Plugin_Updater.php	/^    private $slug      = '';$/;"	v
+sortable	include/cron/class-cron-list-table.php	/^		$sortable = $this->get_sortable_columns();$/;"	v
+sortable	include/license/class-license-list-table.php	/^		$sortable = $this->get_sortable_columns();$/;"	v
+split_post_type_status	include/util/class-bd-util.php	/^	public static function split_post_type_status( $str ) {$/;"	f
+splitted	include/util/class-bd-util.php	/^		$splitted = explode( '\/', $value, 2 );$/;"	v
+status	include/posts/class-bulk-delete-posts.php	/^			$status      = $type_status['status'];$/;"	v
+status	include/util/class-bd-util.php	/^		$status = $type_status['status'];$/;"	v
+sticky	include/posts/class-bulk-delete-posts.php	/^		$sticky      = count( get_option( 'sticky_posts' ) );$/;"	v
+sticky_post_ids	include/posts/class-bulk-delete-posts.php	/^			$sticky_post_ids = get_option( 'sticky_posts' );$/;"	v
+str_arr	include/util/class-bd-util.php	/^		$str_arr = explode( '-', $str );$/;"	v
+supports	include/cron/class-cron-list-table.php	/^	 * We usually focus on three parameters: singular and plural labels, as well as whether the class supports AJAX.$/;"	c
+tags	include/posts/class-bulk-delete-posts.php	/^		$tags = get_tags();$/;"	v
+tax	include/posts/class-bulk-delete-posts.php	/^			foreach ( $terms_array as $tax => $terms ) {$/;"	v
+taxs	include/posts/class-bulk-delete-posts.php	/^		$taxs =  get_taxonomies( array($/;"	v
+terms	include/posts/class-bulk-delete-posts.php	/^				$terms = get_terms( $tax->name );$/;"	v
+terms_array	include/posts/class-bulk-delete-posts.php	/^		$terms_array = array();$/;"	v
+theme	include/system-info/class-bulk-delete-system-info.php	/^			$theme      = $theme_data->Name . ' ' . $theme_data->Version;$/;"	v
+theme	include/system-info/class-bulk-delete-system-info.php	/^			$theme      = $theme_data['Name'] . ' ' . $theme_data['Version'];$/;"	v
+theme_data	include/system-info/class-bulk-delete-system-info.php	/^			$theme_data = get_theme_data( get_stylesheet_directory() . '\/style.css' );$/;"	v
+theme_data	include/system-info/class-bulk-delete-system-info.php	/^			$theme_data = wp_get_theme();$/;"	v
+this_plugin	include/ui/admin-ui.php	/^	$this_plugin = plugin_basename( Bulk_Delete::$PLUGIN_FILE );$/;"	v
+this_plugin	include/users/class-bd-users-page.php	/^		$this_plugin = plugin_basename( Bulk_Delete::$PLUGIN_FILE );$/;"	v
+time	include/base/class-bd-meta-box-module.php	/^			$time = strtotime( $_POST[ 'smbd_' . $this->field_slug . '_cron_start' ] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/meta/class-bulk-delete-comment-meta.php	/^			$time = strtotime( $_POST['smbd_cm_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/meta/class-bulk-delete-post-meta.php	/^			$time = strtotime( $_POST['smbd_pm_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/meta/class-bulk-delete-user-meta.php	/^			$time = strtotime( $_POST['smbd_um_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^			$time = strtotime( $_POST['smbd_feedback_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/pages/class-bulk-delete-pages.php	/^			$time = strtotime( $_POST['smbd_pages_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/posts/class-bulk-delete-posts.php	/^			$time = strtotime( $_POST['smbd_cats_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/posts/class-bulk-delete-posts.php	/^			$time = strtotime( $_POST['smbd_post_status_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/posts/class-bulk-delete-posts.php	/^			$time = strtotime( $_POST['smbd_tags_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/posts/class-bulk-delete-posts.php	/^			$time = strtotime( $_POST['smbd_taxs_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+time	include/posts/class-bulk-delete-posts.php	/^			$time = strtotime( $_POST['smbd_types_cron_start'] ) - ( get_option( 'gmt_offset' ) * 60 * 60 );$/;"	v
+timestamp	include/util/class-bd-util.php	/^		foreach ( $cron as $timestamp => $cronhooks ) {$/;"	v
+to	bulk-delete.php	/^	 * @Todo Move this function to Bulk_Delete_Pages class$/;"	f
+to	bulk-delete.php	/^	 * @Todo Move this function to Bulk_Delete_Posts class$/;"	f
+to_send	include/libraries/EDD_SL_Plugin_Updater.php	/^        $to_send = array($/;"	v
+totalitems	include/cron/class-cron-list-table.php	/^		$totalitems = count( $cron_items );$/;"	v
+totalpages	include/cron/class-cron-list-table.php	/^		$totalpages = ceil( $totalitems\/$perpage );$/;"	v
+translation_array	bulk-delete.php	/^		$translation_array = apply_filters( 'bd_javascript_array', array($/;"	v
+translations	bulk-delete.php	/^		$this->translations = dirname( plugin_basename( self::$PLUGIN_FILE ) ) . '\/languages\/';$/;"	v
+translations	bulk-delete.php	/^	public $translations;$/;"	v
+type	include/posts/class-bulk-delete-posts.php	/^			$type        = $type_status['type'];$/;"	v
+type	include/posts/class-bulk-delete-posts.php	/^			foreach ( $types_array as $type => $count ) {$/;"	v
+type	include/util/class-bd-util.php	/^		$type   = $type_status['type'];$/;"	v
+type_status	include/posts/class-bulk-delete-posts.php	/^			$type_status = BD_Util::split_post_type_status( $selected_type );$/;"	v
+type_status	include/util/class-bd-util.php	/^		$type_status = array();$/;"	v
+type_status	include/util/class-bd-util.php	/^		$type_status = self::split_post_type_status( $str );$/;"	v
+types	include/meta/class-bulk-delete-comment-meta.php	/^		$types = get_post_types( array($/;"	v
+types	include/meta/class-bulk-delete-post-meta.php	/^		$types = get_post_types( array($/;"	v
+types	include/posts/class-bulk-delete-posts.php	/^		$types =  get_post_types( array($/;"	v
+types	include/ui/form.php	/^	$types = get_post_types( array( '_builtin' => false ), 'names' );$/;"	v
+types_array	include/posts/class-bulk-delete-posts.php	/^		$types_array = array();$/;"	v
+ui	bulk-delete.php	/^		$ui = $wp_scripts->query( 'jquery-ui-core' );$/;"	v
+update_cache	include/libraries/EDD_SL_Plugin_Updater.php	/^        $update_cache = get_site_transient( 'update_plugins' );$/;"	v
+updater	include/license/class-bd-license-handler.php	/^		$this->updater = new EDD_SL_Plugin_Updater( BD_EDD_API_Wrapper::STORE_URL, $this->plugin_file, array($/;"	v
+updater	include/license/class-bd-license-handler.php	/^	private $updater;$/;"	v
+url	bulk-delete.php	/^		$url = "\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/{$ui->ver}\/themes\/smoothness\/jquery-ui.css";$/;"	v
+urls	include/posts/class-bulk-delete-posts.php	/^		$urls = preg_split( '\/\\r\\n|\\r|\\n\/', array_get( $_POST, 'smdb_specific_pages_urls' ) );$/;"	v
+use_filter	include/misc/class-bulk-delete-jetpack-contact-form-messages.php	/^		$use_filter = $delete_options['use_filter'];$/;"	v
+use_value	include/meta/class-bulk-delete-comment-meta.php	/^		$use_value = $delete_options['use_value'];$/;"	v
+use_value	include/meta/class-bulk-delete-post-meta.php	/^		$use_value = $delete_options['use_value'];$/;"	v
+use_value	include/meta/class-bulk-delete-user-meta.php	/^		$use_value = $delete_options['use_value'];$/;"	v
+user_meta_field	include/base/class-bd-meta-box-module.php	/^		$user_meta_field = $this->get_hidden_box_user_meta_field();$/;"	v
+user_role	include/meta/class-bulk-delete-user-meta.php	/^		$user_role = $delete_options['user_role'];$/;"	v
+users	include/base/users/class-bd-user-meta-box-module.php	/^		$users = get_users( $options );$/;"	v
+users	include/meta/class-bulk-delete-user-meta.php	/^		$users = get_users( $options );$/;"	v
+users_count	include/meta/class-bulk-delete-user-meta.php	/^		$users_count = count_users();$/;"	v
+users_count	include/users/modules/class-bulk-delete-users-by-user-role.php	/^		$users_count = count_users();$/;"	v
+users_page	bulk-delete.php	/^	public $users_page;$/;"	v
+valid	include/license/class-bd-license.php	/^				$valid = true;$/;"	v
+valid	include/license/class-bd-license.php	/^		$valid        = false;$/;"	v
+validate_license	include/license/class-bd-license.php	/^	public static function validate_license( $addon_code, $addon_name ) {$/;"	f
+validity	include/license/class-license-list-table.php	/^		$validity     = $item['validity'];$/;"	v
+validity	include/license/class-license-list-table.php	/^		$validity = $item['validity'];$/;"	v
+value	include/settings/setting-helpers.php	/^		$value = $bd_options[ $args['id'] ];$/;"	v
+value	include/settings/setting-helpers.php	/^		$value = isset( $args['std'] ) ? $args['std'] : '';$/;"	v
+version	include/libraries/EDD_SL_Plugin_Updater.php	/^        $this->version  = $_api_data['version'];$/;"	v
+version	include/libraries/EDD_SL_Plugin_Updater.php	/^    private $version   = '';$/;"	v
+version	include/license/class-bd-license-handler.php	/^		$this->version         = $version;$/;"	v
+version	include/license/class-bd-license-handler.php	/^	private $version;$/;"	v
+version_info	include/libraries/EDD_SL_Plugin_Updater.php	/^                $version_info = $this->api_request( 'plugin_latest_version', array( 'slug' => $this->slug ) );$/;"	v
+version_info	include/libraries/EDD_SL_Plugin_Updater.php	/^            $version_info = $this->api_request( 'plugin_latest_version', array( 'slug' => $this->slug ) );$/;"	v
+version_info	include/libraries/EDD_SL_Plugin_Updater.php	/^            $version_info = $update_cache->response[ $this->name ];$/;"	v
+version_info	include/libraries/EDD_SL_Plugin_Updater.php	/^            $version_info = get_transient( $cache_key );$/;"	v
+was	include/util/class-bd-util.php	/^ * This function was originally defined in the Bulk Delete Attachment addon.$/;"	f
+where	include/util/class-bulk-delete-by-days.php	/^	public function filter_where( $where = '' ) {$/;"	v
+will	include/base/class-bd-meta-box-module.php	/^	 * This function will be overridden by the child classes.$/;"	f
+wp_list_table	include/libraries/EDD_SL_Plugin_Updater.php	/^            $wp_list_table = _get_list_table( 'WP_Plugins_List_Table' );$/;"	v
+wp_query	include/util/query.php	/^	$wp_query = new WP_Query();$/;"	v

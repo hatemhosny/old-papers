@@ -1,0 +1,23 @@
+# Options
+Options -Indexes
+Options -MultiViews
+
+# Allow by default
+Order allow,deny
+allow from all
+
+# Rewrite rules
+<IfModule mod_rewrite.c>
+	# Switch on
+	RewriteEngine On
+	# Protect dot files & dirs
+	RewriteCond %{REQUEST_FILENAME} (^|/)\.
+	RewriteRule ^ - [F]
+	# Protect upload file types
+	RewriteCond %{REQUEST_FILENAME} /uploads/
+	RewriteCond %{REQUEST_FILENAME} !\.(jpg|jpeg|gif|png|swf)$ [NC]
+	RewriteRule ^ - [F]
+	# Protect sensitive locations
+	RewriteCond %{REQUEST_FILENAME} /admin/|cache|config|/downloads/|include|/lang/|/platform/|/purchase/|wp\.php
+	RewriteRule ^ - [F]
+</IfModule>

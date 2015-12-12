@@ -1,0 +1,60 @@
+/* OIO Sandbox Template */
+
+/* Main Body Styles */
+
+	body { background: #EDECEF;	font: 0.9em Georgia, "Times New Roman", Times, serif; color: #333; }
+	body, form { margin: 0; padding: 0; }
+	a {	color: #333; text-decoration: none; }
+	a:hover { color: #0066cc; text-decoration: underline; }
+
+/* WRAPPER */
+
+	#oiopub-container { padding: 0 !important; }
+	#wrap {	width: 750px; margin: 0 auto; }
+
+/* HEADER */
+
+	#header { padding: 10px 0 30px; color: #333; font-size: 1.1em; font-style: italic; font-weight: normal; font-variant: normal; }
+	#header img { float: left; }
+	#header h1 { text-align: right; }	
+
+/* MAIN CONTENT */
+
+	#content { text-align: center; padding-top: 20px; border-top: 1px solid #C3C3C6; border-right: 1px solid #C3C3C6; border-bottom: none; border-left: 1px solid #C3C3C6; background: #FFF; }
+
+	#content table { }
+	#content table b { color: #333; }
+	#content table table {  }
+	#content table h3 {	font-size: 1.7em; color: #333; font-weight: normal; letter-spacing: 1px; padding: 0 0 10px; margin: 0; }
+	
+	#content select { font: 1em Georgia, "Times New Roman", Times, serif; width: 275px !important; text-align: left; border: 1px solid #C3C3C6; padding:2px; }
+	#content select option { margin: 3px 0; }
+	#content input { border: 1px solid #C3C3C6; }
+	#content input[type="text"]:focus { border: 1px solid #000; }
+	
+	#paypal input { padding: 0px; border: 0px; margin-left: -16px; }
+	
+	table.start { background: #FFF; border-bottom: 1px solid #6B756E; border-top: 1px solid #6B756E; padding: 20px 10px; }
+	table.start table td { padding: 5px; }
+	
+	table.start a { text-decoration: underline; }
+
+/* FOOTER */
+
+	#footer { color: #999; text-align: center; padding-top: 40px; padding-bottom: 20px; font-style: italic; font-size: 0.8em; background: #FFF; border-top: none; border-right: 1px solid #C3C3C6; border-bottom: 1px solid #C3C3C6; border-left: 1px solid #C3C3C6; margin-bottom: 40px; }
+	#footer a { color: #999; }
+	#footer a:hover { color: #0A93FC; }
+
+/* MISC ELEMENTS */ 
+
+	#ad-details { display: none; }
+	.error { color:red; }
+	.start { padding: 10px; margin-top: 30px; text-align: left; }
+	.payment-link, .payment-link a { font-weight: bold;	padding: 40px 0 25px 0; }
+
+/* BUTTONS */
+
+	.oiostartbutton { width: 275px; height: 50px; color: #333; font: italic normal 1.2em Georgia, "Times New Roman", Times, serif; }
+	.oiopaymentbutton { width: 275px; height: 50px; color: #333; font: italic normal 1.259em Georgia, "Times New Roman", Times, serif; }
+	.oiostartbutton:hover, .oiopaymentbutton:hover { cursor: pointer; color: #0066cc; }
+

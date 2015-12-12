@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<!--[if !IE]>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<html class="no-js non-ie" lang="en-US"> <![endif]-->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<!--[if IE 7 ]>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<html class="no-js ie7" lang="en-US"> <![endif]-->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<!--[if IE 8 ]>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<html class="no-js ie8" lang="en-US"> <![endif]-->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<!--[if IE 9 ]>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<html class="no-js ie9" lang="en-US"> <![endif]-->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<!--[if gt IE 9]><!-->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<html class="no-js" lang="en-US"> <!--<![endif]-->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<head>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel="alternate" type="application/rss+xml" title="Papers.fm &raquo; Comments Feed" href="http://papers.fm/comments/feed/" />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[img.wp-smiley,]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[img.emoji {]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[display: inline !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[border: none !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[box-shadow: none !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[height: 1em !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[width: 1em !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[margin: 0 .07em !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[vertical-align: -0.1em !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[background: none !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[padding: 0 !important;]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[}]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</style>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel='stylesheet' id='parent-theme-css-css'  href='http://papers.fm/wp-content/themes/responsive/style.css?ver=4.2.2' type='text/css' media='all' />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel='stylesheet' id='responsive-style-css'  href='http://papers.fm/wp-content/themes/responsive/core/css/style.css?ver=1.9.7.6' type='text/css' media='all' />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel='stylesheet' id='responsive-media-queries-css'  href='http://papers.fm/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.7.6' type='text/css' media='all' />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel='stylesheet' id='responsive-child-style-css'  href='http://papers.fm/wp-content/themes/Papers-fm/style.css?ver=4.2.2' type='text/css' media='all' />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<script type='text/javascript' src='http://papers.fm/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<script type='text/javascript' src='http://papers.fm/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<script type='text/javascript' src='http://papers.fm/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1'></script>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://papers.fm/xmlrpc.php?rsd" />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://papers.fm/wp-includes/wlwmanifest.xml" /> ]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<meta name="generator" content="WordPress 4.2.2" />]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<!-- We need this for debugging -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<!-- Responsive 1.9.7.6 -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<!-- Papers.fm  -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[</head>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<body class="error404">]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<div id="container" class="hfeed">]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<div class="skip-container cf">]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[</div><!-- .skip-container -->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<div id="header">]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</div>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[</div><!-- end of #header -->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<div id="wrapper" class="clearfix">]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<div id="content-full" class="grid col-940">]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<h1 class="title-404">404 &#8212; Fancy meeting you here!</h1>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<p>Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here.</p>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<h6>You can return <a href="http://papers.fm" title="Home">&larr; Home</a> or search for the page you were looking for.</h6>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<form method="get" id="searchform" action="http://papers.fm/">]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<label class="screen-reader-text" for="s">Search for:</label>]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<input type="text" class="field" name="s" id="s" placeholder="search here &hellip;" />]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<input type="submit" class="submit" name="submit" id="searchsubmit" value="Go" />]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</form>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</div><!-- end of #content-full -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</div><!-- end of #wrapper -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</div><!-- end of #container -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<div id="footer" class="clearfix">]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[<div id="footer-wrapper">]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[</div><!-- end #footer-wrapper -->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[</div><!-- end #footer -->]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<script type='text/javascript' src='http://papers.fm/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6'></script>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<script type='text/javascript' src='http://papers.fm/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7'></script>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</body>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[</html>]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<!-- Dynamic page generated in 0.339 seconds. -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<!-- Cached page generated by WP-Super-Cache on 2015-06-12 06:47:38 -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+	<node>
+		<undefined0><![CDATA[<!-- super cache -->]]></undefined0>
+		<doctypehtml><![CDATA[]]></doctypehtml>
+	</node>
+</data>

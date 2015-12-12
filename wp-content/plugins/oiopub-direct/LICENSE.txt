@@ -1,0 +1,35 @@
+OIOpublisher Direct (Pro Edition)
+End User License Agreement
+Copyright 2011, Simon Emery (http://www.simonemery.co.uk)
+All rights reserved.
+
+By using the software, you agree to be bound by the terms of this license. If you have any questions 
+about the terms below, please contact OIOpublisher.com for clarification.
+
+
+1.) You must be a paid member of OIOpublisher.com to use the software.
+
+2.) The copyright holder retains all intellectual property rights to the software.
+
+3.) You are granted the right to install the software on as many websites as you want, limited
+    only to websites you own.
+
+4.) You are granted the right to freely modify the software for your own personal use, limited
+    to use on only those websites you own.
+
+5.) You may not use code snippets from the software elsewhere, unless you have contacted 
+    OIOpublisher.com first to get permission.
+
+6.) You may not re-distribute (either freely, or for any kind of compensation) the software, 
+    in whole or in part, to any 3rd party, unless given permission to do so by OIOpublisher.com.
+
+7.) You expressly acknowledge and agree that use of the software is at your sole risk. No 
+    warrantly is provided, either express or implied.
+    
+8.) Any code that is used to integrate OIOpublisher with a 3rd party platform (eg. Wordpress), will
+    be covered by that platform's respective license. The "platform" directory contains this code.
+    
+    
+Full terms & conditions can be found on the OIOpublisher.com website:
+
+>> http://www.oiopublisher.com/terms.php

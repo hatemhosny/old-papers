@@ -1,0 +1,625 @@
+0000.001 (0) Opened log file at time: Wed, 09 Dec 2015 20:35:11 +0000 on http://localhost:40454
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.3.1 PHP: 5.4.24 (Windows NT ATIV 6.2 build 9200 (Unknown Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.6M | 32.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.020 (0) Free space on disk containing Updraft's temporary directory: 7494 Mb
+0000.048 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.059 (0) Requesting semaphore lock (fd)
+0000.096 (0) Set semaphore last lock (fd) time to 2015-12-09 20:35:12
+0000.108 (0) Semaphore lock (fd) complete
+0000.140 (0) Backup run: resumption=0, nonce=0975d10c8876, begun at=1449693311 (1s ago), job type=backup, label=Before WP 4.4 upgrade
+0000.162 (0) Scheduling a resumption (1) after 300 seconds (1449693612) in case this run gets aborted
+0000.224 (0) Checking if we have a zip executable available
+0000.236 (0) Creation of backups of directories: beginning
+0000.278 (0) Beginning creation of dump of plugins (split every: 25 Mb)
+0026.265 (0) Total entities for the zip file: 1833 directories, 12201 files (0 skipped as non-modified), 173.9 Mb
+0026.380 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0026.704 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 100 files added (on-disk size: 312.1 Kb)
+0027.031 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 200 files added (on-disk size: 312.1 Kb)
+0027.488 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 300 files added (on-disk size: 312.1 Kb)
+0027.792 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 400 files added (on-disk size: 312.1 Kb)
+0028.097 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 500 files added (on-disk size: 312.1 Kb)
+0028.114 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.4 Mb, 12201 files batched, 501 (502) added so far); re-opening (prior size: 312.1 Kb)
+0029.968 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 600 files added (on-disk size: 2882.1 Kb)
+0030.344 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 700 files added (on-disk size: 2882.1 Kb)
+0030.753 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 800 files added (on-disk size: 2882.1 Kb)
+0031.401 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 900 files added (on-disk size: 2882.1 Kb)
+0031.852 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1000 files added (on-disk size: 2882.1 Kb)
+0031.898 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 Mb, 12201 files batched, 501 (1003) added so far); re-opening (prior size: 2882.1 Kb)
+0032.864 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1100 files added (on-disk size: 3779.6 Kb)
+0033.217 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1200 files added (on-disk size: 3779.6 Kb)
+0033.546 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1300 files added (on-disk size: 3779.6 Kb)
+0033.895 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1400 files added (on-disk size: 3779.6 Kb)
+0034.337 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1500 files added (on-disk size: 3779.6 Kb)
+0034.370 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.8 Mb, 12201 files batched, 501 (1504) added so far); re-opening (prior size: 3779.6 Kb)
+0035.733 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1600 files added (on-disk size: 4699.1 Kb)
+0036.113 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1700 files added (on-disk size: 4699.1 Kb)
+0036.498 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1800 files added (on-disk size: 4699.1 Kb)
+0036.916 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 1900 files added (on-disk size: 4699.1 Kb)
+0037.083 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 Mb, 439 (1943) files added so far); re-opening (prior size: 4699.1 Kb)
+0037.972 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2000 files added (on-disk size: 5320.1 Kb)
+0038.331 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2100 files added (on-disk size: 5320.1 Kb)
+0038.678 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2200 files added (on-disk size: 5320.1 Kb)
+0039.032 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2300 files added (on-disk size: 5320.1 Kb)
+0039.420 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2400 files added (on-disk size: 5320.1 Kb)
+0039.579 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.4 Mb, 12201 files batched, 501 (2444) added so far); re-opening (prior size: 5320.1 Kb)
+0040.530 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2500 files added (on-disk size: 6395.1 Kb)
+0040.928 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2600 files added (on-disk size: 6395.1 Kb)
+0041.268 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2700 files added (on-disk size: 6395.1 Kb)
+0041.643 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2800 files added (on-disk size: 6395.1 Kb)
+0042.015 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 2900 files added (on-disk size: 6395.1 Kb)
+0042.191 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.4 Mb, 12201 files batched, 501 (2945) added so far); re-opening (prior size: 6395.1 Kb)
+0043.099 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3000 files added (on-disk size: 7461.9 Kb)
+0043.404 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3100 files added (on-disk size: 7461.9 Kb)
+0043.720 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3200 files added (on-disk size: 7461.9 Kb)
+0044.066 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3300 files added (on-disk size: 7461.9 Kb)
+0044.358 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3400 files added (on-disk size: 7461.9 Kb)
+0044.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.4 Mb, 12201 files batched, 501 (3446) added so far); re-opening (prior size: 7461.9 Kb)
+0045.843 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3500 files added (on-disk size: 9047.6 Kb)
+0046.121 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3600 files added (on-disk size: 9047.6 Kb)
+0046.415 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3700 files added (on-disk size: 9047.6 Kb)
+0046.697 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3800 files added (on-disk size: 9047.6 Kb)
+0047.010 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 3900 files added (on-disk size: 9047.6 Kb)
+0047.149 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 Mb, 12201 files batched, 501 (3947) added so far); re-opening (prior size: 9047.6 Kb)
+0048.688 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4000 files added (on-disk size: 12172.4 Kb)
+0049.200 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4100 files added (on-disk size: 12172.4 Kb)
+0049.720 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4200 files added (on-disk size: 12172.4 Kb)
+0050.081 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4300 files added (on-disk size: 12172.4 Kb)
+0050.427 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4400 files added (on-disk size: 12172.4 Kb)
+0050.614 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 Mb, 12201 files batched, 501 (4448) added so far); re-opening (prior size: 12172.4 Kb)
+0052.818 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4500 files added (on-disk size: 14165.7 Kb)
+0053.286 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4600 files added (on-disk size: 14165.7 Kb)
+0053.670 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4700 files added (on-disk size: 14165.7 Kb)
+0053.976 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4800 files added (on-disk size: 14165.7 Kb)
+0054.325 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 4900 files added (on-disk size: 14165.7 Kb)
+0054.473 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4 Mb, 12201 files batched, 501 (4949) added so far); re-opening (prior size: 14165.7 Kb)
+0056.009 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5000 files added (on-disk size: 15555.1 Kb)
+0056.359 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5100 files added (on-disk size: 15555.1 Kb)
+0056.776 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5200 files added (on-disk size: 15555.1 Kb)
+0057.129 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5300 files added (on-disk size: 15555.1 Kb)
+0057.507 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5400 files added (on-disk size: 15555.1 Kb)
+0057.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.8 Mb, 12201 files batched, 501 (5450) added so far); re-opening (prior size: 15555.1 Kb)
+0059.067 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5500 files added (on-disk size: 17019.2 Kb)
+0059.410 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5600 files added (on-disk size: 17019.2 Kb)
+0059.736 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5700 files added (on-disk size: 17019.2 Kb)
+0060.121 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5800 files added (on-disk size: 17019.2 Kb)
+0060.494 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 5900 files added (on-disk size: 17019.2 Kb)
+0060.697 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 Mb, 12201 files batched, 501 (5951) added so far); re-opening (prior size: 17019.2 Kb)
+0062.935 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6000 files added (on-disk size: 19649.5 Kb)
+0063.285 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6100 files added (on-disk size: 19649.5 Kb)
+0063.666 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6200 files added (on-disk size: 19649.5 Kb)
+0064.045 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6300 files added (on-disk size: 19649.5 Kb)
+0064.427 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6400 files added (on-disk size: 19649.5 Kb)
+0064.645 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.3 Mb, 12201 files batched, 501 (6452) added so far); re-opening (prior size: 19649.5 Kb)
+0067.309 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6500 files added (on-disk size: 22731.7 Kb)
+0067.726 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6600 files added (on-disk size: 22731.7 Kb)
+0068.150 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6700 files added (on-disk size: 22731.7 Kb)
+0068.603 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6800 files added (on-disk size: 22731.7 Kb)
+0069.075 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 6900 files added (on-disk size: 22731.7 Kb)
+0069.328 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.7 Mb, 12201 files batched, 501 (6953) added so far); re-opening (prior size: 22731.7 Kb)
+0070.834 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 7000 files added (on-disk size: 24488.1 Kb)
+0071.184 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 7100 files added (on-disk size: 24488.1 Kb)
+0071.557 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip.tmp: 7200 files added (on-disk size: 24488.1 Kb)
+0071.855 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (2.7 Mb, 322 (7275) files added so far); last ratio: 0.3666; re-opening (prior size: 24488.1 Kb)
+0072.904 (0) Zip size is at/near split limit (25 Mb / 25 Mb) - bumping index (from: 0)
+0073.172 (0) Created plugins zip (0) - 25553.8 Kb in 72.6 s (351.9 Kb/s) (SHA1 checksum: e3598e1117427dbd20f5778898a7ba135d6ddd60)
+0073.305 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7300 files added (on-disk size: 0 Kb)
+0073.527 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7400 files added (on-disk size: 0 Kb)
+0073.790 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7500 files added (on-disk size: 0 Kb)
+0074.126 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7600 files added (on-disk size: 0 Kb)
+0074.568 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7700 files added (on-disk size: 0 Kb)
+0074.839 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.4 Mb, 12201 files batched, 501 (7776) added so far); re-opening (prior size: 0 Kb)
+0076.453 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7800 files added (on-disk size: 2407.4 Kb)
+0076.706 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 7900 files added (on-disk size: 2407.4 Kb)
+0077.024 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8000 files added (on-disk size: 2407.4 Kb)
+0077.358 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8100 files added (on-disk size: 2407.4 Kb)
+0077.667 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8200 files added (on-disk size: 2407.4 Kb)
+0077.918 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.8 Mb, 12201 files batched, 501 (8277) added so far); re-opening (prior size: 2407.4 Kb)
+0080.125 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8300 files added (on-disk size: 6323.7 Kb)
+0080.489 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8400 files added (on-disk size: 6323.7 Kb)
+0080.866 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8500 files added (on-disk size: 6323.7 Kb)
+0081.284 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8600 files added (on-disk size: 6323.7 Kb)
+0081.661 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8700 files added (on-disk size: 6323.7 Kb)
+0081.890 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.7 Mb, 12201 files batched, 501 (8778) added so far); re-opening (prior size: 6323.7 Kb)
+0082.781 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8800 files added (on-disk size: 7769.3 Kb)
+0083.107 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 8900 files added (on-disk size: 7769.3 Kb)
+0083.459 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9000 files added (on-disk size: 7769.3 Kb)
+0083.818 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9100 files added (on-disk size: 7769.3 Kb)
+0084.166 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9200 files added (on-disk size: 7769.3 Kb)
+0084.421 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.9 Mb, 12201 files batched, 501 (9279) added so far); re-opening (prior size: 7769.3 Kb)
+0086.347 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9300 files added (on-disk size: 11313.1 Kb)
+0086.712 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9400 files added (on-disk size: 11313.1 Kb)
+0087.062 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9500 files added (on-disk size: 11313.1 Kb)
+0087.421 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9600 files added (on-disk size: 11313.1 Kb)
+0087.793 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9700 files added (on-disk size: 11313.1 Kb)
+0088.182 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.9 Mb, 12201 files batched, 501 (9780) added so far); re-opening (prior size: 11313.1 Kb)
+0090.199 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9800 files added (on-disk size: 13728.1 Kb)
+0090.510 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 9900 files added (on-disk size: 13728.1 Kb)
+0090.855 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10000 files added (on-disk size: 13728.1 Kb)
+0091.266 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10100 files added (on-disk size: 13728.1 Kb)
+0091.696 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10200 files added (on-disk size: 13728.1 Kb)
+0091.957 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 Mb, 12201 files batched, 501 (10281) added so far); re-opening (prior size: 13728.1 Kb)
+0093.980 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10300 files added (on-disk size: 16542.1 Kb)
+0094.350 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10400 files added (on-disk size: 16542.1 Kb)
+0094.715 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10500 files added (on-disk size: 16542.1 Kb)
+0095.035 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10600 files added (on-disk size: 16542.1 Kb)
+0095.342 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10700 files added (on-disk size: 16542.1 Kb)
+0095.673 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.8 Mb, 12201 files batched, 501 (10782) added so far); re-opening (prior size: 16542.1 Kb)
+0097.593 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10800 files added (on-disk size: 18262.9 Kb)
+0097.930 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 10900 files added (on-disk size: 18262.9 Kb)
+0098.223 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 11000 files added (on-disk size: 18262.9 Kb)
+0098.525 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip.tmp: 11100 files added (on-disk size: 18262.9 Kb)
+0098.642 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): possibly approaching split limit (16.9 Mb, 357 (11139) files added so far); last ratio: 0.4366; re-opening (prior size: 18262.9 Kb)
+0102.141 (0) Zip size is at/near split limit (19.2 Mb / 25 Mb) - bumping index (from: 1)
+0102.334 (0) Created plugins zip (1) - 19619 Kb in 29 s (677.5 Kb/s) (SHA1 checksum: d151529f99f06e8bee25b0fe7967962d7f473f2c)
+0102.466 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11200 files added (on-disk size: 0 Kb)
+0102.693 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11300 files added (on-disk size: 0 Kb)
+0103.052 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11400 files added (on-disk size: 0 Kb)
+0103.304 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11500 files added (on-disk size: 0 Kb)
+0103.556 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11600 files added (on-disk size: 0 Kb)
+0103.673 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (24.7 Mb, 12201 files batched, 501 (11640) added so far); re-opening (prior size: 0 Kb)
+0108.820 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11700 files added (on-disk size: 7914.6 Kb)
+0109.074 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11800 files added (on-disk size: 7914.6 Kb)
+0109.346 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 11900 files added (on-disk size: 7914.6 Kb)
+0109.601 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 12000 files added (on-disk size: 7914.6 Kb)
+0109.910 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 12100 files added (on-disk size: 7914.6 Kb)
+0110.032 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7 Mb, 12201 files batched, 501 (12141) added so far); re-opening (prior size: 7914.6 Kb)
+0111.934 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip.tmp: 12200 files added (on-disk size: 10587.6 Kb)
+0112.288 (0) Created plugins zip (2) - 10851.8 Kb in 9.9 s (1091.3 Kb/s) (SHA1 checksum: 56f7dd74fb9a3f963a82dbc4597b2a300bf6c060)
+0112.343 (0) Beginning creation of dump of themes (split every: 25 Mb)
+0115.687 (0) Total entities for the zip file: 232 directories, 1500 files (0 skipped as non-modified), 24.5 Mb
+0115.698 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 Mb, 1 (1) files added so far); re-opening (prior size: 0 Kb)
+0115.914 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 100 files added (on-disk size: 40.5 Kb)
+0116.156 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 200 files added (on-disk size: 40.5 Kb)
+0116.536 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 300 files added (on-disk size: 40.5 Kb)
+0117.019 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 400 files added (on-disk size: 40.5 Kb)
+0117.456 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 500 files added (on-disk size: 40.5 Kb)
+0117.475 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.3 Mb, 1500 files batched, 501 (502) added so far); re-opening (prior size: 40.5 Kb)
+0118.958 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 600 files added (on-disk size: 1981 Kb)
+0119.294 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 700 files added (on-disk size: 1981 Kb)
+0119.608 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 800 files added (on-disk size: 1981 Kb)
+0119.918 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 900 files added (on-disk size: 1981 Kb)
+0120.221 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 1000 files added (on-disk size: 1981 Kb)
+0120.241 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 Mb, 1500 files batched, 501 (1003) added so far); re-opening (prior size: 1981 Kb)
+0122.064 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 1100 files added (on-disk size: 7695.8 Kb)
+0122.355 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 1200 files added (on-disk size: 7695.8 Kb)
+0122.793 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 1300 files added (on-disk size: 7695.8 Kb)
+0123.189 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 1400 files added (on-disk size: 7695.8 Kb)
+0123.546 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip.tmp: 1500 files added (on-disk size: 7695.8 Kb)
+0125.628 (0) Created themes zip (0) - 13188.5 Kb in 13.3 s (995.1 Kb/s) (SHA1 checksum: 10ea43f67674d667f70c3f3eb30f729bda65ede5)
+0125.653 (0) Exclusion option setting (uploads): 
+0125.664 (0) Looking for candidates to back up in: C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content/uploads
+0125.673 (0) finding files: 2015: adding to list (1)
+0125.677 (0) finding files: apppresser: adding to list (2)
+0125.687 (0) finding files: fwap-mp3: adding to list (3)
+0125.690 (0) finding files: redux: adding to list (4)
+0125.700 (0) finding files: wp-slimstat: adding to list (5)
+0125.709 (0) finding files: wp-statistics: adding to list (6)
+0125.719 (0) finding files: wpallimport: adding to list (7)
+0125.729 (0) Beginning creation of dump of uploads (split every: 25 Mb)
+0126.892 (0) Total entities for the zip file: 303 directories, 339 files (0 skipped as non-modified), 16.1 Mb
+0127.201 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0127.546 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0127.961 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0128.085 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (16.1 Mb, 332 (332) files added so far); re-opening (prior size: 0 Kb)
+0132.998 (0) Created uploads zip (0) - 3770.8 Kb in 7.2 s (520.5 Kb/s) (SHA1 checksum: f53e19343d87885067d23c65f4e756ddda4f87e6)
+0133.026 (0) Exclusion option setting (wpcore): 
+0133.030 (0) Looking for candidates to back up in: C:\Users\Hatem\Documents\My Web Sites\Papers-fm
+0133.034 (0) finding files: index.php: adding to list (1)
+0133.043 (0) finding files: license.txt: adding to list (2)
+0133.047 (0) finding files: New Text Document.txt: adding to list (3)
+0133.050 (0) finding files: readme.html: adding to list (4)
+0133.059 (0) finding files: test: adding to list (5)
+0133.063 (0) finding files: web.config: adding to list (6)
+0133.073 (0) finding files: wp-activate.php: adding to list (7)
+0133.082 (0) finding files: wp-admin: adding to list (8)
+0133.086 (0) finding files: wp-blog-header.php: adding to list (9)
+0133.095 (0) finding files: wp-comments-post.php: adding to list (10)
+0133.098 (0) finding files: wp-config-sample.php: adding to list (11)
+0133.102 (0) finding files: wp-config.php: adding to list (12)
+0133.112 (0) finding files: wp-content: skipping: this is the wp-content directory
+0133.116 (0) finding files: wp-cron.php: adding to list (13)
+0133.125 (0) finding files: wp-includes: adding to list (14)
+0133.134 (0) finding files: wp-links-opml.php: adding to list (15)
+0133.138 (0) finding files: wp-load.php: adding to list (16)
+0133.141 (0) finding files: wp-login.php: adding to list (17)
+0133.151 (0) finding files: wp-mail.php: adding to list (18)
+0133.155 (0) finding files: wp-settings.php: adding to list (19)
+0133.164 (0) finding files: wp-signup.php: adding to list (20)
+0133.174 (0) finding files: wp-trackback.php: adding to list (21)
+0133.178 (0) finding files: xmlrpc.php: adding to list (22)
+0133.187 (0) Beginning creation of dump of wpcore (split every: 25 Mb)
+0135.638 (0) Total entities for the zip file: 90 directories, 1025 files (0 skipped as non-modified), 16.3 Mb
+0136.047 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0136.082 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 Mb, 112 (112) files added so far); re-opening (prior size: 0 Kb)
+0136.550 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 200 files added (on-disk size: 319.2 Kb)
+0136.793 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 300 files added (on-disk size: 319.2 Kb)
+0137.011 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 400 files added (on-disk size: 319.2 Kb)
+0137.236 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 500 files added (on-disk size: 319.2 Kb)
+0137.509 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 600 files added (on-disk size: 319.2 Kb)
+0137.560 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.6 Mb, 1025 files batched, 501 (613) added so far); re-opening (prior size: 319.2 Kb)
+0139.236 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 700 files added (on-disk size: 2853.1 Kb)
+0139.529 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 800 files added (on-disk size: 2853.1 Kb)
+0139.858 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 900 files added (on-disk size: 2853.1 Kb)
+0140.107 (0) Zip: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip.tmp: 1000 files added (on-disk size: 2853.1 Kb)
+0141.616 (0) Created wpcore zip (0) - 5163.9 Kb in 8.4 s (614.4 Kb/s) (SHA1 checksum: 764c3936104da8a5ead15e01dd58ed756cb86cd8)
+0141.638 (0) Beginning backup of other directories found in the content directory (index: 0)
+0141.648 (0) Exclusion option setting (others): 
+0141.658 (0) Looking for candidates to back up in: C:\Users\Hatem\Documents\My Web Sites\Papers-fm/wp-content
+0141.667 (0) finding files: cache: adding to list (1)
+0141.670 (0) finding files: index.php: adding to list (2)
+0141.679 (0) finding files: mu-plugins: adding to list (3)
+0141.686 (0) finding files: plugins: skipping: this is the plugins directory
+0141.689 (0) finding files: themes: skipping: this is the themes directory
+0141.698 (0) finding files: updraft: skipping: this is the updraft directory
+0141.707 (0) finding files: upgrade: adding to list (4)
+0141.711 (0) finding files: uploads: skipping: this is the uploads directory
+0141.720 (0) finding files: usersultramedia: adding to list (5)
+0141.729 (0) finding files: wptouch-data: adding to list (6)
+0141.794 (0) Total entities for the zip file: 19 directories, 9 files (0 skipped as non-modified), 0.1 Mb
+0141.860 (0) Created others zip (0) - 37.2 Kb in 0.1 s (320.8 Kb/s) (SHA1 checksum: d53f672b023c4c6c5a5f740d20972383d74f3e11)
+0141.877 (0) No backup of more: excluded by user's options
+0141.909 (0) Saving backup status to database (elements: 12)
+0141.930 (0) Beginning creation of database dump (WordPress DB)
+0141.992 (0) Table wp_options: Total expected rows (approximate): 445
+0142.228 (0) Table wp_options: Total rows added: 506 in 0.23 seconds
+0142.241 (0) Table wp_options: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_options.table.gz - 331.1 Kb)
+0142.281 (0) Table wp_users: Total expected rows (approximate): 2
+0142.296 (0) Table wp_users: Total rows added: 2 in 0.01 seconds
+0142.315 (0) Table wp_users: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_users.table.gz - 0.6 Kb)
+0142.346 (0) Table wp_usermeta: Total expected rows (approximate): 54
+0142.362 (0) Table wp_usermeta: Total rows added: 54 in 0.01 seconds
+0142.374 (0) Table wp_usermeta: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usermeta.table.gz - 2.7 Kb)
+0142.414 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0142.432 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0142.443 (0) Table wp_commentmeta: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_commentmeta.table.gz - 0.3 Kb)
+0142.479 (0) Table wp_comments: Total expected rows (approximate): 0
+0142.501 (0) Table wp_comments: Total rows added: 0 in 0.01 seconds
+0142.512 (0) Table wp_comments: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_comments.table.gz - 0.5 Kb)
+0142.553 (0) Table wp_links: Total expected rows (approximate): 0
+0142.573 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0142.585 (0) Table wp_links: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_links.table.gz - 0.4 Kb)
+0142.628 (0) Table wp_postmeta: Total expected rows (approximate): 211112
+0142.647 (0) [Warning] Table wp_postmeta has very many rows (211112) - we hope your web hosting company gives you enough resources to dump out that table in the backup
+0199.297 (0) Table wp_postmeta: Total rows added: 198591 in 56.64 seconds
+0199.318 (0) Table wp_postmeta: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_postmeta.table.gz - 2067.9 Kb)
+0199.356 (0) Table wp_posts: Total expected rows (approximate): 1526
+0199.607 (0) Table wp_posts: Total rows added: 1242 in 0.23 seconds
+0199.623 (0) Table wp_posts: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_posts.table.gz - 73.8 Kb)
+0199.661 (0) Table wp_signups: Total expected rows (approximate): 0
+0199.688 (0) Table wp_signups: Total rows added: 0 in 0.01 seconds
+0199.698 (0) Table wp_signups: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_signups.table.gz - 0.5 Kb)
+0199.733 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0199.750 (0) Table wp_term_relationships: Total rows added: 17 in 0.01 seconds
+0199.760 (0) Table wp_term_relationships: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+0199.801 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0199.819 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.01 seconds
+0199.829 (0) Table wp_term_taxonomy: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+0199.870 (0) Table wp_terms: Total expected rows (approximate): 5
+0199.886 (0) Table wp_terms: Total rows added: 5 in 0.01 seconds
+0199.896 (0) Table wp_terms: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_terms.table.gz - 0.4 Kb)
+0199.938 (0) Table wp_alm: Total expected rows (approximate): 1
+0199.965 (0) Table wp_alm: Total rows added: 1 in 0.01 seconds
+0199.975 (0) Table wp_alm: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_alm.table.gz - 1.3 Kb)
+0200.017 (0) Table wp_bp_activity: Total expected rows (approximate): 1
+0200.033 (0) Table wp_bp_activity: Total rows added: 1 in 0.01 seconds
+0200.044 (0) Table wp_bp_activity: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_activity.table.gz - 0.5 Kb)
+0200.080 (0) Table wp_bp_activity_meta: Total expected rows (approximate): 0
+0200.098 (0) Table wp_bp_activity_meta: Total rows added: 0 in 0.01 seconds
+0200.112 (0) Table wp_bp_activity_meta: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_activity_meta.table.gz - 0.3 Kb)
+0200.149 (0) Table wp_bp_notifications: Total expected rows (approximate): 0
+0200.183 (0) Table wp_bp_notifications: Total rows added: 0 in 0.02 seconds
+0200.202 (0) Table wp_bp_notifications: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_notifications.table.gz - 0.4 Kb)
+0200.242 (0) Table wp_bp_notifications_meta: Total expected rows (approximate): 0
+0200.264 (0) Table wp_bp_notifications_meta: Total rows added: 0 in 0.01 seconds
+0200.274 (0) Table wp_bp_notifications_meta: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_notifications_meta.table.gz - 0.3 Kb)
+0200.308 (0) Table wp_bp_xprofile_data: Total expected rows (approximate): 1
+0200.332 (0) Table wp_bp_xprofile_data: Total rows added: 1 in 0.01 seconds
+0200.342 (0) Table wp_bp_xprofile_data: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_data.table.gz - 0.4 Kb)
+0200.383 (0) Table wp_bp_xprofile_fields: Total expected rows (approximate): 1
+0200.414 (0) Table wp_bp_xprofile_fields: Total rows added: 1 in 0.01 seconds
+0200.424 (0) Table wp_bp_xprofile_fields: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_fields.table.gz - 0.5 Kb)
+0200.457 (0) Table wp_bp_xprofile_groups: Total expected rows (approximate): 1
+0200.472 (0) Table wp_bp_xprofile_groups: Total rows added: 1 in 0.01 seconds
+0200.491 (0) Table wp_bp_xprofile_groups: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_groups.table.gz - 0.4 Kb)
+0200.542 (0) Table wp_bp_xprofile_meta: Total expected rows (approximate): 0
+0200.572 (0) Table wp_bp_xprofile_meta: Total rows added: 0 in 0.01 seconds
+0200.594 (0) Table wp_bp_xprofile_meta: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_meta.table.gz - 0.3 Kb)
+0200.640 (0) Table wp_oiopub_affiliates: Total expected rows (approximate): 0
+0200.670 (0) Table wp_oiopub_affiliates: Total rows added: 0 in 0.01 seconds
+0200.679 (0) Table wp_oiopub_affiliates: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_affiliates.table.gz - 0.4 Kb)
+0200.711 (0) Table wp_oiopub_affiliates_hits: Total expected rows (approximate): 0
+0200.726 (0) Table wp_oiopub_affiliates_hits: Total rows added: 0 in 0.01 seconds
+0200.753 (0) Table wp_oiopub_affiliates_hits: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_affiliates_hits.table.gz - 0.3 Kb)
+0200.808 (0) Table wp_oiopub_affiliates_sales: Total expected rows (approximate): 0
+0200.849 (0) Table wp_oiopub_affiliates_sales: Total rows added: 0 in 0.01 seconds
+0200.868 (0) Table wp_oiopub_affiliates_sales: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_affiliates_sales.table.gz - 0.4 Kb)
+0200.903 (0) Table wp_oiopub_config: Total expected rows (approximate): 69
+0200.922 (0) Table wp_oiopub_config: Total rows added: 69 in 0.01 seconds
+0200.932 (0) Table wp_oiopub_config: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_config.table.gz - 2.7 Kb)
+0200.966 (0) Table wp_oiopub_coupons: Total expected rows (approximate): 0
+0200.984 (0) Table wp_oiopub_coupons: Total rows added: 0 in 0.01 seconds
+0201.008 (0) Table wp_oiopub_coupons: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_coupons.table.gz - 0.4 Kb)
+0201.052 (0) Table wp_oiopub_purchases: Total expected rows (approximate): 0
+0201.073 (0) Table wp_oiopub_purchases: Total rows added: 0 in 0.01 seconds
+0201.083 (0) Table wp_oiopub_purchases: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_purchases.table.gz - 0.6 Kb)
+0201.125 (0) Table wp_oiopub_purchases_history: Total expected rows (approximate): 0
+0201.150 (0) Table wp_oiopub_purchases_history: Total rows added: 0 in 0.01 seconds
+0201.160 (0) Table wp_oiopub_purchases_history: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_purchases_history.table.gz - 0.4 Kb)
+0201.205 (0) Table wp_oiopub_tracker_archive: Total expected rows (approximate): 0
+0201.239 (0) Table wp_oiopub_tracker_archive: Total rows added: 0 in 0.01 seconds
+0201.249 (0) Table wp_oiopub_tracker_archive: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_tracker_archive.table.gz - 0.3 Kb)
+0201.304 (0) Table wp_oiopub_tracker_clicks: Total expected rows (approximate): 0
+0201.329 (0) Table wp_oiopub_tracker_clicks: Total rows added: 0 in 0.01 seconds
+0201.339 (0) Table wp_oiopub_tracker_clicks: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_tracker_clicks.table.gz - 0.3 Kb)
+0201.379 (0) Table wp_oiopub_tracker_visits: Total expected rows (approximate): 0
+0201.404 (0) Table wp_oiopub_tracker_visits: Total rows added: 0 in 0.01 seconds
+0201.420 (0) Table wp_oiopub_tracker_visits: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_tracker_visits.table.gz - 0.3 Kb)
+0201.459 (0) Table wp_pmxi_files: Total expected rows (approximate): 1
+0201.489 (0) Table wp_pmxi_files: Total rows added: 1 in 0.01 seconds
+0201.499 (0) Table wp_pmxi_files: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_files.table.gz - 0.4 Kb)
+0201.545 (0) Table wp_pmxi_history: Total expected rows (approximate): 169
+0201.581 (0) Table wp_pmxi_history: Total rows added: 169 in 0.02 seconds
+0201.599 (0) Table wp_pmxi_history: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_history.table.gz - 1.8 Kb)
+0201.629 (0) Table wp_pmxi_imports: Total expected rows (approximate): 1
+0201.652 (0) Table wp_pmxi_imports: Total rows added: 1 in 0.01 seconds
+0201.668 (0) Table wp_pmxi_imports: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_imports.table.gz - 3.7 Kb)
+0201.703 (0) Table wp_pmxi_posts: Total expected rows (approximate): 1046
+0201.785 (0) Table wp_pmxi_posts: Total rows added: 1046 in 0.07 seconds
+0201.815 (0) Table wp_pmxi_posts: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_posts.table.gz - 36.3 Kb)
+0201.845 (0) Table wp_pmxi_templates: Total expected rows (approximate): 1
+0201.866 (0) Table wp_pmxi_templates: Total rows added: 1 in 0.01 seconds
+0201.888 (0) Table wp_pmxi_templates: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_templates.table.gz - 2.8 Kb)
+0201.930 (0) Table wp_slim_events: Total expected rows (approximate): 11
+0201.979 (0) Table wp_slim_events: Total rows added: 11 in 0.02 seconds
+0201.999 (0) Table wp_slim_events: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_slim_events.table.gz - 0.8 Kb)
+0202.053 (0) Table wp_slim_stats: Total expected rows (approximate): 535
+0202.163 (0) Table wp_slim_stats: Total rows added: 539 in 0.09 seconds
+0202.179 (0) Table wp_slim_stats: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_slim_stats.table.gz - 12 Kb)
+0202.231 (0) Table wp_slim_stats_archive: Total expected rows (approximate): 0
+0202.260 (0) Table wp_slim_stats_archive: Total rows added: 0 in 0.01 seconds
+0202.272 (0) Table wp_slim_stats_archive: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_slim_stats_archive.table.gz - 0.6 Kb)
+0202.312 (0) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+0202.333 (0) Table wp_statistics_exclusions: Total rows added: 0 in 0.01 seconds
+0202.343 (0) Table wp_statistics_exclusions: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_exclusions.table.gz - 0.3 Kb)
+0202.374 (0) Table wp_statistics_historical: Total expected rows (approximate): 0
+0202.406 (0) Table wp_statistics_historical: Total rows added: 0 in 0.01 seconds
+0202.428 (0) Table wp_statistics_historical: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_historical.table.gz - 0.3 Kb)
+0202.466 (0) Table wp_statistics_pages: Total expected rows (approximate): 239
+0202.483 (0) Table wp_statistics_pages: Total rows added: 239 in 0.01 seconds
+0202.508 (0) Table wp_statistics_pages: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_pages.table.gz - 2.3 Kb)
+0202.542 (0) Table wp_statistics_search: Total expected rows (approximate): 0
+0202.558 (0) Table wp_statistics_search: Total rows added: 0 in 0.01 seconds
+0202.571 (0) Table wp_statistics_search: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_search.table.gz - 0.3 Kb)
+0202.601 (0) Table wp_statistics_useronline: Total expected rows (approximate): 0
+0202.620 (0) Table wp_statistics_useronline: Total rows added: 0 in 0.01 seconds
+0202.636 (0) Table wp_statistics_useronline: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_useronline.table.gz - 0.4 Kb)
+0202.700 (0) Table wp_statistics_visit: Total expected rows (approximate): 21
+0202.716 (0) Table wp_statistics_visit: Total rows added: 21 in 0.01 seconds
+0202.733 (0) Table wp_statistics_visit: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_visit.table.gz - 0.6 Kb)
+0202.767 (0) Table wp_statistics_visitor: Total expected rows (approximate): 88
+0202.786 (0) Table wp_statistics_visitor: Total rows added: 88 in 0.02 seconds
+0202.802 (0) Table wp_statistics_visitor: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_visitor.table.gz - 1.6 Kb)
+0202.852 (0) Table wp_users_ultra_pm: Total expected rows (approximate): 0
+0202.867 (0) Table wp_users_ultra_pm: Total rows added: 0 in 0.01 seconds
+0202.883 (0) Table wp_users_ultra_pm: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_users_ultra_pm.table.gz - 0.3 Kb)
+0202.911 (0) Table wp_usersultra_activity: Total expected rows (approximate): 0
+0202.927 (0) Table wp_usersultra_activity: Total rows added: 0 in 0.01 seconds
+0202.942 (0) Table wp_usersultra_activity: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_activity.table.gz - 0.3 Kb)
+0202.971 (0) Table wp_usersultra_ajaxrating_vote: Total expected rows (approximate): 0
+0202.990 (0) Table wp_usersultra_ajaxrating_vote: Total rows added: 0 in 0.01 seconds
+0203.010 (0) Table wp_usersultra_ajaxrating_vote: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ajaxrating_vote.table.gz - 0.4 Kb)
+0203.046 (0) Table wp_usersultra_ajaxrating_votesummary: Total expected rows (approximate): 0
+0203.073 (0) Table wp_usersultra_ajaxrating_votesummary: Total rows added: 0 in 0.01 seconds
+0203.101 (0) Table wp_usersultra_ajaxrating_votesummary: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ajaxrating_votesummary.table.gz - 0.4 Kb)
+0203.157 (0) Table wp_usersultra_credits: Total expected rows (approximate): 0
+0203.173 (0) Table wp_usersultra_credits: Total rows added: 0 in 0.01 seconds
+0203.183 (0) Table wp_usersultra_credits: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_credits.table.gz - 0.3 Kb)
+0203.219 (0) Table wp_usersultra_followers: Total expected rows (approximate): 0
+0203.234 (0) Table wp_usersultra_followers: Total rows added: 0 in 0.01 seconds
+0203.245 (0) Table wp_usersultra_followers: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_followers.table.gz - 0.3 Kb)
+0203.362 (0) Table wp_usersultra_friends: Total expected rows (approximate): 0
+0203.440 (0) Table wp_usersultra_friends: Total rows added: 0 in 0.02 seconds
+0203.457 (0) Table wp_usersultra_friends: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_friends.table.gz - 0.3 Kb)
+0203.514 (0) Table wp_usersultra_galleries: Total expected rows (approximate): 0
+0203.550 (0) Table wp_usersultra_galleries: Total rows added: 0 in 0.01 seconds
+0203.560 (0) Table wp_usersultra_galleries: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_galleries.table.gz - 0.3 Kb)
+0203.599 (0) Table wp_usersultra_groups: Total expected rows (approximate): 0
+0203.616 (0) Table wp_usersultra_groups: Total rows added: 0 in 0.01 seconds
+0203.632 (0) Table wp_usersultra_groups: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_groups.table.gz - 0.4 Kb)
+0203.688 (0) Table wp_usersultra_groups_post_rel: Total expected rows (approximate): 0
+0203.708 (0) Table wp_usersultra_groups_post_rel: Total rows added: 0 in 0.01 seconds
+0203.724 (0) Table wp_usersultra_groups_post_rel: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_groups_post_rel.table.gz - 0.3 Kb)
+0203.766 (0) Table wp_usersultra_groups_users_groups_rel: Total expected rows (approximate): 0
+0203.792 (0) Table wp_usersultra_groups_users_groups_rel: Total rows added: 0 in 0.01 seconds
+0203.806 (0) Table wp_usersultra_groups_users_groups_rel: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_groups_users_groups_rel.table.gz - 0.3 Kb)
+0203.844 (0) Table wp_usersultra_ip_defender: Total expected rows (approximate): 0
+0203.862 (0) Table wp_usersultra_ip_defender: Total rows added: 0 in 0.01 seconds
+0203.878 (0) Table wp_usersultra_ip_defender: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ip_defender.table.gz - 0.3 Kb)
+0203.919 (0) Table wp_usersultra_likes: Total expected rows (approximate): 0
+0203.940 (0) Table wp_usersultra_likes: Total rows added: 0 in 0.01 seconds
+0203.950 (0) Table wp_usersultra_likes: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_likes.table.gz - 0.3 Kb)
+0203.992 (0) Table wp_usersultra_orders: Total expected rows (approximate): 0
+0204.003 (0) Table wp_usersultra_orders: Total rows added: 0 in 0.01 seconds
+0204.013 (0) Table wp_usersultra_orders: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_orders.table.gz - 0.4 Kb)
+0204.063 (0) Table wp_usersultra_packages: Total expected rows (approximate): 0
+0204.088 (0) Table wp_usersultra_packages: Total rows added: 0 in 0.01 seconds
+0204.110 (0) Table wp_usersultra_packages: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_packages.table.gz - 0.4 Kb)
+0204.169 (0) Table wp_usersultra_photo_cat_rel: Total expected rows (approximate): 0
+0204.186 (0) Table wp_usersultra_photo_cat_rel: Total rows added: 0 in 0.01 seconds
+0204.204 (0) Table wp_usersultra_photo_cat_rel: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_photo_cat_rel.table.gz - 0.3 Kb)
+0204.234 (0) Table wp_usersultra_photo_categories: Total expected rows (approximate): 0
+0204.244 (0) Table wp_usersultra_photo_categories: Total rows added: 0 in 0.01 seconds
+0204.259 (0) Table wp_usersultra_photo_categories: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_photo_categories.table.gz - 0.3 Kb)
+0204.295 (0) Table wp_usersultra_photos: Total expected rows (approximate): 0
+0204.314 (0) Table wp_usersultra_photos: Total rows added: 0 in 0.01 seconds
+0204.324 (0) Table wp_usersultra_photos: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_photos.table.gz - 0.3 Kb)
+0204.367 (0) Table wp_usersultra_stats: Total expected rows (approximate): 1
+0204.390 (0) Table wp_usersultra_stats: Total rows added: 1 in 0.01 seconds
+0204.410 (0) Table wp_usersultra_stats: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_stats.table.gz - 0.4 Kb)
+0204.446 (0) Table wp_usersultra_stats_raw: Total expected rows (approximate): 1
+0204.460 (0) Table wp_usersultra_stats_raw: Total rows added: 1 in 0.01 seconds
+0204.470 (0) Table wp_usersultra_stats_raw: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_stats_raw.table.gz - 0.4 Kb)
+0204.514 (0) Table wp_usersultra_ticket_categories: Total expected rows (approximate): 0
+0204.539 (0) Table wp_usersultra_ticket_categories: Total rows added: 0 in 0.01 seconds
+0204.555 (0) Table wp_usersultra_ticket_categories: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ticket_categories.table.gz - 0.3 Kb)
+0204.592 (0) Table wp_usersultra_ticket_departments: Total expected rows (approximate): 0
+0204.609 (0) Table wp_usersultra_ticket_departments: Total rows added: 0 in 0.01 seconds
+0204.619 (0) Table wp_usersultra_ticket_departments: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ticket_departments.table.gz - 0.3 Kb)
+0204.652 (0) Table wp_usersultra_ticket_replies: Total expected rows (approximate): 0
+0204.676 (0) Table wp_usersultra_ticket_replies: Total rows added: 0 in 0.01 seconds
+0204.694 (0) Table wp_usersultra_ticket_replies: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ticket_replies.table.gz - 0.3 Kb)
+0204.736 (0) Table wp_usersultra_tickets: Total expected rows (approximate): 0
+0204.755 (0) Table wp_usersultra_tickets: Total rows added: 0 in 0.01 seconds
+0204.768 (0) Table wp_usersultra_tickets: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_tickets.table.gz - 0.4 Kb)
+0204.810 (0) Table wp_usersultra_videos: Total expected rows (approximate): 0
+0204.828 (0) Table wp_usersultra_videos: Total rows added: 0 in 0.01 seconds
+0204.842 (0) Table wp_usersultra_videos: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_videos.table.gz - 0.3 Kb)
+0204.867 (0) Table wp_usersultra_wall: Total expected rows (approximate): 13
+0204.886 (0) Table wp_usersultra_wall: Total rows added: 13 in 0.01 seconds
+0204.896 (0) Table wp_usersultra_wall: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_wall.table.gz - 0.6 Kb)
+0204.933 (0) Table wp_usersultra_wall_replies: Total expected rows (approximate): 0
+0204.951 (0) Table wp_usersultra_wall_replies: Total rows added: 0 in 0.01 seconds
+0204.962 (0) Table wp_usersultra_wall_replies: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_wall_replies.table.gz - 0.3 Kb)
+0205.006 (0) Table wp_wpfront_ure_options: Total expected rows (approximate): 1
+0205.025 (0) Table wp_wpfront_ure_options: Total rows added: 1 in 0.01 seconds
+0205.035 (0) Table wp_wpfront_ure_options: finishing file (backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_wpfront_ure_options.table.gz - 0.4 Kb)
+0205.060 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_options.table.gz (1/74): adding to final database dump
+0205.243 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_users.table.gz (2/74): adding to final database dump
+0205.267 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usermeta.table.gz (3/74): adding to final database dump
+0205.277 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_commentmeta.table.gz (4/74): adding to final database dump
+0205.286 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_comments.table.gz (5/74): adding to final database dump
+0205.296 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_links.table.gz (6/74): adding to final database dump
+0205.306 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_postmeta.table.gz (7/74): adding to final database dump
+0206.591 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_posts.table.gz (8/74): adding to final database dump
+0206.624 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_signups.table.gz (9/74): adding to final database dump
+0206.634 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_term_relationships.table.gz (10/74): adding to final database dump
+0206.638 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_term_taxonomy.table.gz (11/74): adding to final database dump
+0206.651 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_terms.table.gz (12/74): adding to final database dump
+0206.663 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_alm.table.gz (13/74): adding to final database dump
+0206.669 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_activity.table.gz (14/74): adding to final database dump
+0206.677 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_activity_meta.table.gz (15/74): adding to final database dump
+0206.687 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_notifications.table.gz (16/74): adding to final database dump
+0206.697 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_notifications_meta.table.gz (17/74): adding to final database dump
+0206.706 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_data.table.gz (18/74): adding to final database dump
+0206.716 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_fields.table.gz (19/74): adding to final database dump
+0206.726 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_groups.table.gz (20/74): adding to final database dump
+0206.735 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_bp_xprofile_meta.table.gz (21/74): adding to final database dump
+0206.742 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_affiliates.table.gz (22/74): adding to final database dump
+0206.751 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_affiliates_hits.table.gz (23/74): adding to final database dump
+0206.761 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_affiliates_sales.table.gz (24/74): adding to final database dump
+0206.765 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_config.table.gz (25/74): adding to final database dump
+0206.775 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_coupons.table.gz (26/74): adding to final database dump
+0206.785 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_purchases.table.gz (27/74): adding to final database dump
+0206.789 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_purchases_history.table.gz (28/74): adding to final database dump
+0206.799 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_tracker_archive.table.gz (29/74): adding to final database dump
+0206.809 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_tracker_clicks.table.gz (30/74): adding to final database dump
+0206.822 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_oiopub_tracker_visits.table.gz (31/74): adding to final database dump
+0206.832 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_files.table.gz (32/74): adding to final database dump
+0206.836 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_history.table.gz (33/74): adding to final database dump
+0206.842 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_imports.table.gz (34/74): adding to final database dump
+0206.859 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_posts.table.gz (35/74): adding to final database dump
+0206.883 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_pmxi_templates.table.gz (36/74): adding to final database dump
+0206.894 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_slim_events.table.gz (37/74): adding to final database dump
+0206.904 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_slim_stats.table.gz (38/74): adding to final database dump
+0206.925 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_slim_stats_archive.table.gz (39/74): adding to final database dump
+0206.929 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_exclusions.table.gz (40/74): adding to final database dump
+0206.938 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_historical.table.gz (41/74): adding to final database dump
+0206.942 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_pages.table.gz (42/74): adding to final database dump
+0206.953 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_search.table.gz (43/74): adding to final database dump
+0206.963 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_useronline.table.gz (44/74): adding to final database dump
+0206.972 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_visit.table.gz (45/74): adding to final database dump
+0206.976 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_statistics_visitor.table.gz (46/74): adding to final database dump
+0206.986 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_users_ultra_pm.table.gz (47/74): adding to final database dump
+0206.996 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_activity.table.gz (48/74): adding to final database dump
+0207.000 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ajaxrating_vote.table.gz (49/74): adding to final database dump
+0207.010 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ajaxrating_votesummary.table.gz (50/74): adding to final database dump
+0207.023 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_credits.table.gz (51/74): adding to final database dump
+0207.033 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_followers.table.gz (52/74): adding to final database dump
+0207.044 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_friends.table.gz (53/74): adding to final database dump
+0207.048 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_galleries.table.gz (54/74): adding to final database dump
+0207.057 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_groups.table.gz (55/74): adding to final database dump
+0207.068 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_groups_post_rel.table.gz (56/74): adding to final database dump
+0207.073 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_groups_users_groups_rel.table.gz (57/74): adding to final database dump
+0207.090 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ip_defender.table.gz (58/74): adding to final database dump
+0207.099 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_likes.table.gz (59/74): adding to final database dump
+0207.103 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_orders.table.gz (60/74): adding to final database dump
+0207.113 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_packages.table.gz (61/74): adding to final database dump
+0207.122 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_photo_cat_rel.table.gz (62/74): adding to final database dump
+0207.126 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_photo_categories.table.gz (63/74): adding to final database dump
+0207.135 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_photos.table.gz (64/74): adding to final database dump
+0207.139 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_stats.table.gz (65/74): adding to final database dump
+0207.148 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_stats_raw.table.gz (66/74): adding to final database dump
+0207.158 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ticket_categories.table.gz (67/74): adding to final database dump
+0207.168 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ticket_departments.table.gz (68/74): adding to final database dump
+0207.178 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_ticket_replies.table.gz (69/74): adding to final database dump
+0207.181 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_tickets.table.gz (70/74): adding to final database dump
+0207.191 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_videos.table.gz (71/74): adding to final database dump
+0207.195 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_wall.table.gz (72/74): adding to final database dump
+0207.205 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_usersultra_wall_replies.table.gz (73/74): adding to final database dump
+0207.214 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db-table-wp_wpfront_ure_options.table.gz (74/74): adding to final database dump
+0207.222 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db.gz: finished writing out complete database file (2528 Kb)
+0207.345 (0) Total database tables backed up: 74 (backup_2015-12-09-2035_Papersfm_0975d10c8876-db.gz, size: 2606438, checksum (SHA1): 49cfa2a8cb04c1dbe3f1d489f26c34b844b9038a)
+0207.359 (0) Saving backup history
+0207.393 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0207.403 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip: plugins: This file has not yet been successfully uploaded: will queue
+0207.407 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip: plugins: This file has not yet been successfully uploaded: will queue
+0207.416 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0207.437 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0207.452 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip: wpcore: This file has not yet been successfully uploaded: will queue
+0207.462 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-others.zip: others: This file has not yet been successfully uploaded: will queue
+0207.471 (0) backup_2015-12-09-2035_Papersfm_0975d10c8876-db.gz: db: This file has not yet been successfully uploaded: will queue
+0207.496 (0) Requesting upload of the files that have not yet been successfully uploaded (8)
+0207.525 (0) Cloud backup selection (1/1): none (last)
+0207.534 (0) No remote despatch: user chose no remote backup service
+0207.553 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins.zip (5b5eac72e46dc4bcdaa060a1786ce769)
+0207.593 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins2.zip (5b6d92d8931e7694a1386a07de645551)
+0207.627 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-plugins3.zip (ea56643735e52ad4e1b221af5068f590)
+0207.674 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-themes.zip (eec9a726bf9c8ab2e119ecba2fb51fe5)
+0207.713 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-uploads.zip (263a40aa0c28861e2b759aaa020d5ebf)
+0207.750 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-wpcore.zip (64bffe6d87b98a74c7a364b135456761)
+0207.789 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-others.zip (d6ce8f66d4118d1922e30725f8c80c01)
+0207.846 (0) Recording as successfully uploaded: backup_2015-12-09-2035_Papersfm_0975d10c8876-db.gz (c288f882240a8ea94e60b18104802423)
+0207.894 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0207.906 (0) Number of backup sets in history: 4
+0207.916 (0) Examining backup set with datestamp: 1449693311 (Dec 09 2015 20:35:11)
+0207.931 (0) 1449693311: this backup set remains non-empty (1/1); will retain in history
+0207.941 (0) Examining backup set with datestamp: 1449375594 (Dec 06 2015 04:19:54)
+0207.951 (0) 1449375594: db: this set includes a database (backup_2015-12-06-0419_Papersfm_eccfbcaa4504-db.gz); db count is now 2
+0207.959 (0) 1449375594: db: over retain limit (1); will delete this database
+0207.969 (0) Delete file: backup_2015-12-06-0419_Papersfm_eccfbcaa4504-db.gz, service=none
+0207.979 (0) Deleting local copy (backup_2015-12-06-0419_Papersfm_eccfbcaa4504-db.gz)
+0207.993 (0) 1449375594: this backup set is now empty; will remove from history
+0207.997 (0) 1449375594: deleting log file (log.eccfbcaa4504.txt)
+0208.010 (0) Examining backup set with datestamp: 1449229904 (Dec 04 2015 11:51:44)
+0208.027 (0) plugins: 1449229904: over retain limit (1); will delete this file (backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins.zip)
+0208.037 (0) plugins: 1449229904: over retain limit (1); will delete this file (backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins2.zip)
+0208.047 (0) plugins: 1449229904: over retain limit (1); will delete this file (backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins3.zip)
+0208.062 (0) themes: 1449229904: over retain limit (1); will delete this file (backup_2015-12-04-1151_Papersfm_824e8037fb93-themes.zip)
+0208.072 (0) uploads: 1449229904: over retain limit (1); will delete this file (backup_2015-12-04-1151_Papersfm_824e8037fb93-uploads.zip)
+0208.090 (0) Delete file: backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins.zip, service=none
+0208.106 (0) Deleting local copy (backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins.zip)
+0208.119 (0) Delete file: backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins2.zip, service=none
+0208.130 (0) Deleting local copy (backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins2.zip)
+0208.140 (0) Delete file: backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins3.zip, service=none
+0208.151 (0) Deleting local copy (backup_2015-12-04-1151_Papersfm_824e8037fb93-plugins3.zip)
+0208.161 (0) Delete file: backup_2015-12-04-1151_Papersfm_824e8037fb93-themes.zip, service=none
+0208.179 (0) Deleting local copy (backup_2015-12-04-1151_Papersfm_824e8037fb93-themes.zip)
+0208.184 (0) Delete file: backup_2015-12-04-1151_Papersfm_824e8037fb93-uploads.zip, service=none
+0208.194 (0) Deleting local copy (backup_2015-12-04-1151_Papersfm_824e8037fb93-uploads.zip)
+0208.220 (0) 1449229904: this backup set is now empty; will remove from history
+0208.224 (0) 1449229904: deleting log file (log.824e8037fb93.txt)
+0208.234 (0) Examining backup set with datestamp: 1449199740 (Dec 04 2015 03:29:00)
+0208.243 (0) wpcore: 1449199740: over retain limit (1); will delete this file (backup_2015-12-04-0329_Papersfm_a6cb579d1595-wpcore.zip)
+0208.247 (0) others: 1449199740: over retain limit (1); will delete this file (backup_2015-12-04-0329_Papersfm_a6cb579d1595-others.zip)
+0208.250 (0) Delete file: backup_2015-12-04-0329_Papersfm_a6cb579d1595-wpcore.zip, service=none
+0208.260 (0) Deleting local copy (backup_2015-12-04-0329_Papersfm_a6cb579d1595-wpcore.zip)
+0208.271 (0) Delete file: backup_2015-12-04-0329_Papersfm_a6cb579d1595-others.zip, service=none
+0208.286 (0) Deleting local copy (backup_2015-12-04-0329_Papersfm_a6cb579d1595-others.zip)
+0208.318 (0) 1449199740: this backup set is now empty; will remove from history
+0208.328 (0) 1449199740: deleting log file (log.a6cb579d1595.txt)
+0208.332 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0208.362 (0) Resume backup (0975d10c8876, 0): finish run
+0208.388 (0) Decremented the semaphore (fd) by 1
+0208.405 (0) Semaphore (fd) unlocked
+0208.409 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0208.437 (0) No email will/can be sent - the user has not configured an email address.
+0208.446 (0) The backup apparently succeeded and is now complete

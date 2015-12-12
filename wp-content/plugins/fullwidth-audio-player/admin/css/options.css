@@ -1,0 +1,78 @@
+#tab-content {
+	width: 960px;	
+    margin-top: 20px;
+}
+
+.info-box {
+	margin-top: 20px;
+	padding: 10px;
+	background: #FCFCFC;
+	border: 1px solid #DFDFDF;	
+}
+
+.option-table {
+	width: 750px;	
+}
+
+.option-table tbody th {
+	width: 250px;
+	vertical-align: middle;
+}
+
+.option-table tbody td {
+	vertical-align: middle;
+}
+
+.option-table-heading, .option-table-heading-2 {
+	font-weight: bold !important;	
+}
+
+.sub-options th {
+	font-size: 12px;
+}
+
+.last-sub-option th, .last-sub-option td {
+	padding-bottom: 15px;
+}
+
+.no-border th, .no-border td {
+	border-bottom: 0px;	
+}
+
+.no-border th, .no-border td  {
+	border-color: #F9F9F9;	
+}
+
+.alternate + .no-border th, .alternate + .no-border td  {
+	border-color: #FCFCFC;	
+}
+
+.last-sub-option th, .last-sub-option td {
+	border-top-color: #F9F9F9;
+}
+
+.alternate + .last-sub-option th, .alternate + .last-sub-option td {
+	border-top-color: #FCFCFC;
+}
+
+.radio-label {
+	margin: 0 20px 0 5px;
+}
+
+.colorpicker-label {
+	display: inline;
+}
+
+.checkbox-label {
+	line-height: 16px;
+	margin-left: 25px;
+}
+
+tr > td > input[type="checkbox"], tr > td > select {
+	float: left;
+	margin-right: 10px;
+}
+
+tr > td > span {
+	display: block;
+}

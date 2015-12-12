@@ -1,0 +1,189 @@
+<?php
+class UsersUltraWall {
+
+	var $options;	
+	
+
+	function __construct() {
+	
+		/* Plugin slug and version */
+		$this->slug = 'userultra';
+		$this->subslug = 'uultra-wall';
+		require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+		$this->plugin_data = get_plugin_data( uultra_wall_path . 'index.php', false, false);
+		$this->version = $this->plugin_data['Version'];
+		
+		/* Priority actions */
+		add_action('admin_menu', array(&$this, 'add_menu'), 9);
+		add_action('admin_enqueue_scripts', array(&$this, 'add_styles'), 9);
+		add_action('admin_head', array(&$this, 'admin_head'), 9 );
+		add_action('admin_init', array(&$this, 'admin_init'), 9);			
+		
+
+		
+		
+	}
+	
+	
+	
+		
+	
+	function admin_init() 
+	{
+	
+		$this->tabs = array(
+			'manage' => __('Site-Wide Activity Wall','xoousers')
+			
+		);
+		$this->default_tab = 'manage';		
+		
+	}
+	
+	
+	
+	
+	
+	public function get_all_user_groups ($user_id) 
+	{
+		global $wpdb;
+		
+		$groups_list = array();
+		
+		$sql = ' SELECT * FROM ' . $wpdb->prefix . 'usersultra_groups_users_groups_rel WHERE group_user_group_rel_user_id= "'.$user_id.'"  ' ;
+		$res = $wpdb->get_results($sql);
+		
+		if ( !empty( $res ) )
+		{
+			foreach ( $res as $group )
+			{
+				$groups_list[] = $group->group_user_group_rel_group_id;
+			
+			}					
+				
+				
+		}
+		
+		return $groups_list;	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	public function get_all () 
+	{
+		global $wpdb;
+		
+		$sql = ' SELECT * FROM ' . $wpdb->prefix . 'usersultra_groups ORDER BY group_name ASC  ' ;
+		$res = $wpdb->get_results($sql);
+		
+		return $res ;	
+		
+		
+	
+	}
+	
+	
+	
+	function admin_head(){
+
+	}
+
+	function add_styles(){
+	
+		wp_register_script( 'uultra_wall_js', uultra_wall_url . 'admin/scripts/admin.js', array( 
+			'jquery'
+		) );
+		wp_enqueue_script( 'uultra_wall_js' );
+	
+		wp_register_style('uultra_wall_css', uultra_wall_url . 'admin/css/admin.css');
+		wp_enqueue_style('uultra_wall_css');
+		
+	}
+	
+	function add_menu()
+	{
+		add_submenu_page( 'userultra', __('Activity Wall','xoousers'), __('Activity Wall','xoousers'), 'manage_options', 'uultra-wall', array(&$this, 'admin_page') );
+		
+		do_action('userultra_admin_menu_hook');
+		
+		
+	}
+
+	function admin_tabs( $current = null ) {
+			$tabs = $this->tabs;
+			$links = array();
+			if ( isset ( $_GET['tab'] ) ) {
+				$current = $_GET['tab'];
+			} else {
+				$current = $this->default_tab;
+			}
+			foreach( $tabs as $tab => $name ) :
+				if ( $tab == $current ) :
+					$links[] = "<a class='nav-tab nav-tab-active' href='?page=".$this->subslug."&tab=$tab'>$name</a>";
+				else :
+					$links[] = "<a class='nav-tab' href='?page=".$this->subslug."&tab=$tab'>$name</a>";
+				endif;
+			endforeach;
+			foreach ( $links as $link )
+				echo $link;
+	}
+
+	function get_tab_content() {
+		$screen = get_current_screen();
+		if( strstr($screen->id, $this->subslug ) ) {
+			if ( isset ( $_GET['tab'] ) ) {
+				$tab = $_GET['tab'];
+			} else {
+				$tab = $this->default_tab;
+			}
+			require_once uultra_wall_path.'admin/panels/'.$tab.'.php';
+		}
+	}
+	
+	
+	function admin_page() {
+	
+		
+		if (isset($_POST['add-group']) && $_POST['add-group']=='add-group') 
+		{
+			$this->save();
+		}
+		
+		if (isset($_POST['edit-group']) && $_POST['group_id']!='') 
+		{
+			$this->edit_group_conf();
+		}
+
+		
+		
+	?>
+	
+		<div class="wrap <?php echo $this->slug; ?>-admin">
+        
+           <h2>USERS ULTRA PRO - <?php _e('SITE-WIDE ACTIVITY WALL MANAGEMENT', 'xoousers')?></h2>
+           
+           <div id="icon-users" class="icon32"></div>
+			
+						
+			<h2 class="nav-tab-wrapper"><?php $this->admin_tabs(); ?></h2>
+
+			<div class="<?php echo $this->slug; ?>-admin-contain">
+				
+				<?php $this->get_tab_content(); ?>
+				
+				<div class="clear"></div>
+				
+			</div>
+			
+		</div>
+
+	<?php }
+
+}
+$uultra_wall = new UsersUltraWall();

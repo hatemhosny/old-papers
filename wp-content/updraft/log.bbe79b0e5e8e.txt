@@ -1,0 +1,178 @@
+0000.021 () Opened log file at time: Wed, 02 Dec 2015 20:52:30 +0000 on http://localhost:40454
+0000.022 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.3.1 PHP: 5.4.24 (Windows NT ATIV 6.2 build 9200 (Unknown Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34M | 34.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.022 () Free space on disk containing Updraft's temporary directory: 7876.9 Mb
+0000.023 () Restore job started. Entities to restore: db
+0001.075 () Entity: db
+0001.076 () restore_backup(backup_file=backup_2015-12-02-1931_Papersfm_15d1ac82f73a-db.gz, type=db, info=a:0:{}, last_one=1)
+0001.076 () Unpacking backup...
+0001.088 () Database successfully unpacked
+0002.096 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0002.096 () Using direct MySQL access; value of use_mysqli is: 0
+0002.106 () Tried to raise max_allowed_packet from 1 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0002.106 () Max packet size: 1 Mb
+0002.106 () Entering maintenance mode
+0002.106 () Enabling Maintenance mode&#8230;
+0002.109 () <strong>Backup of:</strong> http://localhost:40454
+0002.109 () Content URL: http://localhost:40454/wp-content
+0002.109 () Old table prefix: wp_
+0002.110 () Site information: multisite=0
+0002.115 () New table prefix: wp_
+0002.136 () Restoring table (InnoDB): wp_options
+0002.331 () Restoring prior UD configuration (table: wp_options; keys: 2)
+0002.357 () No search/replace required: would-be search and replacement are identical
+0002.360 () Restoring table (InnoDB): wp_users
+0002.389 () No search/replace required: would-be search and replacement are identical
+0002.389 () Restoring table (InnoDB): wp_usermeta
+0002.440 () No search/replace required: would-be search and replacement are identical
+0002.440 () Restoring table (InnoDB): wp_commentmeta
+0002.466 () No search/replace required: would-be search and replacement are identical
+0002.466 () Restoring table (InnoDB): wp_comments
+0002.499 () No search/replace required: would-be search and replacement are identical
+0002.499 () Restoring table (InnoDB): wp_links
+0002.574 () No search/replace required: would-be search and replacement are identical
+0002.574 () Restoring table (InnoDB): wp_postmeta
+0005.649 () Database queries processed: 50 in 3.55 seconds
+0011.488 () Database queries processed: 100 in 9.39 seconds
+0017.157 () Database queries processed: 150 in 15.06 seconds
+0022.990 () Database queries processed: 200 in 20.89 seconds
+0025.625 () No search/replace required: would-be search and replacement are identical
+0025.625 () Restoring table (InnoDB): wp_posts
+0025.906 () No search/replace required: would-be search and replacement are identical
+0025.906 () Restoring table (MyISAM): wp_signups
+0025.958 () No search/replace required: would-be search and replacement are identical
+0025.958 () Restoring table (InnoDB): wp_term_relationships
+0026.003 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0026.004 () Restoring table (InnoDB): wp_term_taxonomy
+0026.039 () No search/replace required: would-be search and replacement are identical
+0026.039 () Restoring table (InnoDB): wp_terms
+0026.074 () No search/replace required: would-be search and replacement are identical
+0026.075 () Restoring table (MyISAM): wp_bp_activity
+0026.103 () No search/replace required: would-be search and replacement are identical
+0026.103 () Restoring table (MyISAM): wp_bp_activity_meta
+0026.128 () No search/replace required: would-be search and replacement are identical
+0026.128 () Restoring table (MyISAM): wp_bp_notifications
+0026.146 () No search/replace required: would-be search and replacement are identical
+0026.146 () Restoring table (MyISAM): wp_bp_notifications_meta
+0026.173 () No search/replace required: would-be search and replacement are identical
+0026.173 () Restoring table (MyISAM): wp_bp_xprofile_data
+0026.195 () Database queries processed: 250 in 24.09 seconds
+0026.201 () No search/replace required: would-be search and replacement are identical
+0026.201 () Restoring table (MyISAM): wp_bp_xprofile_fields
+0026.230 () No search/replace required: would-be search and replacement are identical
+0026.230 () Restoring table (MyISAM): wp_bp_xprofile_groups
+0026.249 () No search/replace required: would-be search and replacement are identical
+0026.250 () Restoring table (MyISAM): wp_bp_xprofile_meta
+0026.275 () No search/replace required: would-be search and replacement are identical
+0026.275 () Restoring table (MyISAM): wp_oiopub_affiliates
+0026.301 () No search/replace required: would-be search and replacement are identical
+0026.301 () Restoring table (MyISAM): wp_oiopub_affiliates_hits
+0026.319 () No search/replace required: would-be search and replacement are identical
+0026.319 () Restoring table (MyISAM): wp_oiopub_affiliates_sales
+0026.346 () No search/replace required: would-be search and replacement are identical
+0026.346 () Restoring table (MyISAM): wp_oiopub_config
+0026.387 () No search/replace required: would-be search and replacement are identical
+0026.387 () Restoring table (MyISAM): wp_oiopub_coupons
+0026.426 () No search/replace required: would-be search and replacement are identical
+0026.426 () Restoring table (MyISAM): wp_oiopub_purchases
+0026.477 () No search/replace required: would-be search and replacement are identical
+0026.477 () Restoring table (MyISAM): wp_oiopub_purchases_history
+0026.511 () No search/replace required: would-be search and replacement are identical
+0026.511 () Restoring table (MyISAM): wp_oiopub_tracker_archive
+0026.542 () No search/replace required: would-be search and replacement are identical
+0026.542 () Restoring table (MyISAM): wp_oiopub_tracker_clicks
+0026.569 () No search/replace required: would-be search and replacement are identical
+0026.569 () Restoring table (MyISAM): wp_oiopub_tracker_visits
+0026.595 () No search/replace required: would-be search and replacement are identical
+0026.595 () Restoring table (MyISAM): wp_pmxi_files
+0026.624 () No search/replace required: would-be search and replacement are identical
+0026.624 () Restoring table (MyISAM): wp_pmxi_history
+0026.664 () No search/replace required: would-be search and replacement are identical
+0026.664 () Restoring table (MyISAM): wp_pmxi_imports
+0026.700 () No search/replace required: would-be search and replacement are identical
+0026.700 () Restoring table (MyISAM): wp_pmxi_posts
+0026.829 () No search/replace required: would-be search and replacement are identical
+0026.829 () Restoring table (MyISAM): wp_pmxi_templates
+0026.882 () No search/replace required: would-be search and replacement are identical
+0026.882 () Restoring table (InnoDB): wp_slim_events
+0026.929 () No search/replace required: would-be search and replacement are identical
+0026.929 () Restoring table (InnoDB): wp_slim_stats
+0026.979 () Skipping this table: data in this table (wp_slim_stats) should not be search/replaced
+0026.979 () Restoring table (InnoDB): wp_slim_stats_archive
+0027.009 () No search/replace required: would-be search and replacement are identical
+0027.009 () Restoring table (MyISAM): wp_statistics_exclusions
+0027.034 () No search/replace required: would-be search and replacement are identical
+0027.034 () Restoring table (MyISAM): wp_statistics_historical
+0027.074 () No search/replace required: would-be search and replacement are identical
+0027.074 () Restoring table (MyISAM): wp_statistics_pages
+0027.113 () No search/replace required: would-be search and replacement are identical
+0027.113 () Restoring table (MyISAM): wp_statistics_search
+0027.142 () No search/replace required: would-be search and replacement are identical
+0027.142 () Restoring table (MyISAM): wp_statistics_useronline
+0027.171 () No search/replace required: would-be search and replacement are identical
+0027.171 () Restoring table (MyISAM): wp_statistics_visit
+0027.202 () No search/replace required: would-be search and replacement are identical
+0027.202 () Restoring table (MyISAM): wp_statistics_visitor
+0027.247 () No search/replace required: would-be search and replacement are identical
+0027.247 () Restoring table (MyISAM): wp_users_ultra_pm
+0027.267 () No search/replace required: would-be search and replacement are identical
+0027.267 () Restoring table (MyISAM): wp_usersultra_activity
+0027.292 () No search/replace required: would-be search and replacement are identical
+0027.292 () Restoring table (MyISAM): wp_usersultra_ajaxrating_vote
+0027.311 () No search/replace required: would-be search and replacement are identical
+0027.311 () Restoring table (MyISAM): wp_usersultra_ajaxrating_votesummary
+0027.339 () No search/replace required: would-be search and replacement are identical
+0027.339 () Restoring table (MyISAM): wp_usersultra_credits
+0027.362 () No search/replace required: would-be search and replacement are identical
+0027.362 () Restoring table (MyISAM): wp_usersultra_followers
+0027.396 () No search/replace required: would-be search and replacement are identical
+0027.396 () Restoring table (MyISAM): wp_usersultra_friends
+0027.424 () No search/replace required: would-be search and replacement are identical
+0027.424 () Restoring table (MyISAM): wp_usersultra_galleries
+0027.484 () No search/replace required: would-be search and replacement are identical
+0027.484 () Restoring table (MyISAM): wp_usersultra_groups
+0027.553 () No search/replace required: would-be search and replacement are identical
+0027.553 () Restoring table (MyISAM): wp_usersultra_groups_post_rel
+0027.572 () No search/replace required: would-be search and replacement are identical
+0027.573 () Restoring table (MyISAM): wp_usersultra_groups_users_groups_rel
+0027.597 () No search/replace required: would-be search and replacement are identical
+0027.597 () Restoring table (MyISAM): wp_usersultra_ip_defender
+0027.622 () No search/replace required: would-be search and replacement are identical
+0027.622 () Restoring table (MyISAM): wp_usersultra_likes
+0027.658 () No search/replace required: would-be search and replacement are identical
+0027.658 () Restoring table (MyISAM): wp_usersultra_orders
+0027.675 () No search/replace required: would-be search and replacement are identical
+0027.675 () Restoring table (MyISAM): wp_usersultra_packages
+0027.693 () No search/replace required: would-be search and replacement are identical
+0027.693 () Restoring table (MyISAM): wp_usersultra_photo_cat_rel
+0027.715 () No search/replace required: would-be search and replacement are identical
+0027.715 () Restoring table (MyISAM): wp_usersultra_photo_categories
+0027.753 () No search/replace required: would-be search and replacement are identical
+0027.753 () Restoring table (MyISAM): wp_usersultra_photos
+0027.778 () No search/replace required: would-be search and replacement are identical
+0027.778 () Restoring table (MyISAM): wp_usersultra_stats
+0027.808 () No search/replace required: would-be search and replacement are identical
+0027.809 () Restoring table (MyISAM): wp_usersultra_stats_raw
+0027.832 () No search/replace required: would-be search and replacement are identical
+0027.832 () Restoring table (MyISAM): wp_usersultra_ticket_categories
+0027.864 () No search/replace required: would-be search and replacement are identical
+0027.864 () Restoring table (MyISAM): wp_usersultra_ticket_departments
+0027.880 () No search/replace required: would-be search and replacement are identical
+0027.881 () Restoring table (MyISAM): wp_usersultra_ticket_replies
+0027.903 () No search/replace required: would-be search and replacement are identical
+0027.903 () Restoring table (MyISAM): wp_usersultra_tickets
+0027.925 () No search/replace required: would-be search and replacement are identical
+0027.925 () Restoring table (MyISAM): wp_usersultra_videos
+0027.945 () No search/replace required: would-be search and replacement are identical
+0027.945 () Restoring table (MyISAM): wp_usersultra_wall
+0027.972 () No search/replace required: would-be search and replacement are identical
+0027.972 () Restoring table (MyISAM): wp_usersultra_wall_replies
+0027.993 () No search/replace required: would-be search and replacement are identical
+0027.993 () Restoring table (MyISAM): wp_wpfront_ure_options
+0028.018 () Leaving maintenance mode
+0028.019 () Disabling Maintenance mode&#8230;
+0028.019 () No search/replace required: would-be search and replacement are identical
+0028.019 () Finished: lines processed: 381 in 25.92 seconds
+0028.021 () Cleaning up rubbish...
+0028.022 () Begin search and replace (updraftplus_restored_db)
+0028.122 () Restore successful!
+0028.122 () Restore successful

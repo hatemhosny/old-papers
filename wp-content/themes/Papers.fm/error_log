@@ -1,0 +1,1 @@
+[30-Jun-2015 18:16:51 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/paperia/public_html/wp-content/themes/Papers-fm/index.php on line 9

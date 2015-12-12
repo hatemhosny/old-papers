@@ -1,0 +1,24 @@
+#sub-ajax-container, #no_ajax_ids {
+	width: 550px;
+}
+.aws-overlay {
+    background-color: #ed5565;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.loader-inner {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+}
+.loader-animation iframe {
+	width: 100%;
+	height:500px;
+}
+.loader-animation {
+	float: right;
+	width: 60%;
+}

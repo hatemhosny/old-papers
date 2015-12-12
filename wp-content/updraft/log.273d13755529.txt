@@ -1,0 +1,678 @@
+0000.003 (0) Opened log file at time: Sat, 12 Dec 2015 05:24:00 +0000 on http://localhost:40454
+0000.028 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54M | 54.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.065 (0) Free space on disk containing Updraft's temporary directory: 4259.8 Mb
+0000.177 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.190 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.204 (0) Requesting semaphore lock (fd)
+0000.242 (0) Set semaphore last lock (fd) time to 2015-12-12 05:24:01
+0000.252 (0) Semaphore lock (fd) complete
+0000.279 (0) Backup run: resumption=0, nonce=273d13755529, begun at=1449897840 (1s ago), job type=backup
+0000.287 (0) Scheduling a resumption (1) after 300 seconds (1449898141) in case this run gets aborted
+0000.327 (0) Checking if we have a zip executable available
+0000.336 (0) Creation of backups of directories: beginning
+0000.387 (0) No backup of plugins: excluded by user's options
+0000.391 (0) No backup of themes: excluded by user's options
+0000.401 (0) No backup of uploads: excluded by user's options
+0000.410 (0) No backup of wpcore: excluded by user's options
+0000.421 (0) No backup of others: excluded by user's options
+0000.425 (0) No backup of more: excluded by user's options
+0000.464 (0) Saving backup status to database (elements: 0)
+0000.511 (0) Beginning creation of database dump (WordPress DB)
+0000.575 (0) Table wp_options: Total expected rows (approximate): 847
+0000.722 (0) Table wp_options: Total rows added: 462 in 0.14 seconds
+0000.736 (0) Table wp_options: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_options.table.gz - 149.6 Kb)
+0000.804 (0) Table wp_users: Total expected rows (approximate): 2
+0000.840 (0) Table wp_users: Total rows added: 2 in 0.03 seconds
+0000.845 (0) Table wp_users: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users.table.gz - 0.6 Kb)
+0000.882 (0) Table wp_usermeta: Total expected rows (approximate): 54
+0000.907 (0) Table wp_usermeta: Total rows added: 54 in 0.01 seconds
+0000.919 (0) Table wp_usermeta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usermeta.table.gz - 2.7 Kb)
+0000.955 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.969 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0000.987 (0) Table wp_commentmeta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_commentmeta.table.gz - 0.3 Kb)
+0001.027 (0) Table wp_comments: Total expected rows (approximate): 0
+0001.047 (0) Table wp_comments: Total rows added: 0 in 0.01 seconds
+0001.059 (0) Table wp_comments: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_comments.table.gz - 0.5 Kb)
+0001.106 (0) Table wp_links: Total expected rows (approximate): 0
+0001.136 (0) Table wp_links: Total rows added: 0 in 0.02 seconds
+0001.147 (0) Table wp_links: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_links.table.gz - 0.4 Kb)
+0001.214 (0) Table wp_postmeta: Total expected rows (approximate): 181534
+0001.234 (0) [Warning] Table wp_postmeta has very many rows (181534) - we hope your web hosting company gives you enough resources to dump out that table in the backup
+0000.000 (1) Opened log file at time: Sat, 12 Dec 2015 06:53:13 +0000 on http://localhost:40454
+0000.005 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.1M | 54.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.015 (1) Free space on disk containing Updraft's temporary directory: 6714.9 Mb
+0000.026 (1) This backup task is either complete or began over 2 days ago: ending (1449903193.5911, )
+5359.981 (1) Opened log file at time: Sat, 12 Dec 2015 06:53:20 +0000 on http://localhost:40454
+5359.991 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.5M | 63.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+5359.996 (1) Free space on disk containing Updraft's temporary directory: 6720.1 Mb
+5360.009 (1) Backup run: resumption=1, nonce=273d13755529, begun at=1449897840 (5360s ago), job type=backup, previous check-in=1.2s
+5360.019 (1) Long time past since expected resumption time: approx expected=1449898142.4, now=1449903200.9, diff=5058.6
+5360.038 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5360.058 (1) Scheduling a resumption (2) after 300 seconds (1449903501) in case this run gets aborted
+5360.092 (1) Checking if we have a zip executable available
+5360.102 (1) Creation of backups of directories: already finished
+5360.111 (1) Saving backup status to database (elements: 0)
+5360.123 (1) Resuming creation of database dump (WordPress DB)
+5360.153 (1) Table wp_options: corresponding file already exists; moving on
+5360.158 (1) Table wp_users: corresponding file already exists; moving on
+5360.163 (1) Table wp_usermeta: corresponding file already exists; moving on
+5360.173 (1) Table wp_commentmeta: corresponding file already exists; moving on
+5360.184 (1) Table wp_comments: corresponding file already exists; moving on
+5360.194 (1) Table wp_links: corresponding file already exists; moving on
+5360.231 (1) Table wp_postmeta: Total expected rows (approximate): 224936
+5360.251 (1) [Warning] Table wp_postmeta has very many rows (224936) - we hope your web hosting company gives you enough resources to dump out that table in the backup
+5444.518 (1) Table wp_postmeta: Total rows added: 217620 in 84.26 seconds
+5444.562 (1) Table wp_postmeta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_postmeta.table.gz - 2256.3 Kb)
+5444.623 (1) Table wp_posts: Total expected rows (approximate): 1679
+7208.755 (2) Opened log file at time: Sat, 12 Dec 2015 07:24:09 +0000 on http://localhost:40454
+7209.117 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.5M | 63.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+7209.340 (2) Free space on disk containing Updraft's temporary directory: 6528.1 Mb
+7209.541 (2) Backup run: resumption=2, nonce=273d13755529, begun at=1449897840 (7210s ago), job type=backup, previous check-in=84.6s
+7209.667 (2) Long time past since expected resumption time: approx expected=1449903585.5, now=1449905049.7, diff=1464.1
+7209.979 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7210.940 (2) Scheduling a resumption (3) after 300 seconds (1449905351) in case this run gets aborted
+7211.869 (2) Checking if we have a zip executable available
+7211.898 (2) Opened log file at time: Sat, 12 Dec 2015 07:24:12 +0000 on http://localhost:40454
+7211.904 (2) Creation of backups of directories: already finished
+7211.914 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54M | 67.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+7211.921 (2) Saving backup status to database (elements: 0)
+7211.934 (2) Free space on disk containing Updraft's temporary directory: 6527.5 Mb
+7211.949 (2) Resuming creation of database dump (WordPress DB)
+7211.979 (2) Backup run: resumption=2, nonce=273d13755529, begun at=1449897840 (7212s ago), job type=backup, previous check-in=84.6s
+7211.987 (2) Table wp_options: corresponding file already exists; moving on
+7211.995 (2) Long time past since expected resumption time: approx expected=1449903585.5, now=1449905052.8, diff=1467.3
+7212.010 (2) Table wp_users: corresponding file already exists; moving on
+7212.010 (2) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7212.034 (2) Table wp_usermeta: corresponding file already exists; moving on
+7212.069 (2) Table wp_commentmeta: corresponding file already exists; moving on
+7212.069 (2) Scheduling a resumption (3) after 300 seconds (1449905353) in case this run gets aborted
+7212.080 (2) Table wp_comments: corresponding file already exists; moving on
+7212.196 (2) Table wp_links: corresponding file already exists; moving on
+7212.205 (2) Table wp_postmeta: corresponding file already exists; moving on
+7212.208 (2) Checking if we have a zip executable available
+7212.223 (2) Creation of backups of directories: already finished
+7212.239 (2) Saving backup status to database (elements: 0)
+7212.259 (2) Resuming creation of database dump (WordPress DB)
+7212.261 (2) Table wp_posts: Total expected rows (approximate): 1927
+7212.299 (2) Table wp_options: corresponding file already exists; moving on
+7212.319 (2) Table wp_users: corresponding file already exists; moving on
+7212.335 (2) Table wp_usermeta: corresponding file already exists; moving on
+7212.346 (2) Table wp_commentmeta: corresponding file already exists; moving on
+7212.356 (2) Table wp_comments: corresponding file already exists; moving on
+7212.365 (2) Table wp_links: corresponding file already exists; moving on
+7212.369 (2) Table wp_postmeta: corresponding file already exists; moving on
+7212.389 (2) Table wp_posts: Total expected rows (approximate): 1652
+7212.887 (2) Table wp_posts: Total rows added: 1834 in 0.60 seconds
+7212.897 (2) Table wp_posts: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_posts.table.gz - 109.6 Kb)
+7212.907 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_posts.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_posts.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7212.942 (2) Table wp_posts: Total rows added: 1834 in 0.53 seconds
+7212.947 (2) Table wp_posts: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_posts.table.gz - 109.6 Kb)
+7213.002 (2) Table wp_signups: Total expected rows (approximate): 0
+7213.029 (2) Table wp_signups: Total expected rows (approximate): 0
+7213.033 (2) Table wp_signups: Total rows added: 0 in 0.02 seconds
+7213.058 (2) Table wp_signups: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_signups.table.gz - 0.5 Kb)
+7213.063 (2) Table wp_signups: Total rows added: 0 in 0.01 seconds
+7213.068 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_signups.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_signups.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.076 (2) Table wp_signups: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_signups.table.gz - 0.5 Kb)
+7213.155 (2) Table wp_term_relationships: Total expected rows (approximate): 17
+7213.174 (2) Table wp_term_relationships: Total expected rows (approximate): 17
+7213.198 (2) Table wp_term_relationships: Total rows added: 17 in 0.02 seconds
+7213.199 (2) Table wp_term_relationships: Total rows added: 17 in 0.01 seconds
+7213.226 (2) Table wp_term_relationships: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+7213.243 (2) Table wp_term_relationships: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+7213.258 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_relationships.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_relationships.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.292 (2) Table wp_term_taxonomy: Total expected rows (approximate): 5
+7213.312 (2) Table wp_term_taxonomy: Total expected rows (approximate): 5
+7213.322 (2) Table wp_term_taxonomy: Total rows added: 5 in 0.01 seconds
+7213.341 (2) Table wp_term_taxonomy: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+7213.355 (2) Table wp_term_taxonomy: Total rows added: 5 in 0.03 seconds
+7213.357 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_taxonomy.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_taxonomy.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.365 (2) Table wp_term_taxonomy: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+7213.430 (2) Table wp_termmeta: Total expected rows (approximate): 0
+7213.431 (2) Table wp_termmeta: Total expected rows (approximate): 0
+7213.457 (2) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+7213.459 (2) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+7213.476 (2) Table wp_termmeta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_termmeta.table.gz - 0.4 Kb)
+7213.477 (2) Table wp_termmeta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_termmeta.table.gz - 0.4 Kb)
+7213.506 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_termmeta.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_termmeta.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.541 (2) Table wp_terms: Total expected rows (approximate): 5
+7213.558 (2) Table wp_terms: Total expected rows (approximate): 5
+7213.576 (2) Table wp_terms: Total rows added: 5 in 0.01 seconds
+7213.578 (2) Table wp_terms: Total rows added: 5 in 0.01 seconds
+7213.598 (2) Table wp_terms: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_terms.table.gz - 0.4 Kb)
+7213.605 (2) Table wp_terms: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_terms.table.gz - 0.4 Kb)
+7213.614 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_terms.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_terms.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.647 (2) Table wp_alm: Total expected rows (approximate): 1
+7213.661 (2) Table wp_alm: Total expected rows (approximate): 1
+7213.663 (2) Table wp_alm: Total rows added: 1 in 0.01 seconds
+7213.682 (2) Table wp_alm: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_alm.table.gz - 1.3 Kb)
+7213.687 (2) Table wp_alm: Total rows added: 1 in 0.01 seconds
+7213.697 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_alm.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_alm.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.705 (2) Table wp_alm: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_alm.table.gz - 1.3 Kb)
+7213.760 (2) Table wp_bp_activity: Total expected rows (approximate): 1
+7213.761 (2) Table wp_bp_activity: Total expected rows (approximate): 1
+7213.790 (2) Table wp_bp_activity: Total rows added: 1 in 0.01 seconds
+7213.792 (2) Table wp_bp_activity: Total rows added: 1 in 0.01 seconds
+7213.813 (2) Table wp_bp_activity: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity.table.gz - 0.5 Kb)
+7213.815 (2) Table wp_bp_activity: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity.table.gz - 0.5 Kb)
+7213.830 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.871 (2) Table wp_bp_activity_meta: Total expected rows (approximate): 0
+7213.882 (2) Table wp_bp_activity_meta: Total expected rows (approximate): 0
+7213.908 (2) Table wp_bp_activity_meta: Total rows added: 0 in 0.01 seconds
+7213.908 (2) Table wp_bp_activity_meta: Total rows added: 0 in 0.01 seconds
+7213.931 (2) Table wp_bp_activity_meta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity_meta.table.gz - 0.3 Kb)
+7213.939 (2) Table wp_bp_activity_meta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity_meta.table.gz - 0.3 Kb)
+7213.955 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity_meta.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity_meta.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7213.987 (2) Table wp_bp_notifications: Total expected rows (approximate): 0
+7213.991 (2) Table wp_bp_notifications: Total expected rows (approximate): 0
+7214.013 (2) Table wp_bp_notifications: Total rows added: 0 in 0.01 seconds
+7214.014 (2) Table wp_bp_notifications: Total rows added: 0 in 0.01 seconds
+7214.032 (2) Table wp_bp_notifications: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications.table.gz - 0.4 Kb)
+7214.034 (2) Table wp_bp_notifications: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications.table.gz - 0.4 Kb)
+7214.049 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.102 (2) Table wp_bp_notifications_meta: Total expected rows (approximate): 0
+7214.124 (2) Table wp_bp_notifications_meta: Total expected rows (approximate): 0
+7214.127 (2) Table wp_bp_notifications_meta: Total rows added: 0 in 0.01 seconds
+7214.144 (2) Table wp_bp_notifications_meta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications_meta.table.gz - 0.3 Kb)
+7214.150 (2) Table wp_bp_notifications_meta: Total rows added: 0 in 0.01 seconds
+7214.166 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications_meta.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications_meta.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.174 (2) Table wp_bp_notifications_meta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications_meta.table.gz - 0.3 Kb)
+7214.266 (2) Table wp_bp_xprofile_data: Total expected rows (approximate): 1
+7214.266 (2) Table wp_bp_xprofile_data: Total expected rows (approximate): 1
+7214.311 (2) Table wp_bp_xprofile_data: Total rows added: 1 in 0.01 seconds
+7214.312 (2) Table wp_bp_xprofile_data: Total rows added: 1 in 0.03 seconds
+7214.333 (2) Table wp_bp_xprofile_data: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_data.table.gz - 0.4 Kb)
+7214.343 (2) Table wp_bp_xprofile_data: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_data.table.gz - 0.4 Kb)
+7214.357 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_data.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_data.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.397 (2) Table wp_bp_xprofile_fields: Total expected rows (approximate): 1
+7214.423 (2) Table wp_bp_xprofile_fields: Total expected rows (approximate): 1
+7214.442 (2) Table wp_bp_xprofile_fields: Total rows added: 1 in 0.01 seconds
+7214.445 (2) Table wp_bp_xprofile_fields: Total rows added: 1 in 0.02 seconds
+7214.470 (2) Table wp_bp_xprofile_fields: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_fields.table.gz - 0.5 Kb)
+7214.478 (2) Table wp_bp_xprofile_fields: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_fields.table.gz - 0.5 Kb)
+7214.482 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_fields.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_fields.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.516 (2) Table wp_bp_xprofile_groups: Total expected rows (approximate): 1
+7214.531 (2) Table wp_bp_xprofile_groups: Total expected rows (approximate): 1
+7214.548 (2) Table wp_bp_xprofile_groups: Total rows added: 1 in 0.02 seconds
+7214.551 (2) Table wp_bp_xprofile_groups: Total rows added: 1 in 0.01 seconds
+7214.573 (2) Table wp_bp_xprofile_groups: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_groups.table.gz - 0.4 Kb)
+7214.581 (2) Table wp_bp_xprofile_groups: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_groups.table.gz - 0.4 Kb)
+7214.595 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_groups.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_groups.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.638 (2) Table wp_bp_xprofile_meta: Total expected rows (approximate): 0
+7214.639 (2) Table wp_bp_xprofile_meta: Total expected rows (approximate): 0
+7214.673 (2) Table wp_bp_xprofile_meta: Total rows added: 0 in 0.02 seconds
+7214.676 (2) Table wp_bp_xprofile_meta: Total rows added: 0 in 0.01 seconds
+7214.695 (2) Table wp_bp_xprofile_meta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_meta.table.gz - 0.3 Kb)
+7214.704 (2) Table wp_bp_xprofile_meta: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_meta.table.gz - 0.3 Kb)
+7214.728 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_meta.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_meta.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.765 (2) Table wp_oiopub_affiliates: Total expected rows (approximate): 0
+7214.766 (2) Table wp_oiopub_affiliates: Total expected rows (approximate): 0
+7214.819 (2) Table wp_oiopub_affiliates: Total rows added: 0 in 0.03 seconds
+7214.822 (2) Table wp_oiopub_affiliates: Total rows added: 0 in 0.01 seconds
+7214.843 (2) Table wp_oiopub_affiliates: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates.table.gz - 0.4 Kb)
+7214.850 (2) Table wp_oiopub_affiliates: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates.table.gz - 0.4 Kb)
+7214.875 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7214.916 (2) Table wp_oiopub_affiliates_hits: Total expected rows (approximate): 0
+7214.917 (2) Table wp_oiopub_affiliates_hits: Total expected rows (approximate): 0
+7214.955 (2) Table wp_oiopub_affiliates_hits: Total rows added: 0 in 0.02 seconds
+7214.956 (2) Table wp_oiopub_affiliates_hits: Total rows added: 0 in 0.01 seconds
+7214.981 (2) Table wp_oiopub_affiliates_hits: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_hits.table.gz - 0.3 Kb)
+7214.993 (2) Table wp_oiopub_affiliates_hits: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_hits.table.gz - 0.3 Kb)
+7215.016 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_hits.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_hits.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7215.063 (2) Table wp_oiopub_affiliates_sales: Total expected rows (approximate): 0
+7215.079 (2) Table wp_oiopub_affiliates_sales: Total expected rows (approximate): 0
+7215.104 (2) Table wp_oiopub_affiliates_sales: Total rows added: 0 in 0.01 seconds
+7215.122 (2) Table wp_oiopub_affiliates_sales: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_sales.table.gz - 0.4 Kb)
+7215.129 (2) Table wp_oiopub_affiliates_sales: Total rows added: 0 in 0.04 seconds
+7215.140 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_sales.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_sales.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7215.149 (2) Table wp_oiopub_affiliates_sales: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_sales.table.gz - 0.4 Kb)
+7215.190 (2) Table wp_oiopub_config: Total expected rows (approximate): 69
+7215.199 (2) Table wp_oiopub_config: Total expected rows (approximate): 69
+7215.286 (2) Table wp_oiopub_config: Total rows added: 69 in 0.08 seconds
+7215.293 (2) Table wp_oiopub_config: Total rows added: 69 in 0.07 seconds
+7215.323 (2) Table wp_oiopub_config: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_config.table.gz - 2.7 Kb)
+7215.346 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_config.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_config.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7215.347 (2) Table wp_oiopub_config: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_config.table.gz - 2.7 Kb)
+7215.405 (2) Table wp_oiopub_coupons: Total expected rows (approximate): 0
+7215.406 (2) Table wp_oiopub_coupons: Total expected rows (approximate): 0
+7215.474 (2) Table wp_oiopub_coupons: Total rows added: 0 in 0.03 seconds
+7215.484 (2) Table wp_oiopub_coupons: Total rows added: 0 in 0.06 seconds
+7215.515 (2) Table wp_oiopub_coupons: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_coupons.table.gz - 0.4 Kb)
+7215.539 (2) Table wp_oiopub_coupons: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_coupons.table.gz - 0.4 Kb)
+7215.570 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_coupons.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_coupons.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7215.599 (2) Table wp_oiopub_purchases: Total expected rows (approximate): 0
+7215.619 (2) Table wp_oiopub_purchases: Total expected rows (approximate): 0
+7215.635 (2) Table wp_oiopub_purchases: Total rows added: 0 in 0.03 seconds
+7215.656 (2) Table wp_oiopub_purchases: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases.table.gz - 0.6 Kb)
+7215.672 (2) Table wp_oiopub_purchases: Total rows added: 0 in 0.02 seconds
+7215.674 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7215.687 (2) Table wp_oiopub_purchases: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases.table.gz - 0.6 Kb)
+7215.752 (2) Table wp_oiopub_purchases_history: Total expected rows (approximate): 0
+7215.780 (2) Table wp_oiopub_purchases_history: Total rows added: 0 in 0.01 seconds
+7215.806 (2) Table wp_oiopub_purchases_history: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases_history.table.gz - 0.4 Kb)
+7215.882 (2) Table wp_oiopub_tracker_archive: Total expected rows (approximate): 0
+7215.955 (2) Table wp_oiopub_purchases_history: corresponding file already exists; moving on
+7215.977 (2) Table wp_oiopub_tracker_archive: Total rows added: 0 in 0.07 seconds
+7215.990 (2) Table wp_oiopub_tracker_archive: Total expected rows (approximate): 0
+7215.997 (2) Table wp_oiopub_tracker_archive: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_archive.table.gz - 0.3 Kb)
+7216.007 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_archive.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_archive.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7216.012 (2) Table wp_oiopub_tracker_archive: Total rows added: 0 in 0.01 seconds
+7216.038 (2) Table wp_oiopub_tracker_archive: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_archive.table.gz - 0.3 Kb)
+7216.060 (2) Table wp_oiopub_tracker_clicks: Total expected rows (approximate): 0
+7216.092 (2) Table wp_oiopub_tracker_clicks: Total expected rows (approximate): 0
+7216.097 (2) Table wp_oiopub_tracker_clicks: Total rows added: 0 in 0.02 seconds
+7216.118 (2) Table wp_oiopub_tracker_clicks: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_clicks.table.gz - 0.3 Kb)
+7216.123 (2) Table wp_oiopub_tracker_clicks: Total rows added: 0 in 0.01 seconds
+7216.140 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_clicks.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_clicks.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7216.148 (2) Table wp_oiopub_tracker_clicks: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_clicks.table.gz - 0.3 Kb)
+7216.219 (2) Table wp_oiopub_tracker_visits: Total expected rows (approximate): 0
+7216.251 (2) Table wp_oiopub_tracker_visits: Total rows added: 0 in 0.01 seconds
+7216.275 (2) Table wp_oiopub_tracker_visits: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_visits.table.gz - 0.3 Kb)
+7216.330 (2) Table wp_oiopub_tracker_visits: Total expected rows (approximate): 0
+7216.373 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_visits.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_visits.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7216.530 (2) Table wp_oiopub_tracker_visits: Total rows added: 0 in 0.08 seconds
+7216.554 (2) Table wp_oiopub_tracker_visits: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_visits.table.gz - 0.3 Kb)
+7216.555 (2) Table wp_pmxi_files: Total expected rows (approximate): 1
+7216.612 (2) Table wp_pmxi_files: Total rows added: 1 in 0.02 seconds
+7216.636 (2) Table wp_pmxi_files: Total expected rows (approximate): 1
+7216.643 (2) Table wp_pmxi_files: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_files.table.gz - 0.5 Kb)
+7216.661 (2) Table wp_pmxi_files: Total rows added: 1 in 0.01 seconds
+7216.847 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_files.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_files.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7216.923 (2) Table wp_pmxi_files: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_files.table.gz - 0.5 Kb)
+7217.242 (2) Table wp_pmxi_history: Total expected rows (approximate): 169
+7217.256 (2) Table wp_pmxi_history: Total expected rows (approximate): 169
+7217.293 (2) Table wp_pmxi_history: Total rows added: 169 in 0.03 seconds
+7217.293 (2) Table wp_pmxi_history: Total rows added: 169 in 0.04 seconds
+7217.318 (2) Table wp_pmxi_history: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_history.table.gz - 1.8 Kb)
+7217.345 (2) Table wp_pmxi_history: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_history.table.gz - 1.8 Kb)
+7217.355 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_history.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_history.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7217.394 (2) Table wp_pmxi_imports: Total expected rows (approximate): 1
+7217.424 (2) Table wp_pmxi_imports: Total expected rows (approximate): 1
+7217.441 (2) Table wp_pmxi_imports: Total rows added: 1 in 0.04 seconds
+7217.453 (2) Table wp_pmxi_imports: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_imports.table.gz - 3.9 Kb)
+7217.460 (2) Table wp_pmxi_imports: Total rows added: 1 in 0.02 seconds
+7217.467 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_imports.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_imports.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7217.476 (2) Table wp_pmxi_imports: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_imports.table.gz - 3.9 Kb)
+7217.524 (2) Table wp_pmxi_posts: Total expected rows (approximate): 1146
+7217.531 (2) Table wp_pmxi_posts: Total expected rows (approximate): 1146
+7217.629 (2) Table wp_pmxi_posts: Total rows added: 1146 in 0.09 seconds
+7217.644 (2) Table wp_pmxi_posts: Total rows added: 1146 in 0.09 seconds
+7217.652 (2) Table wp_pmxi_posts: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_posts.table.gz - 39 Kb)
+7217.660 (2) Table wp_pmxi_posts: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_posts.table.gz - 39 Kb)
+7217.668 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_posts.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_posts.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7217.691 (2) Table wp_pmxi_templates: Total expected rows (approximate): 1
+7217.721 (2) Table wp_pmxi_templates: Total expected rows (approximate): 1
+7217.732 (2) Table wp_pmxi_templates: Total rows added: 1 in 0.03 seconds
+7217.739 (2) Table wp_pmxi_templates: Total rows added: 1 in 0.01 seconds
+7217.755 (2) Table wp_pmxi_templates: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_templates.table.gz - 3.6 Kb)
+7217.756 (2) Table wp_pmxi_templates: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_templates.table.gz - 3.6 Kb)
+7217.779 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_templates.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_templates.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7217.810 (2) Table wp_slim_events: Total expected rows (approximate): 24
+7217.824 (2) Table wp_slim_events: Total expected rows (approximate): 24
+7217.843 (2) Table wp_slim_events: Total rows added: 24 in 0.01 seconds
+7217.843 (2) Table wp_slim_events: Total rows added: 24 in 0.02 seconds
+7217.864 (2) Table wp_slim_events: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_events.table.gz - 1.1 Kb)
+7217.871 (2) Table wp_slim_events: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_events.table.gz - 1.1 Kb)
+7217.887 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_events.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_events.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7217.920 (2) Table wp_slim_stats: Total expected rows (approximate): 706
+7217.921 (2) Table wp_slim_stats: Total expected rows (approximate): 771
+7218.112 (2) Table wp_slim_stats: Total rows added: 712 in 0.17 seconds
+7218.113 (2) Table wp_slim_stats: Total rows added: 712 in 0.18 seconds
+7218.130 (2) Table wp_slim_stats: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats.table.gz - 15.4 Kb)
+7218.131 (2) Table wp_slim_stats: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats.table.gz - 15.4 Kb)
+7218.142 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7218.176 (2) Table wp_slim_stats_archive: Total expected rows (approximate): 0
+7218.177 (2) Table wp_slim_stats_archive: Total expected rows (approximate): 0
+7218.207 (2) Table wp_slim_stats_archive: Total rows added: 0 in 0.02 seconds
+7218.209 (2) Table wp_slim_stats_archive: Total rows added: 0 in 0.01 seconds
+7218.245 (2) Table wp_slim_stats_archive: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats_archive.table.gz - 0.6 Kb)
+7218.246 (2) Table wp_slim_stats_archive: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats_archive.table.gz - 0.6 Kb)
+7218.263 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats_archive.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats_archive.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7218.328 (2) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+7218.330 (2) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+7218.354 (2) Table wp_statistics_exclusions: Total rows added: 0 in 0.01 seconds
+7218.354 (2) Table wp_statistics_exclusions: Total rows added: 0 in 0.02 seconds
+7218.380 (2) Table wp_statistics_exclusions: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_exclusions.table.gz - 0.3 Kb)
+7218.393 (2) Table wp_statistics_exclusions: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_exclusions.table.gz - 0.3 Kb)
+7218.403 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_exclusions.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_exclusions.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7218.452 (2) Table wp_statistics_historical: Total expected rows (approximate): 0
+7218.487 (2) Table wp_statistics_historical: Total expected rows (approximate): 0
+7218.528 (2) Table wp_statistics_historical: Total rows added: 0 in 0.03 seconds
+7218.529 (2) Table wp_statistics_historical: Total rows added: 0 in 0.01 seconds
+7218.550 (2) Table wp_statistics_historical: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_historical.table.gz - 0.3 Kb)
+7218.573 (2) Table wp_statistics_historical: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_historical.table.gz - 0.3 Kb)
+7218.618 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_historical.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_historical.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7218.675 (2) Table wp_statistics_pages: Total expected rows (approximate): 310
+7218.696 (2) Table wp_statistics_pages: Total expected rows (approximate): 310
+7218.727 (2) Table wp_statistics_pages: Total rows added: 310 in 0.04 seconds
+7218.748 (2) Table wp_statistics_pages: Total rows added: 310 in 0.03 seconds
+7218.749 (2) Table wp_statistics_pages: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_pages.table.gz - 2.7 Kb)
+7218.762 (2) Table wp_statistics_pages: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_pages.table.gz - 2.7 Kb)
+7218.777 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_pages.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_pages.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7218.836 (2) Table wp_statistics_search: Total expected rows (approximate): 0
+7218.838 (2) Table wp_statistics_search: Total expected rows (approximate): 0
+7218.872 (2) Table wp_statistics_search: Total rows added: 0 in 0.02 seconds
+7218.873 (2) Table wp_statistics_search: Total rows added: 0 in 0.01 seconds
+7218.891 (2) Table wp_statistics_search: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_search.table.gz - 0.3 Kb)
+7218.899 (2) Table wp_statistics_search: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_search.table.gz - 0.3 Kb)
+7218.908 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_search.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_search.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7218.940 (2) Table wp_statistics_useronline: Total expected rows (approximate): 1
+7218.964 (2) Table wp_statistics_useronline: Total expected rows (approximate): 1
+7218.966 (2) Table wp_statistics_useronline: Total rows added: 1 in 0.01 seconds
+7218.985 (2) Table wp_statistics_useronline: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_useronline.table.gz - 0.5 Kb)
+7218.994 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_useronline.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_useronline.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.000 (2) Table wp_statistics_useronline: Total rows added: 1 in 0.02 seconds
+7219.022 (2) Table wp_statistics_useronline: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_useronline.table.gz - 0.5 Kb)
+7219.059 (2) Table wp_statistics_visit: Total expected rows (approximate): 23
+7219.066 (2) Table wp_statistics_visit: Total expected rows (approximate): 23
+7219.091 (2) Table wp_statistics_visit: Total rows added: 23 in 0.02 seconds
+7219.092 (2) Table wp_statistics_visit: Total rows added: 23 in 0.01 seconds
+7219.108 (2) Table wp_statistics_visit: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visit.table.gz - 0.7 Kb)
+7219.115 (2) Table wp_statistics_visit: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visit.table.gz - 0.7 Kb)
+7219.136 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visit.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visit.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.165 (2) Table wp_statistics_visitor: Total expected rows (approximate): 99
+7219.171 (2) Table wp_statistics_visitor: Total expected rows (approximate): 99
+7219.206 (2) Table wp_statistics_visitor: Total rows added: 99 in 0.02 seconds
+7219.208 (2) Table wp_statistics_visitor: Total rows added: 99 in 0.02 seconds
+7219.229 (2) Table wp_statistics_visitor: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visitor.table.gz - 1.7 Kb)
+7219.230 (2) Table wp_statistics_visitor: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visitor.table.gz - 1.7 Kb)
+7219.256 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visitor.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visitor.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.294 (2) Table wp_users_ultra_pm: Total expected rows (approximate): 0
+7219.319 (2) Table wp_users_ultra_pm: Total expected rows (approximate): 0
+7219.320 (2) Table wp_users_ultra_pm: Total rows added: 0 in 0.01 seconds
+7219.337 (2) Table wp_users_ultra_pm: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users_ultra_pm.table.gz - 0.3 Kb)
+7219.342 (2) Table wp_users_ultra_pm: Total rows added: 0 in 0.01 seconds
+7219.353 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users_ultra_pm.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users_ultra_pm.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.355 (2) Table wp_users_ultra_pm: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users_ultra_pm.table.gz - 0.3 Kb)
+7219.401 (2) Table wp_usersultra_activity: Total expected rows (approximate): 0
+7219.417 (2) Table wp_usersultra_activity: Total expected rows (approximate): 0
+7219.436 (2) Table wp_usersultra_activity: Total rows added: 0 in 0.01 seconds
+7219.436 (2) Table wp_usersultra_activity: Total rows added: 0 in 0.02 seconds
+7219.458 (2) Table wp_usersultra_activity: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_activity.table.gz - 0.3 Kb)
+7219.465 (2) Table wp_usersultra_activity: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_activity.table.gz - 0.3 Kb)
+7219.475 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_activity.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_activity.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.511 (2) Table wp_usersultra_ajaxrating_vote: Total expected rows (approximate): 0
+7219.513 (2) Table wp_usersultra_ajaxrating_vote: Total expected rows (approximate): 0
+7219.536 (2) Table wp_usersultra_ajaxrating_vote: Total rows added: 0 in 0.02 seconds
+7219.537 (2) Table wp_usersultra_ajaxrating_vote: Total rows added: 0 in 0.01 seconds
+7219.560 (2) Table wp_usersultra_ajaxrating_vote: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_vote.table.gz - 0.4 Kb)
+7219.568 (2) Table wp_usersultra_ajaxrating_vote: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_vote.table.gz - 0.4 Kb)
+7219.583 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_vote.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_vote.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.617 (2) Table wp_usersultra_ajaxrating_votesummary: Total expected rows (approximate): 0
+7219.653 (2) Table wp_usersultra_ajaxrating_votesummary: Total expected rows (approximate): 0
+7219.658 (2) Table wp_usersultra_ajaxrating_votesummary: Total rows added: 0 in 0.02 seconds
+7219.688 (2) Table wp_usersultra_ajaxrating_votesummary: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_votesummary.table.gz - 0.4 Kb)
+7219.695 (2) Table wp_usersultra_ajaxrating_votesummary: Total rows added: 0 in 0.02 seconds
+7219.705 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_votesummary.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_votesummary.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.708 (2) Table wp_usersultra_ajaxrating_votesummary: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_votesummary.table.gz - 0.4 Kb)
+7219.752 (2) Table wp_usersultra_credits: Total expected rows (approximate): 0
+7219.760 (2) Table wp_usersultra_credits: Total expected rows (approximate): 0
+7219.789 (2) Table wp_usersultra_credits: Total rows added: 0 in 0.02 seconds
+7219.790 (2) Table wp_usersultra_credits: Total rows added: 0 in 0.01 seconds
+7219.808 (2) Table wp_usersultra_credits: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_credits.table.gz - 0.3 Kb)
+7219.825 (2) Table wp_usersultra_credits: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_credits.table.gz - 0.3 Kb)
+7219.848 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_credits.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_credits.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.876 (2) Table wp_usersultra_followers: Total expected rows (approximate): 0
+7219.899 (2) Table wp_usersultra_followers: Total expected rows (approximate): 0
+7219.902 (2) Table wp_usersultra_followers: Total rows added: 0 in 0.02 seconds
+7219.913 (2) Table wp_usersultra_followers: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_followers.table.gz - 0.3 Kb)
+7219.917 (2) Table wp_usersultra_followers: Total rows added: 0 in 0.01 seconds
+7219.923 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_followers.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_followers.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7219.935 (2) Table wp_usersultra_followers: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_followers.table.gz - 0.3 Kb)
+7219.986 (2) Table wp_usersultra_friends: Total expected rows (approximate): 0
+7219.997 (2) Table wp_usersultra_friends: Total expected rows (approximate): 0
+7220.018 (2) Table wp_usersultra_friends: Total rows added: 0 in 0.02 seconds
+7220.018 (2) Table wp_usersultra_friends: Total rows added: 0 in 0.01 seconds
+7220.048 (2) Table wp_usersultra_friends: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_friends.table.gz - 0.3 Kb)
+7220.056 (2) Table wp_usersultra_friends: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_friends.table.gz - 0.3 Kb)
+7220.078 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_friends.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_friends.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.120 (2) Table wp_usersultra_galleries: Total expected rows (approximate): 0
+7220.128 (2) Table wp_usersultra_galleries: Total expected rows (approximate): 0
+7220.154 (2) Table wp_usersultra_galleries: Total rows added: 0 in 0.02 seconds
+7220.156 (2) Table wp_usersultra_galleries: Total rows added: 0 in 0.01 seconds
+7220.173 (2) Table wp_usersultra_galleries: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_galleries.table.gz - 0.3 Kb)
+7220.181 (2) Table wp_usersultra_galleries: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_galleries.table.gz - 0.3 Kb)
+7220.195 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_galleries.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_galleries.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.223 (2) Table wp_usersultra_groups: Total expected rows (approximate): 0
+7220.248 (2) Table wp_usersultra_groups: Total expected rows (approximate): 0
+7220.249 (2) Table wp_usersultra_groups: Total rows added: 0 in 0.01 seconds
+7220.266 (2) Table wp_usersultra_groups: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups.table.gz - 0.4 Kb)
+7220.271 (2) Table wp_usersultra_groups: Total rows added: 0 in 0.01 seconds
+7220.285 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.292 (2) Table wp_usersultra_groups: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups.table.gz - 0.4 Kb)
+7220.335 (2) Table wp_usersultra_groups_post_rel: Total expected rows (approximate): 0
+7220.342 (2) Table wp_usersultra_groups_post_rel: Total expected rows (approximate): 0
+7220.360 (2) Table wp_usersultra_groups_post_rel: Total rows added: 0 in 0.01 seconds
+7220.361 (2) Table wp_usersultra_groups_post_rel: Total rows added: 0 in 0.02 seconds
+7220.386 (2) Table wp_usersultra_groups_post_rel: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_post_rel.table.gz - 0.3 Kb)
+7220.394 (2) Table wp_usersultra_groups_post_rel: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_post_rel.table.gz - 0.3 Kb)
+7220.417 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_post_rel.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_post_rel.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.447 (2) Table wp_usersultra_groups_users_groups_rel: Total expected rows (approximate): 0
+7220.469 (2) Table wp_usersultra_groups_users_groups_rel: Total expected rows (approximate): 0
+7220.471 (2) Table wp_usersultra_groups_users_groups_rel: Total rows added: 0 in 0.01 seconds
+7220.494 (2) Table wp_usersultra_groups_users_groups_rel: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_users_groups_rel.table.gz - 0.3 Kb)
+7220.499 (2) Table wp_usersultra_groups_users_groups_rel: Total rows added: 0 in 0.01 seconds
+7220.519 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_users_groups_rel.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_users_groups_rel.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.527 (2) Table wp_usersultra_groups_users_groups_rel: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_users_groups_rel.table.gz - 0.3 Kb)
+7220.594 (2) Table wp_usersultra_ip_defender: Total expected rows (approximate): 0
+7220.594 (2) Table wp_usersultra_ip_defender: Total expected rows (approximate): 0
+7220.626 (2) Table wp_usersultra_ip_defender: Total rows added: 0 in 0.02 seconds
+7220.646 (2) Table wp_usersultra_ip_defender: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ip_defender.table.gz - 0.3 Kb)
+7220.649 (2) Table wp_usersultra_ip_defender: Total rows added: 0 in 0.03 seconds
+7220.664 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ip_defender.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ip_defender.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.672 (2) Table wp_usersultra_ip_defender: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ip_defender.table.gz - 0.3 Kb)
+7220.733 (2) Table wp_usersultra_likes: Total expected rows (approximate): 0
+7220.755 (2) Table wp_usersultra_likes: Total expected rows (approximate): 0
+7220.784 (2) Table wp_usersultra_likes: Total rows added: 0 in 0.02 seconds
+7220.785 (2) Table wp_usersultra_likes: Total rows added: 0 in 0.01 seconds
+7220.802 (2) Table wp_usersultra_likes: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_likes.table.gz - 0.3 Kb)
+7220.810 (2) Table wp_usersultra_likes: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_likes.table.gz - 0.3 Kb)
+7220.825 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_likes.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_likes.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.855 (2) Table wp_usersultra_orders: Total expected rows (approximate): 0
+7220.880 (2) Table wp_usersultra_orders: Total expected rows (approximate): 0
+7220.885 (2) Table wp_usersultra_orders: Total rows added: 0 in 0.01 seconds
+7220.916 (2) Table wp_usersultra_orders: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_orders.table.gz - 0.4 Kb)
+7220.922 (2) Table wp_usersultra_orders: Total rows added: 0 in 0.02 seconds
+7220.932 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_orders.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_orders.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7220.940 (2) Table wp_usersultra_orders: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_orders.table.gz - 0.4 Kb)
+7220.993 (2) Table wp_usersultra_packages: Total expected rows (approximate): 0
+7221.001 (2) Table wp_usersultra_packages: Total expected rows (approximate): 0
+7221.017 (2) Table wp_usersultra_packages: Total rows added: 0 in 0.01 seconds
+7221.020 (2) Table wp_usersultra_packages: Total rows added: 0 in 0.01 seconds
+7221.030 (2) Table wp_usersultra_packages: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_packages.table.gz - 0.4 Kb)
+7221.038 (2) Table wp_usersultra_packages: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_packages.table.gz - 0.4 Kb)
+7221.057 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_packages.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_packages.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.084 (2) Table wp_usersultra_photo_cat_rel: Total expected rows (approximate): 0
+7221.108 (2) Table wp_usersultra_photo_cat_rel: Total expected rows (approximate): 0
+7221.110 (2) Table wp_usersultra_photo_cat_rel: Total rows added: 0 in 0.01 seconds
+7221.126 (2) Table wp_usersultra_photo_cat_rel: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_cat_rel.table.gz - 0.3 Kb)
+7221.130 (2) Table wp_usersultra_photo_cat_rel: Total rows added: 0 in 0.01 seconds
+7221.136 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_cat_rel.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_cat_rel.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.154 (2) Table wp_usersultra_photo_cat_rel: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_cat_rel.table.gz - 0.3 Kb)
+7221.210 (2) Table wp_usersultra_photo_categories: Total expected rows (approximate): 0
+7221.218 (2) Table wp_usersultra_photo_categories: Total expected rows (approximate): 0
+7221.234 (2) Table wp_usersultra_photo_categories: Total rows added: 0 in 0.01 seconds
+7221.235 (2) Table wp_usersultra_photo_categories: Total rows added: 0 in 0.01 seconds
+7221.253 (2) Table wp_usersultra_photo_categories: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_categories.table.gz - 0.3 Kb)
+7221.261 (2) Table wp_usersultra_photo_categories: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_categories.table.gz - 0.3 Kb)
+7221.276 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_categories.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_categories.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.311 (2) Table wp_usersultra_photos: Total expected rows (approximate): 0
+7221.342 (2) Table wp_usersultra_photos: Total expected rows (approximate): 0
+7221.345 (2) Table wp_usersultra_photos: Total rows added: 0 in 0.01 seconds
+7221.365 (2) Table wp_usersultra_photos: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photos.table.gz - 0.3 Kb)
+7221.370 (2) Table wp_usersultra_photos: Total rows added: 0 in 0.01 seconds
+7221.389 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photos.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photos.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.398 (2) Table wp_usersultra_photos: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photos.table.gz - 0.3 Kb)
+7221.437 (2) Table wp_usersultra_stats: Total expected rows (approximate): 1
+7221.451 (2) Table wp_usersultra_stats: Total expected rows (approximate): 1
+7221.479 (2) Table wp_usersultra_stats: Total rows added: 1 in 0.03 seconds
+7221.479 (2) Table wp_usersultra_stats: Total rows added: 1 in 0.01 seconds
+7221.503 (2) Table wp_usersultra_stats: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats.table.gz - 0.4 Kb)
+7221.505 (2) Table wp_usersultra_stats: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats.table.gz - 0.4 Kb)
+7221.521 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.545 (2) Table wp_usersultra_stats_raw: Total expected rows (approximate): 1
+7221.563 (2) Table wp_usersultra_stats_raw: Total expected rows (approximate): 1
+7221.568 (2) Table wp_usersultra_stats_raw: Total rows added: 1 in 0.01 seconds
+7221.584 (2) Table wp_usersultra_stats_raw: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats_raw.table.gz - 0.4 Kb)
+7221.589 (2) Table wp_usersultra_stats_raw: Total rows added: 1 in 0.01 seconds
+7221.593 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats_raw.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats_raw.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.601 (2) Table wp_usersultra_stats_raw: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats_raw.table.gz - 0.4 Kb)
+7221.636 (2) Table wp_usersultra_ticket_categories: Total expected rows (approximate): 0
+7221.645 (2) Table wp_usersultra_ticket_categories: Total expected rows (approximate): 0
+7221.692 (2) Table wp_usersultra_ticket_categories: Total rows added: 0 in 0.03 seconds
+7221.699 (2) Table wp_usersultra_ticket_categories: Total rows added: 0 in 0.01 seconds
+7221.730 (2) Table wp_usersultra_ticket_categories: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_categories.table.gz - 0.3 Kb)
+7221.742 (2) Table wp_usersultra_ticket_categories: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_categories.table.gz - 0.3 Kb)
+7221.760 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_categories.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_categories.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.799 (2) Table wp_usersultra_ticket_departments: Total expected rows (approximate): 0
+7221.823 (2) Table wp_usersultra_ticket_departments: Total expected rows (approximate): 0
+7221.824 (2) Table wp_usersultra_ticket_departments: Total rows added: 0 in 0.01 seconds
+7221.840 (2) Table wp_usersultra_ticket_departments: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_departments.table.gz - 0.3 Kb)
+7221.844 (2) Table wp_usersultra_ticket_departments: Total rows added: 0 in 0.01 seconds
+7221.856 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_departments.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_departments.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7221.864 (2) Table wp_usersultra_ticket_departments: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_departments.table.gz - 0.3 Kb)
+7222.057 (2) Table wp_usersultra_ticket_replies: Total expected rows (approximate): 0
+7222.121 (2) Table wp_usersultra_ticket_replies: Total expected rows (approximate): 0
+7222.175 (2) Table wp_usersultra_ticket_replies: Total rows added: 0 in 0.01 seconds
+7222.176 (2) Table wp_usersultra_ticket_replies: Total rows added: 0 in 0.01 seconds
+7222.203 (2) Table wp_usersultra_ticket_replies: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_replies.table.gz - 0.3 Kb)
+7222.210 (2) Table wp_usersultra_ticket_replies: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_replies.table.gz - 0.3 Kb)
+7222.221 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_replies.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_replies.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7222.246 (2) Table wp_usersultra_tickets: Total expected rows (approximate): 0
+7222.268 (2) Table wp_usersultra_tickets: Total expected rows (approximate): 0
+7222.270 (2) Table wp_usersultra_tickets: Total rows added: 0 in 0.01 seconds
+7222.286 (2) Table wp_usersultra_tickets: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_tickets.table.gz - 0.4 Kb)
+7222.290 (2) Table wp_usersultra_tickets: Total rows added: 0 in 0.01 seconds
+7222.299 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_tickets.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_tickets.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7222.308 (2) Table wp_usersultra_tickets: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_tickets.table.gz - 0.4 Kb)
+7222.347 (2) Table wp_usersultra_videos: Total expected rows (approximate): 0
+7222.368 (2) Table wp_usersultra_videos: Total expected rows (approximate): 0
+7222.388 (2) Table wp_usersultra_videos: Total rows added: 0 in 0.01 seconds
+7222.390 (2) Table wp_usersultra_videos: Total rows added: 0 in 0.01 seconds
+7222.414 (2) Table wp_usersultra_videos: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_videos.table.gz - 0.3 Kb)
+7222.416 (2) Table wp_usersultra_videos: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_videos.table.gz - 0.3 Kb)
+7222.436 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_videos.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_videos.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7222.465 (2) Table wp_usersultra_wall: Total expected rows (approximate): 13
+7222.479 (2) Table wp_usersultra_wall: Total expected rows (approximate): 13
+7222.481 (2) Table wp_usersultra_wall: Total rows added: 13 in 0.01 seconds
+7222.500 (2) Table wp_usersultra_wall: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall.table.gz - 0.6 Kb)
+7222.504 (2) Table wp_usersultra_wall: Total rows added: 13 in 0.01 seconds
+7222.514 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall.table.gz): The process cannot access the file because it is being used by another process. (code: 32) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7222.523 (2) Table wp_usersultra_wall: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall.table.gz - 0.6 Kb)
+7222.559 (2) Table wp_usersultra_wall_replies: Total expected rows (approximate): 0
+7222.567 (2) Table wp_usersultra_wall_replies: Total expected rows (approximate): 0
+7222.587 (2) Table wp_usersultra_wall_replies: Total rows added: 0 in 0.02 seconds
+7222.589 (2) Table wp_usersultra_wall_replies: Total rows added: 0 in 0.01 seconds
+7222.609 (2) Table wp_usersultra_wall_replies: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall_replies.table.gz - 0.3 Kb)
+7222.616 (2) Table wp_usersultra_wall_replies: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall_replies.table.gz - 0.3 Kb)
+7222.619 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall_replies.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall_replies.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7222.646 (2) Table wp_wpfront_ure_options: Total expected rows (approximate): 1
+7222.657 (2) Table wp_wpfront_ure_options: Total expected rows (approximate): 1
+7222.678 (2) Table wp_wpfront_ure_options: Total rows added: 1 in 0.02 seconds
+7222.680 (2) Table wp_wpfront_ure_options: Total rows added: 1 in 0.01 seconds
+7222.699 (2) Table wp_wpfront_ure_options: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_wpfront_ure_options.table.gz - 0.4 Kb)
+7222.721 (2) Table wp_wpfront_ure_options: finishing file (backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_wpfront_ure_options.table.gz - 0.4 Kb)
+7222.740 (2) PHP event: code E_WARNING: rename(C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_wpfront_ure_options.table.tmp.gz,C:\Users\Hatem\OneDrive\Work\Papers.fm\www/wp-content/updraft/backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_wpfront_ure_options.table.gz): The system cannot find the file specified. (code: 2) (line 1322, C:\Users\Hatem\OneDrive\Work\Papers.fm\www\wp-content\plugins\updraftplus\backup.php)
+7222.752 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_options.table.gz (1/75): adding to final database dump
+7222.787 (2) Terminate: backup_2015-12-12-0524_Papersfm_273d13755529-db.gz exists with activity within the last 30 seconds (time_mod=1449905063, time_now=1449905063, diff=0, size=0Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+7222.803 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users.table.gz (2/75): adding to final database dump
+7222.825 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usermeta.table.gz (3/75): adding to final database dump
+7222.825 (2) Rescheduling resumption 3: moving to 420 seconds from now (1449905483)
+7222.836 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_commentmeta.table.gz (4/75): adding to final database dump
+7222.852 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_comments.table.gz (5/75): adding to final database dump
+7222.859 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+7222.862 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_links.table.gz (6/75): adding to final database dump
+7222.871 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_postmeta.table.gz (7/75): adding to final database dump
+7224.605 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_posts.table.gz (8/75): adding to final database dump
+7224.682 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_signups.table.gz (9/75): adding to final database dump
+7224.707 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_relationships.table.gz (10/75): adding to final database dump
+7224.728 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_term_taxonomy.table.gz (11/75): adding to final database dump
+7224.750 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_termmeta.table.gz (12/75): adding to final database dump
+7224.767 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_terms.table.gz (13/75): adding to final database dump
+7224.783 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_alm.table.gz (14/75): adding to final database dump
+7224.794 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity.table.gz (15/75): adding to final database dump
+7224.818 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_activity_meta.table.gz (16/75): adding to final database dump
+7224.831 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications.table.gz (17/75): adding to final database dump
+7224.846 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_notifications_meta.table.gz (18/75): adding to final database dump
+7224.862 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_data.table.gz (19/75): adding to final database dump
+7224.879 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_fields.table.gz (20/75): adding to final database dump
+7224.909 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_groups.table.gz (21/75): adding to final database dump
+7224.928 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_bp_xprofile_meta.table.gz (22/75): adding to final database dump
+7224.944 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates.table.gz (23/75): adding to final database dump
+7224.950 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_hits.table.gz (24/75): adding to final database dump
+7224.960 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_affiliates_sales.table.gz (25/75): adding to final database dump
+7224.976 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_config.table.gz (26/75): adding to final database dump
+7224.992 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_coupons.table.gz (27/75): adding to final database dump
+7225.002 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases.table.gz (28/75): adding to final database dump
+7225.013 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_purchases_history.table.gz (29/75): adding to final database dump
+7225.023 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_archive.table.gz (30/75): adding to final database dump
+7225.037 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_clicks.table.gz (31/75): adding to final database dump
+7225.046 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_oiopub_tracker_visits.table.gz (32/75): adding to final database dump
+7225.056 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_files.table.gz (33/75): adding to final database dump
+7225.066 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_history.table.gz (34/75): adding to final database dump
+7225.071 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_imports.table.gz (35/75): adding to final database dump
+7225.082 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_posts.table.gz (36/75): adding to final database dump
+7225.111 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_pmxi_templates.table.gz (37/75): adding to final database dump
+7225.116 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_events.table.gz (38/75): adding to final database dump
+7225.126 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats.table.gz (39/75): adding to final database dump
+7225.147 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_slim_stats_archive.table.gz (40/75): adding to final database dump
+7225.152 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_exclusions.table.gz (41/75): adding to final database dump
+7225.161 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_historical.table.gz (42/75): adding to final database dump
+7225.171 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_pages.table.gz (43/75): adding to final database dump
+7225.184 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_search.table.gz (44/75): adding to final database dump
+7225.188 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_useronline.table.gz (45/75): adding to final database dump
+7225.198 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visit.table.gz (46/75): adding to final database dump
+7225.208 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_statistics_visitor.table.gz (47/75): adding to final database dump
+7225.213 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_users_ultra_pm.table.gz (48/75): adding to final database dump
+7225.217 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_activity.table.gz (49/75): adding to final database dump
+7225.230 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_vote.table.gz (50/75): adding to final database dump
+7225.241 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ajaxrating_votesummary.table.gz (51/75): adding to final database dump
+7225.245 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_credits.table.gz (52/75): adding to final database dump
+7225.255 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_followers.table.gz (53/75): adding to final database dump
+7225.265 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_friends.table.gz (54/75): adding to final database dump
+7225.275 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_galleries.table.gz (55/75): adding to final database dump
+7225.284 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups.table.gz (56/75): adding to final database dump
+7225.294 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_post_rel.table.gz (57/75): adding to final database dump
+7225.304 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_groups_users_groups_rel.table.gz (58/75): adding to final database dump
+7225.315 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ip_defender.table.gz (59/75): adding to final database dump
+7225.324 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_likes.table.gz (60/75): adding to final database dump
+7225.335 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_orders.table.gz (61/75): adding to final database dump
+7225.345 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_packages.table.gz (62/75): adding to final database dump
+7225.363 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_cat_rel.table.gz (63/75): adding to final database dump
+7225.373 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photo_categories.table.gz (64/75): adding to final database dump
+7225.382 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_photos.table.gz (65/75): adding to final database dump
+7225.393 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats.table.gz (66/75): adding to final database dump
+7225.411 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_stats_raw.table.gz (67/75): adding to final database dump
+7225.428 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_categories.table.gz (68/75): adding to final database dump
+7225.438 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_departments.table.gz (69/75): adding to final database dump
+7225.467 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_ticket_replies.table.gz (70/75): adding to final database dump
+7225.493 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_tickets.table.gz (71/75): adding to final database dump
+7225.516 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_videos.table.gz (72/75): adding to final database dump
+7225.532 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall.table.gz (73/75): adding to final database dump
+7225.548 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_usersultra_wall_replies.table.gz (74/75): adding to final database dump
+7225.558 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db-table-wp_wpfront_ure_options.table.gz (75/75): adding to final database dump
+7225.574 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db.gz: finished writing out complete database file (2584 Kb)
+7225.694 (2) Total database tables backed up: 75 (backup_2015-12-12-0524_Papersfm_273d13755529-db.gz, size: 2659639, checksum (SHA1): ade1cdfb5961ae52bf993640e85ac282a5756a81)
+7225.737 (2) Saving backup history
+7225.777 (2) backup_2015-12-12-0524_Papersfm_273d13755529-db.gz: db: This file has not yet been successfully uploaded: will queue
+7225.795 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+7225.823 (2) Cloud backup selection (1/1):  (last)
+7225.832 (2) No remote despatch: user chose no remote backup service
+7225.854 (2) Recording as successfully uploaded: backup_2015-12-12-0524_Papersfm_273d13755529-db.gz (eefc260b5f5fd8f535f3a31fb7e13568)
+7225.895 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+7225.899 (2) Number of backup sets in history: 3
+7225.909 (2) Examining backup set with datestamp: 1449897840 (Dec 12 2015 05:24:00)
+7225.932 (2) 1449897840: this backup set remains non-empty (0/1); will retain in history
+7225.935 (2) Examining backup set with datestamp: 1449806659 (Dec 11 2015 04:04:19)
+7225.939 (2) 1449806659: db: this set includes a database (backup_2015-12-11-0404_Papersfm_92ca558ef99a-db.gz); db count is now 2
+7225.948 (2) 1449806659: db: over retain limit (1); will delete this database
+7225.951 (2) Delete file: backup_2015-12-11-0404_Papersfm_92ca558ef99a-db.gz, service=none
+7225.965 (2) 1449806659: this backup set is now empty; will remove from history
+7225.969 (2) 1449806659: deleting log file (log.92ca558ef99a.txt)
+7225.979 (2) Examining backup set with datestamp: 1449693311 (Dec 09 2015 20:35:11)
+7225.989 (2) 1449693311: this backup set remains non-empty (1/0); will retain in history
+7225.997 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+7226.031 (2) Resume backup (273d13755529, 2): finish run
+7226.050 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+7226.094 (2) No email will/can be sent - the user has not configured an email address.
+7226.120 (2) The backup apparently succeeded (with warnings) and is now complete

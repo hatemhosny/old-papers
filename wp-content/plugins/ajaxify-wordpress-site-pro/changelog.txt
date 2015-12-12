@@ -1,0 +1,14 @@
+Version 1.0 Date: 15th December 2014
+Version 1.1 Date: 8th January 2015
+- Added disqus, fancybox, multiple ajax container support
+Version 1.2 Date: 21st January 2015
+- Added multiple fade in out transition effect.
+Version 1.3 Date: 31st January 2015
+- Added different loader features.
+Version 1.4 Date: 13th April 2015
+- Fixed fade in/out effect.
+- Added CSS loader, no more loader images.
+- optimized and rearranged code.
+Version 1.5 Date: 1st July 2015
+- Transition effect changed.
+- Added code to retain ajax container classes

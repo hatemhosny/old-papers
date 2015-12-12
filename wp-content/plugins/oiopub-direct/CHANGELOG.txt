@@ -1,0 +1,306 @@
+v1.00
+
+- initial release
+
+v1.01
+
+- added price chart to the initial purchase page
+- added language files for easier translation
+- improved post flow control notification
+- couple of misc bug fixes
+
+v1.02
+
+- improved mail headers to reduce spam threat
+- added user level check to approvals system
+- added mail to admin when purchase made
+
+v1.03
+
+- fixed some javascript errors
+- added some hint rollovers for the link purchase page
+
+v1.04
+
+- added ability to purchase contextual links in phrases, not just single keywords
+- fixed bug that stopped a valid user from using the  approvals page
+- fixed possible mysql error when searching pages without post content on
+- removed default heading from sidebar modules
+- removed some hard-coded variables
+
+v1.05
+
+- added support for video advertising sales added
+- added support for custom service sales added
+- added support for paypal subscription
+- added support for post tagging
+- added support for plugin folder renaming, to enhance privacy
+- finer control of link expiration, duration, and nofollow attributes
+- post specific sales links added for inline links and videos
+- better support for widgets / widget editing
+- removed purchase link, replaced with advertising badge
+- code cleaned up, global config variables removed
+
+v1.10
+
+- API code introduced (beta)
+- several small bug fixes
+
+v1.11
+
+- bug fix, introduced in v1.10
+
+v1.12
+
+- internal version
+- adjusted review purchase procedure
+- further enhancements to purchase managers
+- fixed link display bug
+
+v1.20
+
+- introduction of affiliate system
+
+v1.21
+
+- publishing bug fixed, where normal posts were treated as paid posts
+
+v1.22
+
+- cleaned up settings pages and purchase managers, to make them more user-friendly
+
+v1.23
+
+- affiliate system fix
+- improved the database schema, and removed unnecessary tables
+- added option to sell "Inline Ads" (formerly video ads), which includes videos / rss feed / banner image spots in posts
+
+v1.30
+
+- dashboard purchase alerts system
+- ad rotation now available for inline and banner ads
+- added basic support for configurable banner ad sales, outside of post content
+- added API support for the new jobs board (automatic data sending)
+- swapped receiver_email for business variable when verifying seller email
+- fixed api key not always saving correctly
+- fixed a couple of unclosed html tags
+
+v1.31
+
+- rewrite to include module system
+- addition of paypal and affiliates modules
+
+v1.32
+
+- tweaks to banner output code
+- misc general bug fixes
+
+v1.40
+
+- addition of conversation module
+- addition of admanager module
+- addition of digital download option for custom sales
+- remake of inline ads, more suited to blogging
+- optional download action aded to custom purchases
+
+v1.41
+
+- fix to conversation module install
+- fix to inline ads output
+- fix to purchase deletion
+
+v1.42
+
+- addition of tracker module
+- fixes to language output
+
+v1.43
+
+- general bug fixes
+
+v1.50
+
+- now known as 'Pro' edition
+- extended banner ads to unlimited configurable zones
+- extended custom purchases to unlimited items
+- added option to change purchase link paths to custom wordpress page
+- re-make of purchase pages, to include better javascript support
+
+v1.51
+
+- collection of misc bug fixes
+
+v1.52
+
+- addition of default ad config sections for inline / banner ads
+- addition of geolocation module for inline / banner ads (only for default ads)
+- addition of global password / global file to admanager module (foundation for global ads manager)
+
+v1.60
+
+- addition of ad queue
+- html can now be used in the default ad system
+- most output styling has been moved into a new css file
+- new upgrade alert system
+- integration with ViralBlogAds.com (1 click signup available upon opening)
+- other misc bug fixes
+
+v1.61
+
+- addition of accounts reporting section (Purchases tab)
+- added ability to put inline ads into feeds
+- consolidation of admin menus
+- clean up of admin code
+- fixed nofollow bug
+- multiple minor fixes
+
+v1.62
+
+- fixes a bug with default ads affecting WP 2.6
+- fixes all known tracker stats issues
+- several other minor bug fixes
+
+v2.00
+
+- added "standalone" ad server mode (no longer requires Wordpress to function)
+
+v2.01 to v2.07
+
+- all bug fixing releases
+- fixed hanging php cron job issue
+- improved ad display compatibility
+
+v2.08
+
+- changed ad output to use <li> instead of <div> (cleaner output)
+- various minor bug fixes
+
+v2.10.b1 (beta release)
+
+- new beta program established
+- removal of excess componenets (socialposts & viralblogads modules)
+- updated ad availability code (improve accuracy in some cases)
+- improved ad expiration process
+
+v2.10.b2 (beta release)
+
+- added several new payment options (google checkout, 2checkout.com, authorize.net)
+- fixed multiple error notices occurring in php E_STRICT mode
+- added "forgotten password" routine in standalone mode
+
+v2.10.b3 (beta release)
+
+- add support for swf (flash) banners
+- link exchange option for banner / text ad zones
+- various small fixes & enhancements to purchase templates
+- added uploading capabilities to admin editor
+
+v2.11
+
+- updated swf support to use the clickTAG standard
+
+v2.20
+
+- added offline payment module
+- added ability to segment zones by Wordpress category
+- added backend code to stop individual ads from using tracker (on request, requires editing the database)
+- the "availability" column on the purchase page now shows free ad slots (rather than the total number)
+- admin zone selection now uses dropdown menu (to reduce clutter)
+- include wp-load.php file if available, rather than wp-config.php directly
+- removed "start date" option from view in admin area (not a scheduling device)
+- pricing dropdown menu on the ad purchase page pre-selected if only one option available
+
+v2.21
+
+- added wordpress theme integration (from admin "themes" submenu)
+- prices can now be defined using decimals (eg. $9.99)
+
+v2.22
+
+- fixed bug in "paypal" module, where subscriptions would not always cancel automatically
+- fixed bug in "tracker" module, where javascript output would not function correctly if used in combination with a Wordpress cache plugin
+- fixed bug in the admin area, where html ad code was not deleted if switching a default ad from "html" to "image" type
+
+v2.23
+
+- added additional CSRF protection for the admin area
+- improved email compatibility by removing the 5th mail parameter if php is running in safe mode
+
+v2.24
+
+- added disable mechanism for CSRF protection measures (some users reporting problems with php sessions due to this feature)
+- added ad zone output customisation options to the core
+
+v2.25
+
+- added "last resort" option to geo-targeting menu, where ads will only show up if no other geo matches are found
+
+v2.26
+
+- fixed a bug where inaccessible 3rd party web services would stop some web pages from loading
+
+v2.28
+
+- compatibility fix for Wordpress 3.0 when in "multi-site" mode (change to "include/config.php" file)
+- addition of "cache-buster" placeholders for 3rd party ad code (automatically replaces [timestamp] and [cachebuster] with a random string)
+
+v2.30
+
+- add text / language translation capabilities to the admin area
+
+v2.31
+
+- fixed a bug when using the 'align' parameter with javascript ad code would fail to align the ad zone properly
+- added a 'wrap' parameter to the ad code output, to allow easier wrapping of text around an ad zone
+
+v2.32
+
+- new javascript output code implementation, utilising lazy-loading and document.write enhancements
+- an affiliate ID can now be appended to javascript output code urls, allowing affiliates to be compensated for helping to sell ads displayed on their website
+- character encoding changed to UTF-8 for standalone install admin areas (which was causing issues with some language translations)
+- fixed a bug in the "purchase_links.tpl" template file, which stopped advertisers from being able to complete text link purchases
+
+v2.40
+
+- coupon codes added (limit by ad type / zone, expiry date and max number of uses)
+- better database support for UTF-8 (applies to new installs only, since converting database character sets automatically is not always reliable)
+- minor improvements to new javascript implementation
+
+v2.50.b1 (beta release)
+
+- new 'charging models' implemented - charge per click or per impression
+- stats tracker updated to handle new charging methods (expiration check every 15 minutes)
+- new 'weighted ad rotation' method for defaults ads - the more purchases made, the lower the proportion of default ads shown
+- if only one payment method available, drop-down menu defaults to it when the purchase form is accessed
+- option to remove security question when making a purchase
+
+v2.50.b2 (beta release)
+
+- updated advertiser stats tracking page (now called "advertiser dashboard") to allow switching between purchases and the update of ads (if the administrator has allowed it)
+- included the ability to change the default markup used in banner and text ad zones
+- fixed some display issues with banner and text ads
+- fixed formatting issues in emails when special characters are used
+
+v2.50
+
+- added proxy checks when recording client IP address (better chance of obtaining the 'correct' IP for the request)
+
+v2.51
+
+- compatibility fix with W3TC cache plugin
+- various minor bug fixes
+
+v2.55
+
+- Administration area navigation updated, to give a better experience to first time users
+- OIO ad zone widgets can now be used an unlimited number of times
+- OIO's core templates can now be stored in a "core_custom" folder, so that they will not be over-written during upgrades
+- several minor bug fixes
+
+v2.56
+
+- fixed incompatibility with WordPress 3.9 + php 5.5 (by forcing OIO to use mysqli db connection)
+
+v2.60
+
+- enhnced support for fluid banner ad zones

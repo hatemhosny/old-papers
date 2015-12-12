@@ -1,0 +1,147 @@
+/* Track Container */
+
+.fap-external-tracklist-list, .fap-external-tracklist-grid {
+	list-style: none !important;
+	margin: 0;
+}
+
+
+/* List Layout */
+
+.fap-track-list {
+	margin-bottom: 40px;
+}
+
+.fap-track-list > img {
+	float: left;
+	margin-right: 20px;
+}
+
+.fap-track-list > div {
+	float: left;
+}
+
+.fap-track-list > div p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.fap-track-list > div h3 {
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+
+.fap-track-list .fap-track-buttons {
+	margin-top: 10px;
+}
+
+
+/* Grid Layout */
+
+.fap-external-tracklist-grid li {
+	float: left;
+	margin-right: 40px;
+}
+
+.fap-track-grid {
+	width: 200px;
+	margin-bottom: 40px;
+}
+
+.fap-track-grid > img {
+	margin-bottom: 10px;
+}
+
+.fap-track-grid > div {
+	min-height: 100px;
+}
+
+.fap-track-grid > div h3 {
+	font-size: 13px;
+	line-height: 13px;
+	margin-bottom: 5px;
+}
+
+.fap-track-grid > div p {
+	margin: 0;
+	font-size: 11px;
+}
+
+.fap-track-grid .fap-track-buttons {
+	margin-top: 10px;
+}
+
+
+/* Buttons */ 
+.fap-play-button, .fap-play-button:visited {
+    background-color: #f5f5f5;
+	border: 1px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    font-size: 12px;
+	text-decoration: none !important;
+    color: #565656;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 10px 10px 20px 0;
+}
+
+.fap-play-button:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #dedede;
+}
+
+.fap-referral-button {
+	background-color: #f5f5f5;
+	border: 1px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    font-size: 12px;
+	text-decoration: none;
+    color: #565656;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.fap-referral-button:hover {
+	text-decoration: none;
+	border-bottom: 3px solid #dedede;
+}
+
+
+/* Play Playlist Button */ 
+.fap-play-playlist {
+	margin-bottom: 10px;
+}
+
+
+/* Hidden Layout */
+
+.fap-track-hidden {
+	display: none !important;
+}
+
+.fap-external-tracklist-hidden {
+	display: none !important;
+}
+
+
+/* Demo */ 
+
+#fap-demo-form {
+	margin: 0 0 60px 0;
+	padding: 5px;
+	border: 1px solid #dedede;
+	max-width: 300px;
+	font-size: 11px;
+}
+
+#fap-demo-form h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#fap-demo-form .fap-play-button {
+	margin: 10px 0 0;
+}
