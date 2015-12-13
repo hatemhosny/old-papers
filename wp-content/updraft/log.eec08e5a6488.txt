@@ -1,0 +1,351 @@
+0000.002 (0) Opened log file at time: Sun, 13 Dec 2015 04:00:48 +0000 on http://localhost:40454
+0000.019 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 57.7M | 67.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.038 (0) Free space on disk containing Updraft's temporary directory: 6363.5 Mb
+0000.053 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.071 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.088 (0) Requesting semaphore lock (fd)
+0000.112 (0) Semaphore (fd) was stuck, set lock time to 2015-12-13 04:00:48
+0000.137 (0) Semaphore (fd) reset to 1
+0000.158 (0) Set semaphore last lock (fd) time to 2015-12-13 04:00:48
+0000.161 (0) Semaphore lock (fd) complete
+0000.188 (0) Backup run: resumption=0, nonce=eec08e5a6488, begun at=1449979248 (0s ago), job type=backup
+0000.200 (0) Scheduling a resumption (1) after 300 seconds (1449979548) in case this run gets aborted
+0000.237 (0) Checking if we have a zip executable available
+0000.268 (0) Creation of backups of directories: beginning
+0000.294 (0) No backup of plugins: excluded by user's options
+0000.311 (0) No backup of themes: excluded by user's options
+0000.325 (0) No backup of uploads: excluded by user's options
+0000.335 (0) No backup of wpcore: excluded by user's options
+0000.345 (0) No backup of others: excluded by user's options
+0000.354 (0) No backup of more: excluded by user's options
+0000.387 (0) Saving backup status to database (elements: 0)
+0000.405 (0) Beginning creation of database dump (WordPress DB)
+0000.489 (0) Table wp_options: Total expected rows (approximate): 225
+0000.620 (0) Table wp_options: Total rows added: 462 in 0.12 seconds
+0000.634 (0) Table wp_options: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_options.table.gz - 154.2 Kb)
+0000.694 (0) Table wp_users: Total expected rows (approximate): 2
+0000.708 (0) Table wp_users: Total rows added: 2 in 0.01 seconds
+0000.719 (0) Table wp_users: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_users.table.gz - 0.6 Kb)
+0000.762 (0) Table wp_usermeta: Total expected rows (approximate): 54
+0000.780 (0) Table wp_usermeta: Total rows added: 54 in 0.01 seconds
+0000.791 (0) Table wp_usermeta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usermeta.table.gz - 2.7 Kb)
+0000.825 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.845 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0000.856 (0) Table wp_commentmeta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_commentmeta.table.gz - 0.3 Kb)
+0000.896 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.917 (0) Table wp_comments: Total rows added: 0 in 0.01 seconds
+0000.929 (0) Table wp_comments: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_comments.table.gz - 0.5 Kb)
+0000.981 (0) Table wp_links: Total expected rows (approximate): 0
+0001.010 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0001.021 (0) Table wp_links: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_links.table.gz - 0.4 Kb)
+0001.067 (0) Table wp_postmeta: Total expected rows (approximate): 226067
+0001.082 (0) [Warning] Table wp_postmeta has very many rows (226067) - we hope your web hosting company gives you enough resources to dump out that table in the backup
+0094.414 (0) Table wp_postmeta: Total rows added: 217620 in 93.32 seconds
+0094.436 (0) Table wp_postmeta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_postmeta.table.gz - 2256.3 Kb)
+0094.514 (0) Table wp_posts: Total expected rows (approximate): 2120
+0094.921 (0) Table wp_posts: Total rows added: 1834 in 0.39 seconds
+0094.926 (0) Table wp_posts: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_posts.table.gz - 109.6 Kb)
+0094.958 (0) Table wp_signups: Total expected rows (approximate): 0
+0094.989 (0) Table wp_signups: Total rows added: 0 in 0.02 seconds
+0095.005 (0) Table wp_signups: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_signups.table.gz - 0.5 Kb)
+0095.060 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0095.099 (0) Table wp_term_relationships: Total rows added: 17 in 0.02 seconds
+0095.112 (0) Table wp_term_relationships: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_term_relationships.table.gz - 0.4 Kb)
+0095.152 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0095.181 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.02 seconds
+0095.195 (0) Table wp_term_taxonomy: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+0095.244 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0095.271 (0) Table wp_termmeta: Total rows added: 0 in 0.02 seconds
+0095.285 (0) Table wp_termmeta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_termmeta.table.gz - 0.4 Kb)
+0095.337 (0) Table wp_terms: Total expected rows (approximate): 5
+0095.367 (0) Table wp_terms: Total rows added: 5 in 0.02 seconds
+0095.374 (0) Table wp_terms: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_terms.table.gz - 0.4 Kb)
+0095.427 (0) Table wp_alm: Total expected rows (approximate): 1
+0095.448 (0) Table wp_alm: Total rows added: 1 in 0.02 seconds
+0095.473 (0) Table wp_alm: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_alm.table.gz - 1.3 Kb)
+0095.526 (0) Table wp_bp_activity: Total expected rows (approximate): 1
+0095.560 (0) Table wp_bp_activity: Total rows added: 1 in 0.02 seconds
+0095.574 (0) Table wp_bp_activity: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_activity.table.gz - 0.5 Kb)
+0095.666 (0) Table wp_bp_activity_meta: Total expected rows (approximate): 0
+0095.704 (0) Table wp_bp_activity_meta: Total rows added: 0 in 0.02 seconds
+0095.717 (0) Table wp_bp_activity_meta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_activity_meta.table.gz - 0.3 Kb)
+0095.796 (0) Table wp_bp_notifications: Total expected rows (approximate): 0
+0095.823 (0) Table wp_bp_notifications: Total rows added: 0 in 0.02 seconds
+0095.843 (0) Table wp_bp_notifications: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_notifications.table.gz - 0.4 Kb)
+0095.925 (0) Table wp_bp_notifications_meta: Total expected rows (approximate): 0
+0095.966 (0) Table wp_bp_notifications_meta: Total rows added: 0 in 0.02 seconds
+0095.978 (0) Table wp_bp_notifications_meta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_notifications_meta.table.gz - 0.3 Kb)
+0096.051 (0) Table wp_bp_xprofile_data: Total expected rows (approximate): 1
+0096.084 (0) Table wp_bp_xprofile_data: Total rows added: 1 in 0.01 seconds
+0096.108 (0) Table wp_bp_xprofile_data: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_data.table.gz - 0.4 Kb)
+0096.177 (0) Table wp_bp_xprofile_fields: Total expected rows (approximate): 1
+0096.206 (0) Table wp_bp_xprofile_fields: Total rows added: 1 in 0.01 seconds
+0096.232 (0) Table wp_bp_xprofile_fields: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_fields.table.gz - 0.5 Kb)
+0096.282 (0) Table wp_bp_xprofile_groups: Total expected rows (approximate): 1
+0096.307 (0) Table wp_bp_xprofile_groups: Total rows added: 1 in 0.01 seconds
+0096.328 (0) Table wp_bp_xprofile_groups: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_groups.table.gz - 0.4 Kb)
+0096.364 (0) Table wp_bp_xprofile_meta: Total expected rows (approximate): 0
+0096.381 (0) Table wp_bp_xprofile_meta: Total rows added: 0 in 0.01 seconds
+0096.391 (0) Table wp_bp_xprofile_meta: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_meta.table.gz - 0.3 Kb)
+0096.426 (0) Table wp_oiopub_affiliates: Total expected rows (approximate): 0
+0096.437 (0) Table wp_oiopub_affiliates: Total rows added: 0 in 0.01 seconds
+0096.447 (0) Table wp_oiopub_affiliates: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_affiliates.table.gz - 0.4 Kb)
+0096.485 (0) Table wp_oiopub_affiliates_hits: Total expected rows (approximate): 0
+0096.503 (0) Table wp_oiopub_affiliates_hits: Total rows added: 0 in 0.01 seconds
+0096.507 (0) Table wp_oiopub_affiliates_hits: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_affiliates_hits.table.gz - 0.3 Kb)
+0096.539 (0) Table wp_oiopub_affiliates_sales: Total expected rows (approximate): 0
+0096.555 (0) Table wp_oiopub_affiliates_sales: Total rows added: 0 in 0.01 seconds
+0096.565 (0) Table wp_oiopub_affiliates_sales: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_affiliates_sales.table.gz - 0.4 Kb)
+0096.594 (0) Table wp_oiopub_config: Total expected rows (approximate): 69
+0096.625 (0) Table wp_oiopub_config: Total rows added: 69 in 0.02 seconds
+0096.639 (0) Table wp_oiopub_config: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_config.table.gz - 2.7 Kb)
+0096.689 (0) Table wp_oiopub_coupons: Total expected rows (approximate): 0
+0096.722 (0) Table wp_oiopub_coupons: Total rows added: 0 in 0.02 seconds
+0096.741 (0) Table wp_oiopub_coupons: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_coupons.table.gz - 0.4 Kb)
+0096.776 (0) Table wp_oiopub_purchases: Total expected rows (approximate): 0
+0096.806 (0) Table wp_oiopub_purchases: Total rows added: 0 in 0.02 seconds
+0096.820 (0) Table wp_oiopub_purchases: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_purchases.table.gz - 0.6 Kb)
+0096.873 (0) Table wp_oiopub_purchases_history: Total expected rows (approximate): 0
+0096.908 (0) Table wp_oiopub_purchases_history: Total rows added: 0 in 0.02 seconds
+0096.925 (0) Table wp_oiopub_purchases_history: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_purchases_history.table.gz - 0.4 Kb)
+0096.971 (0) Table wp_oiopub_tracker_archive: Total expected rows (approximate): 0
+0097.007 (0) Table wp_oiopub_tracker_archive: Total rows added: 0 in 0.02 seconds
+0097.020 (0) Table wp_oiopub_tracker_archive: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_tracker_archive.table.gz - 0.3 Kb)
+0097.066 (0) Table wp_oiopub_tracker_clicks: Total expected rows (approximate): 0
+0097.094 (0) Table wp_oiopub_tracker_clicks: Total rows added: 0 in 0.02 seconds
+0097.107 (0) Table wp_oiopub_tracker_clicks: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_tracker_clicks.table.gz - 0.3 Kb)
+0097.150 (0) Table wp_oiopub_tracker_visits: Total expected rows (approximate): 0
+0097.185 (0) Table wp_oiopub_tracker_visits: Total rows added: 0 in 0.02 seconds
+0097.207 (0) Table wp_oiopub_tracker_visits: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_tracker_visits.table.gz - 0.3 Kb)
+0097.269 (0) Table wp_pmxi_files: Total expected rows (approximate): 1
+0097.293 (0) Table wp_pmxi_files: Total rows added: 1 in 0.01 seconds
+0097.321 (0) Table wp_pmxi_files: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_files.table.gz - 0.5 Kb)
+0097.363 (0) Table wp_pmxi_history: Total expected rows (approximate): 169
+0097.392 (0) Table wp_pmxi_history: Total rows added: 169 in 0.02 seconds
+0097.409 (0) Table wp_pmxi_history: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_history.table.gz - 1.8 Kb)
+0097.448 (0) Table wp_pmxi_imports: Total expected rows (approximate): 1
+0097.481 (0) Table wp_pmxi_imports: Total rows added: 1 in 0.02 seconds
+0097.496 (0) Table wp_pmxi_imports: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_imports.table.gz - 3.9 Kb)
+0097.543 (0) Table wp_pmxi_posts: Total expected rows (approximate): 1146
+0097.684 (0) Table wp_pmxi_posts: Total rows added: 1146 in 0.13 seconds
+0097.710 (0) Table wp_pmxi_posts: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_posts.table.gz - 39 Kb)
+0097.746 (0) Table wp_pmxi_templates: Total expected rows (approximate): 1
+0097.766 (0) Table wp_pmxi_templates: Total rows added: 1 in 0.01 seconds
+0097.787 (0) Table wp_pmxi_templates: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_templates.table.gz - 3.6 Kb)
+0097.819 (0) Table wp_slim_events: Total expected rows (approximate): 46
+0097.844 (0) Table wp_slim_events: Total rows added: 46 in 0.01 seconds
+0097.863 (0) Table wp_slim_events: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_slim_events.table.gz - 1.4 Kb)
+0097.920 (0) Table wp_slim_stats: Total expected rows (approximate): 749
+0098.195 (0) Table wp_slim_stats: Total rows added: 755 in 0.25 seconds
+0098.208 (0) Table wp_slim_stats: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_slim_stats.table.gz - 16.3 Kb)
+0098.252 (0) Table wp_slim_stats_archive: Total expected rows (approximate): 0
+0098.289 (0) Table wp_slim_stats_archive: Total rows added: 0 in 0.02 seconds
+0098.309 (0) Table wp_slim_stats_archive: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_slim_stats_archive.table.gz - 0.6 Kb)
+0098.364 (0) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+0098.406 (0) Table wp_statistics_exclusions: Total rows added: 0 in 0.02 seconds
+0098.418 (0) Table wp_statistics_exclusions: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_exclusions.table.gz - 0.3 Kb)
+0098.468 (0) Table wp_statistics_historical: Total expected rows (approximate): 0
+0098.499 (0) Table wp_statistics_historical: Total rows added: 0 in 0.01 seconds
+0098.514 (0) Table wp_statistics_historical: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_historical.table.gz - 0.3 Kb)
+0098.550 (0) Table wp_statistics_pages: Total expected rows (approximate): 327
+0098.578 (0) Table wp_statistics_pages: Total rows added: 327 in 0.02 seconds
+0098.590 (0) Table wp_statistics_pages: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_pages.table.gz - 2.8 Kb)
+0098.625 (0) Table wp_statistics_search: Total expected rows (approximate): 0
+0098.648 (0) Table wp_statistics_search: Total rows added: 0 in 0.01 seconds
+0098.659 (0) Table wp_statistics_search: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_search.table.gz - 0.3 Kb)
+0098.698 (0) Table wp_statistics_useronline: Total expected rows (approximate): 0
+0098.720 (0) Table wp_statistics_useronline: Total rows added: 0 in 0.01 seconds
+0098.732 (0) Table wp_statistics_useronline: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_useronline.table.gz - 0.4 Kb)
+0098.771 (0) Table wp_statistics_visit: Total expected rows (approximate): 25
+0098.786 (0) Table wp_statistics_visit: Total rows added: 25 in 0.01 seconds
+0098.798 (0) Table wp_statistics_visit: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_visit.table.gz - 0.7 Kb)
+0098.842 (0) Table wp_statistics_visitor: Total expected rows (approximate): 100
+0098.879 (0) Table wp_statistics_visitor: Total rows added: 100 in 0.03 seconds
+0098.902 (0) Table wp_statistics_visitor: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_visitor.table.gz - 1.7 Kb)
+0098.937 (0) Table wp_users_ultra_pm: Total expected rows (approximate): 0
+0098.956 (0) Table wp_users_ultra_pm: Total rows added: 0 in 0.01 seconds
+0098.968 (0) Table wp_users_ultra_pm: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_users_ultra_pm.table.gz - 0.3 Kb)
+0099.004 (0) Table wp_usersultra_activity: Total expected rows (approximate): 0
+0099.023 (0) Table wp_usersultra_activity: Total rows added: 0 in 0.01 seconds
+0099.038 (0) Table wp_usersultra_activity: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_activity.table.gz - 0.3 Kb)
+0099.083 (0) Table wp_usersultra_ajaxrating_vote: Total expected rows (approximate): 0
+0099.103 (0) Table wp_usersultra_ajaxrating_vote: Total rows added: 0 in 0.01 seconds
+0099.115 (0) Table wp_usersultra_ajaxrating_vote: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ajaxrating_vote.table.gz - 0.4 Kb)
+0099.157 (0) Table wp_usersultra_ajaxrating_votesummary: Total expected rows (approximate): 0
+0099.183 (0) Table wp_usersultra_ajaxrating_votesummary: Total rows added: 0 in 0.02 seconds
+0099.197 (0) Table wp_usersultra_ajaxrating_votesummary: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ajaxrating_votesummary.table.gz - 0.4 Kb)
+0099.234 (0) Table wp_usersultra_credits: Total expected rows (approximate): 0
+0099.260 (0) Table wp_usersultra_credits: Total rows added: 0 in 0.02 seconds
+0099.273 (0) Table wp_usersultra_credits: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_credits.table.gz - 0.3 Kb)
+0099.321 (0) Table wp_usersultra_followers: Total expected rows (approximate): 0
+0099.347 (0) Table wp_usersultra_followers: Total rows added: 0 in 0.01 seconds
+0099.360 (0) Table wp_usersultra_followers: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_followers.table.gz - 0.3 Kb)
+0099.408 (0) Table wp_usersultra_friends: Total expected rows (approximate): 0
+0099.442 (0) Table wp_usersultra_friends: Total rows added: 0 in 0.02 seconds
+0099.470 (0) Table wp_usersultra_friends: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_friends.table.gz - 0.3 Kb)
+0099.522 (0) Table wp_usersultra_galleries: Total expected rows (approximate): 0
+0099.544 (0) Table wp_usersultra_galleries: Total rows added: 0 in 0.02 seconds
+0099.568 (0) Table wp_usersultra_galleries: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_galleries.table.gz - 0.3 Kb)
+0099.625 (0) Table wp_usersultra_groups: Total expected rows (approximate): 0
+0099.641 (0) Table wp_usersultra_groups: Total rows added: 0 in 0.01 seconds
+0099.653 (0) Table wp_usersultra_groups: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_groups.table.gz - 0.4 Kb)
+0099.690 (0) Table wp_usersultra_groups_post_rel: Total expected rows (approximate): 0
+0099.709 (0) Table wp_usersultra_groups_post_rel: Total rows added: 0 in 0.01 seconds
+0099.721 (0) Table wp_usersultra_groups_post_rel: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_groups_post_rel.table.gz - 0.3 Kb)
+0099.765 (0) Table wp_usersultra_groups_users_groups_rel: Total expected rows (approximate): 0
+0099.789 (0) Table wp_usersultra_groups_users_groups_rel: Total rows added: 0 in 0.01 seconds
+0099.807 (0) Table wp_usersultra_groups_users_groups_rel: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_groups_users_groups_rel.table.gz - 0.3 Kb)
+0099.867 (0) Table wp_usersultra_ip_defender: Total expected rows (approximate): 0
+0099.888 (0) Table wp_usersultra_ip_defender: Total rows added: 0 in 0.01 seconds
+0099.902 (0) Table wp_usersultra_ip_defender: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ip_defender.table.gz - 0.3 Kb)
+0099.954 (0) Table wp_usersultra_likes: Total expected rows (approximate): 0
+0099.971 (0) Table wp_usersultra_likes: Total rows added: 0 in 0.01 seconds
+0099.982 (0) Table wp_usersultra_likes: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_likes.table.gz - 0.3 Kb)
+0100.011 (0) Table wp_usersultra_orders: Total expected rows (approximate): 0
+0100.023 (0) Table wp_usersultra_orders: Total rows added: 0 in 0.01 seconds
+0100.034 (0) Table wp_usersultra_orders: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_orders.table.gz - 0.4 Kb)
+0100.066 (0) Table wp_usersultra_packages: Total expected rows (approximate): 0
+0100.083 (0) Table wp_usersultra_packages: Total rows added: 0 in 0.01 seconds
+0100.097 (0) Table wp_usersultra_packages: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_packages.table.gz - 0.4 Kb)
+0100.125 (0) Table wp_usersultra_photo_cat_rel: Total expected rows (approximate): 0
+0100.137 (0) Table wp_usersultra_photo_cat_rel: Total rows added: 0 in 0.01 seconds
+0100.147 (0) Table wp_usersultra_photo_cat_rel: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_photo_cat_rel.table.gz - 0.3 Kb)
+0100.181 (0) Table wp_usersultra_photo_categories: Total expected rows (approximate): 0
+0100.197 (0) Table wp_usersultra_photo_categories: Total rows added: 0 in 0.01 seconds
+0100.210 (0) Table wp_usersultra_photo_categories: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_photo_categories.table.gz - 0.3 Kb)
+0100.246 (0) Table wp_usersultra_photos: Total expected rows (approximate): 0
+0100.271 (0) Table wp_usersultra_photos: Total rows added: 0 in 0.01 seconds
+0100.285 (0) Table wp_usersultra_photos: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_photos.table.gz - 0.3 Kb)
+0100.324 (0) Table wp_usersultra_stats: Total expected rows (approximate): 1
+0100.341 (0) Table wp_usersultra_stats: Total rows added: 1 in 0.01 seconds
+0100.346 (0) Table wp_usersultra_stats: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_stats.table.gz - 0.4 Kb)
+0100.375 (0) Table wp_usersultra_stats_raw: Total expected rows (approximate): 1
+0100.393 (0) Table wp_usersultra_stats_raw: Total rows added: 1 in 0.01 seconds
+0100.406 (0) Table wp_usersultra_stats_raw: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_stats_raw.table.gz - 0.4 Kb)
+0100.445 (0) Table wp_usersultra_ticket_categories: Total expected rows (approximate): 0
+0100.456 (0) Table wp_usersultra_ticket_categories: Total rows added: 0 in 0.01 seconds
+0100.466 (0) Table wp_usersultra_ticket_categories: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ticket_categories.table.gz - 0.3 Kb)
+0100.495 (0) Table wp_usersultra_ticket_departments: Total expected rows (approximate): 0
+0100.528 (0) Table wp_usersultra_ticket_departments: Total rows added: 0 in 0.02 seconds
+0100.591 (0) Table wp_usersultra_ticket_departments: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ticket_departments.table.gz - 0.3 Kb)
+0100.653 (0) Table wp_usersultra_ticket_replies: Total expected rows (approximate): 0
+0100.679 (0) Table wp_usersultra_ticket_replies: Total rows added: 0 in 0.01 seconds
+0100.694 (0) Table wp_usersultra_ticket_replies: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ticket_replies.table.gz - 0.3 Kb)
+0100.737 (0) Table wp_usersultra_tickets: Total expected rows (approximate): 0
+0100.755 (0) Table wp_usersultra_tickets: Total rows added: 0 in 0.01 seconds
+0100.765 (0) Table wp_usersultra_tickets: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_tickets.table.gz - 0.4 Kb)
+0100.802 (0) Table wp_usersultra_videos: Total expected rows (approximate): 0
+0100.818 (0) Table wp_usersultra_videos: Total rows added: 0 in 0.01 seconds
+0100.834 (0) Table wp_usersultra_videos: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_videos.table.gz - 0.3 Kb)
+0100.868 (0) Table wp_usersultra_wall: Total expected rows (approximate): 13
+0100.886 (0) Table wp_usersultra_wall: Total rows added: 13 in 0.01 seconds
+0100.899 (0) Table wp_usersultra_wall: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_wall.table.gz - 0.6 Kb)
+0100.945 (0) Table wp_usersultra_wall_replies: Total expected rows (approximate): 0
+0100.980 (0) Table wp_usersultra_wall_replies: Total rows added: 0 in 0.02 seconds
+0101.002 (0) Table wp_usersultra_wall_replies: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_wall_replies.table.gz - 0.3 Kb)
+0101.054 (0) Table wp_wpfront_ure_options: Total expected rows (approximate): 1
+0101.077 (0) Table wp_wpfront_ure_options: Total rows added: 1 in 0.02 seconds
+0101.096 (0) Table wp_wpfront_ure_options: finishing file (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_wpfront_ure_options.table.gz - 0.4 Kb)
+0101.125 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_options.table.gz (1/75): adding to final database dump
+0101.217 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_users.table.gz (2/75): adding to final database dump
+0101.270 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usermeta.table.gz (3/75): adding to final database dump
+0101.284 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_commentmeta.table.gz (4/75): adding to final database dump
+0101.335 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_comments.table.gz (5/75): adding to final database dump
+0101.364 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_links.table.gz (6/75): adding to final database dump
+0101.382 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_postmeta.table.gz (7/75): adding to final database dump
+0103.256 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_posts.table.gz (8/75): adding to final database dump
+0103.326 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_signups.table.gz (9/75): adding to final database dump
+0103.330 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_term_relationships.table.gz (10/75): adding to final database dump
+0103.340 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_term_taxonomy.table.gz (11/75): adding to final database dump
+0103.349 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_termmeta.table.gz (12/75): adding to final database dump
+0103.353 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_terms.table.gz (13/75): adding to final database dump
+0103.362 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_alm.table.gz (14/75): adding to final database dump
+0103.372 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_activity.table.gz (15/75): adding to final database dump
+0103.375 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_activity_meta.table.gz (16/75): adding to final database dump
+0103.380 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_notifications.table.gz (17/75): adding to final database dump
+0103.390 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_notifications_meta.table.gz (18/75): adding to final database dump
+0103.399 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_data.table.gz (19/75): adding to final database dump
+0103.409 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_fields.table.gz (20/75): adding to final database dump
+0103.419 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_groups.table.gz (21/75): adding to final database dump
+0103.429 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_bp_xprofile_meta.table.gz (22/75): adding to final database dump
+0103.439 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_affiliates.table.gz (23/75): adding to final database dump
+0103.449 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_affiliates_hits.table.gz (24/75): adding to final database dump
+0103.453 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_affiliates_sales.table.gz (25/75): adding to final database dump
+0103.463 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_config.table.gz (26/75): adding to final database dump
+0103.471 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_coupons.table.gz (27/75): adding to final database dump
+0103.475 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_purchases.table.gz (28/75): adding to final database dump
+0103.485 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_purchases_history.table.gz (29/75): adding to final database dump
+0103.495 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_tracker_archive.table.gz (30/75): adding to final database dump
+0103.500 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_tracker_clicks.table.gz (31/75): adding to final database dump
+0103.509 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_oiopub_tracker_visits.table.gz (32/75): adding to final database dump
+0103.519 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_files.table.gz (33/75): adding to final database dump
+0103.524 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_history.table.gz (34/75): adding to final database dump
+0103.534 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_imports.table.gz (35/75): adding to final database dump
+0103.547 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_posts.table.gz (36/75): adding to final database dump
+0103.574 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_pmxi_templates.table.gz (37/75): adding to final database dump
+0103.580 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_slim_events.table.gz (38/75): adding to final database dump
+0103.599 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_slim_stats.table.gz (39/75): adding to final database dump
+0103.622 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_slim_stats_archive.table.gz (40/75): adding to final database dump
+0103.633 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_exclusions.table.gz (41/75): adding to final database dump
+0103.643 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_historical.table.gz (42/75): adding to final database dump
+0103.653 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_pages.table.gz (43/75): adding to final database dump
+0103.665 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_search.table.gz (44/75): adding to final database dump
+0103.675 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_useronline.table.gz (45/75): adding to final database dump
+0103.685 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_visit.table.gz (46/75): adding to final database dump
+0103.689 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_statistics_visitor.table.gz (47/75): adding to final database dump
+0103.706 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_users_ultra_pm.table.gz (48/75): adding to final database dump
+0103.716 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_activity.table.gz (49/75): adding to final database dump
+0103.720 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ajaxrating_vote.table.gz (50/75): adding to final database dump
+0103.730 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ajaxrating_votesummary.table.gz (51/75): adding to final database dump
+0103.734 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_credits.table.gz (52/75): adding to final database dump
+0103.738 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_followers.table.gz (53/75): adding to final database dump
+0103.748 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_friends.table.gz (54/75): adding to final database dump
+0103.758 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_galleries.table.gz (55/75): adding to final database dump
+0103.768 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_groups.table.gz (56/75): adding to final database dump
+0103.777 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_groups_post_rel.table.gz (57/75): adding to final database dump
+0103.781 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_groups_users_groups_rel.table.gz (58/75): adding to final database dump
+0103.791 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ip_defender.table.gz (59/75): adding to final database dump
+0103.800 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_likes.table.gz (60/75): adding to final database dump
+0103.804 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_orders.table.gz (61/75): adding to final database dump
+0103.814 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_packages.table.gz (62/75): adding to final database dump
+0103.826 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_photo_cat_rel.table.gz (63/75): adding to final database dump
+0103.830 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_photo_categories.table.gz (64/75): adding to final database dump
+0103.840 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_photos.table.gz (65/75): adding to final database dump
+0103.850 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_stats.table.gz (66/75): adding to final database dump
+0103.854 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_stats_raw.table.gz (67/75): adding to final database dump
+0103.864 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ticket_categories.table.gz (68/75): adding to final database dump
+0103.873 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ticket_departments.table.gz (69/75): adding to final database dump
+0103.877 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_ticket_replies.table.gz (70/75): adding to final database dump
+0103.888 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_tickets.table.gz (71/75): adding to final database dump
+0103.892 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_videos.table.gz (72/75): adding to final database dump
+0103.896 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_wall.table.gz (73/75): adding to final database dump
+0103.906 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_usersultra_wall_replies.table.gz (74/75): adding to final database dump
+0103.910 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db-table-wp_wpfront_ure_options.table.gz (75/75): adding to final database dump
+0103.920 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db.gz: finished writing out complete database file (2584 Kb)
+0104.031 (0) Total database tables backed up: 75 (backup_2015-12-13-0400_Papersfm_eec08e5a6488-db.gz, size: 2666357, checksum (SHA1): 95e4fb172e0fe09dc97fb0e164e66d97e7f7b7aa)
+0104.055 (0) Saving backup history
+0104.097 (0) backup_2015-12-13-0400_Papersfm_eec08e5a6488-db.gz: db: This file has not yet been successfully uploaded: will queue
+0104.116 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0104.141 (0) Cloud backup selection (1/1):  (last)
+0104.150 (0) No remote despatch: user chose no remote backup service
+0104.167 (0) Recording as successfully uploaded: backup_2015-12-13-0400_Papersfm_eec08e5a6488-db.gz (89c19d68870c92cf36b61bb4daef6d18)
+0104.211 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0104.215 (0) Number of backup sets in history: 3
+0104.231 (0) Examining backup set with datestamp: 1449979248 (Dec 13 2015 04:00:48)
+0104.235 (0) 1449979248: this backup set remains non-empty (0/1); will retain in history
+0104.244 (0) Examining backup set with datestamp: 1449897840 (Dec 12 2015 05:24:00)
+0104.253 (0) 1449897840: db: this set includes a database (backup_2015-12-12-0524_Papersfm_273d13755529-db.gz); db count is now 2
+0104.263 (0) 1449897840: db: over retain limit (1); will delete this database
+0104.275 (0) Delete file: backup_2015-12-12-0524_Papersfm_273d13755529-db.gz, service=none
+0104.284 (0) Deleting local copy (backup_2015-12-12-0524_Papersfm_273d13755529-db.gz)
+0104.309 (0) 1449897840: this backup set is now empty; will remove from history
+0104.318 (0) 1449897840: deleting log file (log.273d13755529.txt)
+0104.328 (0) Examining backup set with datestamp: 1449693311 (Dec 09 2015 20:35:11)
+0104.338 (0) 1449693311: this backup set remains non-empty (1/0); will retain in history
+0104.347 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0104.372 (0) Resume backup (eec08e5a6488, 0): finish run
+0104.387 (0) Decremented the semaphore (fd) by 1
+0104.397 (0) Semaphore (fd) still locked
+0104.400 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0104.429 (0) No email will/can be sent - the user has not configured an email address.
+0104.438 (0) The backup apparently succeeded and is now complete

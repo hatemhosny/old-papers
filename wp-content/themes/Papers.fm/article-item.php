@@ -1,3 +1,11 @@
+<!-- Populate the article data -->
+<script type="text/javascript">
+    papers["<?php the_ID(); ?>"] = new Object();
+    papers["<?php the_ID(); ?>"].title = "<?php the_title(); ?>";
+    papers["<?php the_ID(); ?>"].pmid = "<?php the_field('pmid'); ?>";
+    papers["<?php the_ID(); ?>"].journalISSN = "<?php the_field('journal_issn'); ?>";
+    papers["<?php the_ID(); ?>"].journal = "<?php the_field('journal'); ?>";
+</script>
 
 <!--BEGIN .hentry-->
 	<div id="post-<?php the_ID(); ?>" class="article-item post panel panel-default">

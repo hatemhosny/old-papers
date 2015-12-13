@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    paperPath["<?php the_ID(); ?>"] = "<?php echo( get_field('journal_issn') ); ?>/<?php echo( get_field('pmid') ); ?>";
+    //paperPath["<?php the_ID(); ?>"] = "<?php echo( get_field('journal_issn') ); ?>/<?php echo( get_field('pmid') ); ?>";
 </script>
 
 <div class="entry-content article-buttons row">

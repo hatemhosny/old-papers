@@ -6,7 +6,7 @@
     var currentTime = 0;
     var playerReady = false;
 
-    var paperPath = {};
+    var papers = {};
 
 
     $.noConflict()
@@ -75,7 +75,7 @@
             {
                 jQuery('#papers_player').jPlayer("setMedia", {
                     title: "Bubble",
-                    mp3: "https://s3.amazonaws.com/cdn01.papers.fm/" + paperPath[paper_id] + ".mp3"
+                    mp3: "https://s3.amazonaws.com/cdn01.papers.fm/" + papers[paper_id].journalISSN + "/" + papers[paper_id].pmid + ".mp3"
                 });
 
                 // if a new paper, reset the timer and the button
@@ -105,7 +105,7 @@
 <div id="papers_player" class="jp-jplayer"></div>
 <div id="player-bar" class="navbar navbar-default navbar-fixed-bottom">
     <div class="container">
-      <p class="navbar-text pull-left">The Player Controls to be put here</p>
+      <p class="navbar-text pull-left">The Player Controls to be placed here</p>
 
 
         <!-- for testing -->
