@@ -1,7 +1,16 @@
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	
 
+<!-- Populate the article data -->
+<script type="text/javascript">
+    papers["<?php the_ID(); ?>"] = new Object();
+    papers["<?php the_ID(); ?>"].title = "<?php the_title(); ?>";
+    papers["<?php the_ID(); ?>"].pmid = "<?php the_field('pmid'); ?>";
+    papers["<?php the_ID(); ?>"].journalISSN = "<?php the_field('journal_issn'); ?>";
+    papers["<?php the_ID(); ?>"].journal = "<?php the_field('journal'); ?>";
+</script>
+
+	
 		<?php $options = get_option('evolve'); if (($evolve_post_links == "before") || ($evolve_post_links == "both")) { ?>
 
 			<span class="nav-top">

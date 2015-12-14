@@ -63,6 +63,20 @@
         });
 
 
+        $(".article-addToPlaylist").click(function ()
+        {
+            alert("Not implemented yet!");
+            return false;
+        });
+
+
+        $(".article-share").click(function ()
+        {
+            alert("Not implemented yet!");
+            return false;
+        });
+
+
 
     });
 

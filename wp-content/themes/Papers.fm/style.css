@@ -59,6 +59,10 @@ font-size:16px;    color:#777;}
     text-align: justify;
 }
 
+.article-item
+{
+    margin-bottom: 10px !important;
+}
 .article-buttons{
     font-size:13px;
     clear:both;
