@@ -6,19 +6,18 @@
     var currentTime = 0;
     var playerReady = false;
 
+    // holder for papers data
     var papers = {};
 
-
-    $.noConflict()
+    $.noConflict();
     jQuery(document).ready(function ($)
     {
-
         $('#papers_player').jPlayer({
             ready: function ()
             {
                 $(this).jPlayer("setMedia", {
-                    title: "Bubble",
-                    mp3: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a"
+                    title: "Papers.fm",
+                    mp3: ""
                 });
                 playerReady = true;
             },
@@ -55,10 +54,21 @@
             errorAlerts: false,
             warningAlerts: false
         });
+
+        //bind the click event of the play button and icon to the player
+        $(".article-play").click(function ()
+        {
+            playPaper($(this).attr("data-item-id"));
+            return false;
+        });
+
+
+
     });
 
 
-    function play_paper(paper_id)
+
+    function playPaper(paper_id)
     {
         // if playing, then pause
         if ((paper_playing == true) && (paper_playing_id == paper_id))
@@ -124,14 +134,14 @@
       <p class="navbar-text pull-left">The Player Controls to be placed here</p>
 
 
-        <!-- for testing -->
+        <!-- for testing
         <p class="pull-right">
             <span class="visible-xs">XS</span>
             <span class="visible-sm">SM</span>
             <span class="visible-md">MD</span>
             <span class="visible-lg">LG</span>
         </p>
-
+         -->
 
     </div>
 </div>
