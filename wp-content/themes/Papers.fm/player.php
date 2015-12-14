@@ -63,9 +63,14 @@
         // if playing, then pause
         if ((paper_playing == true) && (paper_playing_id == paper_id))
         {
-            currentTime = jQuery("#papers_player").data("jPlayer").status.currentTime
+            currentTime = jQuery("#papers_player").data("jPlayer").status.currentTime;
             jQuery('#papers_player').jPlayer('pause');
-            jQuery('.article-play-button-' + paper_id).html('<span class="fa fa-play-circle fa-lg"></span> Play');
+            jQuery('.article-play-button-' + paper_id)
+                .html('<span class="fa fa-play-circle fa-lg"></span> Play');
+            jQuery('.article-play-icon-' + paper_id)
+                .html('<i class="fa fa-play-circle fa-2x"></i>')
+                .attr('title', 'Play')
+                .removeClass("playing");
             paper_playing = false;
 
         }
@@ -82,13 +87,24 @@
                 if (paper_playing_id != paper_id)
                 {
                     currentTime = 0;
-                    jQuery('.article-play-button-' + paper_playing_id).html('<span class="fa fa-play-circle fa-lg"></span> Play');
+                    jQuery('.article-play-button-' + paper_playing_id)
+                        .html('<span class="fa fa-play-circle fa-lg"></span> Play');
 
+                    jQuery('.article-play-icon-' + paper_playing_id)
+                        .html('<i class="fa fa-play-circle fa-2x"></i>')
+                        .attr('title', 'Play')
+                        .removeClass("playing");
                 }
 
                 jQuery('#papers_player').jPlayer('play', currentTime);
 
-                jQuery('.article-play-button-' + paper_id).html('<span class="fa fa-pause-circle fa-lg"></span> Pause');
+                jQuery('.article-play-button-' + paper_id)
+                    .html('<span class="fa fa-pause-circle fa-lg"></span> Pause');
+
+                jQuery('.article-play-icon-' + paper_id)
+                    .html('<i class="fa fa-pause-circle fa-2x"></i>')
+                    .attr('title', 'Pause')
+                    .addClass("playing");
 
                 paper_playing = true;
                 paper_playing_id = paper_id;

@@ -9,7 +9,7 @@
 	</div>
     <?php endif ?> 
 	<div class="read-more btn col-xs-4 col-sm-10 col-md-4 col-lg-2 col-xs-offset-1 col-lg-offset-0">
-		<a class="col-xs-12 article-play-button-<?php the_ID(); ?>"  onclick="play_paper('<?php the_ID(); ?>');">
+		<a class="col-xs-12 article-play-button-<?php the_ID(); ?>" onclick="play_paper('<?php the_ID(); ?>');">
             <span class="fa fa-play-circle fa-lg"></span> Play
         </a>
 	</div>
