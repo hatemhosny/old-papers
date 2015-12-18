@@ -75,7 +75,7 @@
                 </a>
             </div>
             <div class="item-controls">
-            	<a data-toggle="collapse" data-item-id="<?php the_ID(); ?>" title="Play" href="#" class="article-play article-play-icon-<?php the_ID(); ?>">
+            	<a data-item-id="<?php the_ID(); ?>" title="Play" href="#" class="article-play article-play-icon-<?php the_ID(); ?>">
                     <i class="fa fa-play-circle fa-2x"></i>
                 </a>
             </div>

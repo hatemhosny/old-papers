@@ -40,10 +40,14 @@ header("Pragma: no-cache");
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-<!-- Player -->
-<?php include('player.php');?>
+<!-- Animate.css -->
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css'>
 
 </head><!--END head-->
+
+
+<!-- Player -->
+<?php include('player.php');?>
 
 <!--BEGIN body-->
 <body <?php body_class(); ?>>

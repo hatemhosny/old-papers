@@ -100,7 +100,7 @@ font-size:16px;    color:#777;}
 }
 
 .playing {
-    color: #de7a7a !important;
+    color: #f9aa72 !important;
 }
 
 
@@ -112,11 +112,6 @@ font-size:16px;    color:#777;}
        color:#ccc;
     }    
 
-/*
-.abstractText .entry-meta .read-more a {
-    margin-bottom: -15px;
-}
-    */
 a.abstract-title-toggle{
     display: block;
     text-align: right;
@@ -144,4 +139,60 @@ letter-spacing:0px;
 font-weight:normal;
 background-color: #525151;
 height: 250px;
+}
+
+#notification-modal .modal-dialog {
+top:65% !important;
+}
+
+
+#player-bar-progress-bar
+{
+    margin: 0; 
+    padding: 0; 
+    height: 4px; 
+    background-color: #b6b3b3;
+}
+
+#player-bar-progress
+{
+    margin: 0; 
+    padding: 0; 
+    height: 4px; 
+    background-color: #f9aa72;
+    width: 0;
+}
+
+#player-bar-title {
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;              /* "overflow" value must be different from  visible"*/ 
+    -o-text-overflow: ellipsis;    /* Opera < 11*/
+    text-overflow:    ellipsis;    /* IE, Safari (WebKit), Opera >= 11, FF > 6 */
+}
+
+#player-bar-title div{
+    white-space: nowrap;
+    width: 100%;                   /* IE6 needs any width */
+    overflow: hidden;              /* "overflow" value must be different from  visible"*/ 
+    -o-text-overflow: ellipsis;    /* Opera < 11*/
+    text-overflow:    ellipsis;    /* IE, Safari (WebKit), Opera >= 11, FF > 6 */
+}
+
+a#player-bar-title
+{
+    color: #525151;
+}
+
+a#player-bar-title .small
+{
+    color: #808080;
+}
+
+#player-bar-controls a{
+    color: #525151;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
