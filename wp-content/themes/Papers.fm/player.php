@@ -1,5 +1,3 @@
-
-<script type="text/javascript" src="/player/jquery.jplayer.min.js"></script>
 <script type="text/javascript">
     var paper_playing = false;
     var paper_playing_id = '';
@@ -9,56 +7,13 @@
     // holder for papers data
     var papers = {};
 
-    $.noConflict();
-    jQuery(document).ready(function ($)
-    {
-        $('#papers_player').jPlayer({
-            ready: function ()
-            {
-                $(this).jPlayer("setMedia", {
-                    title: "Papers.fm",
-                    mp3: ""
-                });
-                playerReady = true;
-            },
-            timeupdate: function (event)
-            {
-                updatePlayerProgress();
-            },
-            swfPath: '/player',
-            solution: 'html, flash',
-            supplied: 'mp3',
-            preload: 'metadata',
-            volume: 0.8,
-            muted: false,
-            cssSelectorAncestor: '#jp_container_1',
-            cssSelector: {
-                play: '.jp-play',
-                pause: '.jp-pause',
-                stop: '.jp-stop',
-                seekBar: '.jp-seek-bar',
-                playBar: '.jp-play-bar',
-                mute: '.jp-mute',
-                unmute: '.jp-unmute',
-                volumeBar: '.jp-volume-bar',
-                volumeBarValue: '.jp-volume-bar-value',
-                volumeMax: '.jp-volume-max',
-                playbackRateBar: '.jp-playback-rate-bar',
-                playbackRateBarValue: '.jp-playback-rate-bar-value',
-                currentTime: '.jp-current-time',
-                duration: '.jp-duration',
-                title: '.jp-title',
-                fullScreen: '.jp-full-screen',
-                restoreScreen: '.jp-restore-screen',
-                repeat: '.jp-repeat',
-                repeatOff: '.jp-repeat-off',
-                gui: '.jp-gui',
-                noSolution: '.jp-no-solution'
-            },
-            errorAlerts: false,
-            warningAlerts: false
-        });
 
+
+
+jQuery(document).ready(function($){
+
+
+    
         //bind the click event of the play button and icon to the player
         $(".article-play").click(function ()
         {
@@ -90,6 +45,12 @@
             return false;
         });
 
+        $("#full-player-play").click(function ()
+        {
+            playPaper();
+            return false;
+        });
+
 
 
         $(function ()
@@ -103,9 +64,144 @@
                     myModal.modal('hide');
                 }, 3000));
             });
+
+            $("#player-slider").slider({
+                range: "min",
+                value: 37,
+                min: 1,
+                max: 700,
+                slide: function (event, ui)
+                {
+                    $("#amount").val("$" + ui.value);
+                }
+            });
+            $("#amount").val("$" + $("#player-slider").slider("value"));
         });
 
-    });
+        //testing
+        //$('#full-player').modal('show');
+
+
+
+
+	var myPlayer = $("#papers_player"),
+		myPlayerData,
+		fixFlash_mp4, // Flag: The m4a and m4v Flash player gives some old currentTime values when changed.
+		fixFlash_mp4_id, // Timeout ID used with fixFlash_mp4
+		ignore_timeupdate, // Flag used with fixFlash_mp4
+		options = {
+			ready: function (event) {
+
+                // tell the page that the player is ready
+                playerReady = true;
+
+				// Hide the volume slider on mobile browsers. ie., They have no effect.
+				if(event.jPlayer.status.noVolume) {
+					// Add a class and then CSS rules deal with it.
+					$(".jp-gui").addClass("jp-no-volume");
+				}
+				// Determine if Flash is being used and the mp4 media type is supplied. BTW, Supplying both mp3 and mp4 is pointless.
+				fixFlash_mp4 = event.jPlayer.flash.used && /m4a|m4v/.test(event.jPlayer.options.supplied);
+				// Setup the player with media.
+				$(this).jPlayer("setMedia", {
+					mp3: "http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3"
+				});
+			},
+			timeupdate: function(event) {
+
+                // update play-bar progress
+                updatePlayerProgress();
+				
+                
+                if(!ignore_timeupdate) {
+					myControl.progress.slider("value", event.jPlayer.status.currentPercentAbsolute);
+				}
+			},
+			volumechange: function(event) {
+				if(event.jPlayer.options.muted) {
+					myControl.volume.slider("value", 0);
+				} else {
+					myControl.volume.slider("value", event.jPlayer.options.volume);
+				}
+			},
+            swfPath: '/player',
+            solution: 'html, flash',
+            supplied: 'mp3',
+            preload: 'metadata',
+            volume: 0.8,
+            muted: false,
+            cssSelectorAncestor: '#jp_container_1',
+            errorAlerts: false,
+            warningAlerts: false,
+			wmode: "window",
+			keyEnabled: true
+		},
+		myControl = {
+			progress: $(options.cssSelectorAncestor + " .jp-progress-slider"),
+			volume: $(options.cssSelectorAncestor + " .jp-volume-slider")
+		};
+
+	// Instance jPlayer
+	myPlayer.jPlayer(options);
+
+	// A pointer to the jPlayer data object
+	myPlayerData = myPlayer.data("jPlayer");
+
+	// Define hover states of the buttons
+	$('.jp-gui ul li').hover(
+		function() { $(this).addClass('ui-state-hover'); },
+		function() { $(this).removeClass('ui-state-hover'); }
+	);
+
+	// Create the progress slider control
+	myControl.progress.slider({
+		animate: "fast",
+		max: 100,
+		range: "min",
+		step: 0.1,
+		value : 0,
+		slide: function(event, ui) {
+			var sp = myPlayerData.status.seekPercent;
+			if(sp > 0) {
+				// Apply a fix to mp4 formats when the Flash is used.
+				if(fixFlash_mp4) {
+					ignore_timeupdate = true;
+					clearTimeout(fixFlash_mp4_id);
+					fixFlash_mp4_id = setTimeout(function() {
+						ignore_timeupdate = false;
+					},1000);
+				}
+				// Move the play-head to the value and factor in the seek percent.
+				myPlayer.jPlayer("playHead", ui.value * (100 / sp));
+			} else {
+				// Create a timeout to reset this slider to zero.
+				setTimeout(function() {
+					myControl.progress.slider("value", 0);
+				}, 0);
+			}
+		}
+	});
+
+	// Create the volume slider control
+	myControl.volume.slider({
+		animate: "fast",
+		max: 1,
+		range: "min",
+		step: 0.01,
+		value : $.jPlayer.prototype.options.volume,
+		slide: function(event, ui) {
+			myPlayer.jPlayer("option", "muted", false);
+			myPlayer.jPlayer("option", "volume", ui.value);
+		}
+	});
+
+});
+
+
+
+
+
+
 
 
 
@@ -130,6 +226,9 @@
                          .attr('title', 'Play')
                          .removeClass("playing");
             jQuery('#player-bar-play')
+                             .html('<i class="fa fa-play-circle fa-3x"></i>')
+                             .attr('title', 'Play');
+            jQuery('#full-player-play')
                              .html('<i class="fa fa-play-circle fa-3x"></i>')
                              .attr('title', 'Play');
 
@@ -171,6 +270,9 @@
                 jQuery('#player-bar-play')
                              .html('<i class="fa fa-pause-circle fa-3x"></i>')
                              .attr('title', 'Pause');
+                jQuery('#full-player-play')
+                             .html('<i class="fa fa-pause-circle fa-3x"></i>')
+                             .attr('title', 'Pause');
                 jQuery('#player-bar-title')
                          .html(
                                  papers[paper_id].title +
@@ -189,7 +291,7 @@
 
     function updatePlayerProgress()
     {
-        progress = (jQuery("#papers_player").data("jPlayer").status.currentTime/jQuery("#papers_player").data("jPlayer").status.duration)*100
+        progress = (jQuery("#papers_player").data("jPlayer").status.currentTime / jQuery("#papers_player").data("jPlayer").status.duration) * 100
         jQuery('#player-bar-progress').css('width', progress + '%');
     }
 
@@ -197,12 +299,12 @@
 
 
 <div id="papers_player" class="jp-jplayer"></div>
-<div id="player-bar" class="navbar navbar-default navbar-fixed-bottom hidden">
+<div id="player-bar" class="navbar navbar-fixed-bottom hidden">
     <div id="player-bar-progress-bar">
         <div id="player-bar-progress"></div>
     </div>
     <div>
-      <a href="#" id="player-bar-title" class="pull-left col-xs-10">
+      <a id="player-bar-title" class="pull-left col-xs-10" data-toggle="modal" href="#full-player">
       </a>
 
       <div id="player-bar-controls" class="pull-right col-xs-2">
@@ -215,8 +317,8 @@
             	<a id="player-bar-forward" title="Next" class="hidden-xs hidden-sm" href="#">
                     <i class="glyphicon glyphicon-fast-forward fa-lg"></i>
                 </a>
-            	<a id="player-bar-fullscreen" class="pull-right visible-lg" title="Fullscreen" data-toggle="modal" href="#fsModal">
-                    <i class="glyphicon glyphicon-fullscreen fa-lg"></i>
+            	<a id="player-bar-fullscreen" class="pull-right visible-lg" title="Fullscreen" data-toggle="modal" href="#full-player">
+                    <i class="fa fa-expand fa-lg"></i>
                 </a>
       </div>
 
@@ -249,8 +351,8 @@
 
 
 <!-- modal -->
-<div id="fsModal"
-     class="modal animated zoomIn"
+<div id="full-player"
+     class="modal"
      tabindex="-1"
      role="dialog"
      aria-labelledby="myModalLabel"
@@ -267,6 +369,7 @@
         <h1 id="myModalLabel"
             class="modal-title">
           Modal title
+        <a href="#" class="close" data-dismiss="modal" aria-label="close">&times;</a>
         </h1>
       </div>
       <!-- header -->
@@ -277,29 +380,77 @@
 
         <p>Liquor ipsum dolor sit amet bearded lady, grog murphy's bourbon lancer. Kamikaze vodka gimlet; old rip van winkle, lemon drop martell salty dog tom collins smoky martini ben nevis man o'war. Strathmill grand marnier sea breeze b & b mickey slim. Cactus jack aberlour seven and seven, beefeater early times beefeater kalimotxo royal arrival jack rose. Cutty sark scots whisky b & b harper's finlandia agent orange pink lady three wise men gin fizz murphy's. Chartreuse french 75 brandy daisy widow's cork 7 crown ketel one captain morgan fleischmann's, hayride, edradour godfather. Long island iced tea choking hazard black bison, greyhound harvey wallbanger, "gibbon kir royale salty dog tonic and tequila."</p>
 
-        <h2>2. Modal sub-title</h2>
-
-        <p>The last word drumguish irish flag, hurricane, brandy manhattan. Lemon drop, pulteney fleischmann's seven and seven irish flag pisco sour metaxas, hayride, bellini. French 75 wolfram christian brothers, calvert painkiller, horse's neck old bushmill's gin pahit. Monte alban glendullan, edradour redline cherry herring anisette godmother, irish flag polish martini glen spey. Abhainn dearg bloody mary amaretto sour, ti punch black cossack port charlotte tequila slammer? Rum swizzle glen keith j & b sake bomb harrogate nights 7 crown! Hairy virgin tomatin lord calvert godmother wolfschmitt brass monkey aberfeldy caribou lou. Macuá, french 75 three wise men.</p>
-
-        <h2>3. Modal sub-title</h2>
-
-        <p>Pisco sour daiquiri lejon bruichladdich mickey slim sea breeze wolfram kensington court special: pink lady white lady or delilah. Pisco sour glen spey, courvoisier j & b metaxas glenlivet tormore chupacabra, sambuca lorraine knockdhu gin and tonic margarita schenley's." Bumbo glen ord the macallan balvenie lemon split presbyterian old rip van winkle paradise gin sling. Myers black bison metaxa caridan linkwood three wise men blue hawaii wine cooler?" Talisker moonwalk cosmopolitan wolfram zurracapote glen garioch patron saketini brandy alexander, singapore sling polmos krakow golden dream. Glenglassaugh usher's wolfram mojito ramos gin fizz; cactus jack. Mai-tai leite de onça bengal; crown royal absolut allt-á-bhainne jungle juice bacardi benrinnes, bladnoch. Cointreau four horsemen aultmore, "the amarosa cocktail vodka gimlet ardbeg southern comfort salmiakki koskenkorva."</p>
 
       </div>
       <!-- body -->
 
       <!-- footer -->
       <div class="modal-footer">
-        <button class="btn btn-secondary"
-                data-dismiss="modal">
-          close
-        </button>
-        <button class="btn btn-default">
-          Default
-        </button>
-        <button class="btn btn-primary">
-          Primary
-        </button>
+          <div class="container-fluid"> 
+
+		<div id="jp_container_1">
+			<div class="jp-gui">
+                <div class="row col-xs-12">
+				    <div class="jp-progress-slider col-xs-11 col-md-8 col-lg-9" style="margin: auto 20px;"></div>
+				    <div class="jp-volume-slider col-md-2 hidden-xs hidden-sm" style="margin: auto 20px;"></div>
+                </div>
+                <div class="row col-xs-12">
+                    <div class="col-xs-11 col-md-8 col-lg-9" style="margin: auto 20px;">
+				        <div class="jp-current-time pull-left"></div>
+				        <div class="jp-duration pull-right"></div>
+                    </div>
+                    <div id="full-player-volume-control" class="col-md-2 hidden-xs hidden-sm">
+				        <div class="pull-left">
+                            <a href="javascript:;" class="jp-mute" tabindex="1" title="mute">
+                               <i class="fa fa-volume-off fa-lg"></i>
+                            </a>
+                            <a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">
+                               <i class="fa fa-volume-down fa-lg"></i>
+                            </a>
+                        </div>
+				        <div class="pull-right" style="margin-right: -40px;">
+                            <a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">
+                               <i class="fa fa-volume-up fa-lg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="full-player-controls">
+                <div class="row col-xs-12">
+            	    <a id="full-player-previous" title="Previous" href="#">
+                        <i class="glyphicon glyphicon-fast-backward fa-lg"></i>
+                    </a>
+            	    <a id="full-player-backward" title="Previous" href="#">
+                        <i class="glyphicon glyphicon-backward fa-lg"></i>
+                    </a>
+            	    <a id="full-player-play" title="Play" href="#">
+                        <i class="fa fa-play-circle fa-3x"></i>
+                    </a>
+            	    <a id="full-player-forward" title="Forward" href="#">
+                        <i class="glyphicon glyphicon-forward fa-lg"></i>
+                    </a>
+            	    <a id="full-player-next" title="Next" href="#">
+                        <i class="glyphicon glyphicon-fast-forward fa-lg"></i>
+                    </a>
+                </div>
+                </div>
+
+
+
+
+			</div>
+			<div class="jp-no-solution">
+				<span>Update Required</span>
+				To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+			</div>
+		</div>
+
+
+
+          </div>
       </div>
       <!-- footer -->
 

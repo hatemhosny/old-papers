@@ -43,6 +43,11 @@ header("Pragma: no-cache");
 <!-- Animate.css -->
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css'>
 
+<!-- Player -->
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/trontastic/jquery-ui.css">
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="/player/jquery.jplayer.min.js"></script>
+
 </head><!--END head-->
 
 

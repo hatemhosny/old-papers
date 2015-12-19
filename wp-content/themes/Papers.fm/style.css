@@ -141,16 +141,29 @@ background-color: #525151;
 height: 250px;
 }
 
+
+/* fix bootstrap modal movement */
+.modal-open {
+  padding-right: 0 !important;
+}
+html {
+  overflow-y: scroll !important;
+}
+/* end fix bootstrap modal movement*/
+
 #notification-modal .modal-dialog {
 top:65% !important;
 }
 
-
+#player-bar 
+{
+  background-color: #2d2d2d;
+}
 #player-bar-progress-bar
 {
     margin: 0; 
     padding: 0; 
-    height: 4px; 
+    height: 5px; 
     background-color: #b6b3b3;
 }
 
@@ -158,7 +171,7 @@ top:65% !important;
 {
     margin: 0; 
     padding: 0; 
-    height: 4px; 
+    height: 5px; 
     background-color: #f9aa72;
     width: 0;
 }
@@ -181,7 +194,7 @@ top:65% !important;
 
 a#player-bar-title
 {
-    color: #525151;
+    color: #fff;
 }
 
 a#player-bar-title .small
@@ -190,9 +203,108 @@ a#player-bar-title .small
 }
 
 #player-bar-controls a{
-    color: #525151;
+    color: #fff;
     margin: 5px;
     display: inline-block;
     vertical-align: middle;
     float: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+#full-player {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+#full-player .modal-dialog {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+#full-player .modal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #2d2d2d;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #ccc;
+
+}
+#full-player .modal-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  padding: 10px;
+  background: #2d2d2d;
+  border: 0;
+}
+#full-player .modal-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  line-height: 30px;
+}
+#full-player .modal-body {
+  position: absolute;
+  top: 50px;
+  bottom: 200px;
+  width: 100%;
+  font-weight: 300;
+  overflow: auto;
+}
+#full-player .modal-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  padding: 10px;
+  background-color: #1e1d1d;
+  text-align: center;
+}
+#full-player .modal-footer a{
+    color: #fff;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    margin: auto 20px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  background: #f1f3f5;
+  border-left: 1px solid #2d2d2d;
+}
+::-webkit-scrollbar-thumb {
+  background: #b5c0cb;
+}
+
