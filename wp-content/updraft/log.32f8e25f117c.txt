@@ -1,0 +1,64 @@
+0000.001 (0) Opened log file at time: Sat, 19 Dec 2015 09:37:33 +0000 on http://localhost:40454
+0000.011 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.11.18.22 WP: 4.4 PHP: 5.3.28 (Windows NT ATIV 6.2 build 9200 (Unknow Windows version Home Premium Edition) i586) MySQL: 5.5.45 Server: Microsoft-IIS/10.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.5M | 63.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.021 (0) Free space on disk containing Updraft's temporary directory: 5875.6 Mb
+0000.037 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 0 (schedule: daily)
+0000.045 (0) Requesting semaphore lock (f)
+0000.072 (0) Set semaphore last lock (f) time to 2015-12-19 09:37:33
+0000.076 (0) Semaphore lock (f) complete
+0000.099 (0) Backup run: resumption=0, nonce=32f8e25f117c, begun at=1450517853 (0s ago), job type=backup
+0000.110 (0) Scheduling a resumption (1) after 300 seconds (1450518153) in case this run gets aborted
+0000.137 (0) Checking if we have a zip executable available
+0000.148 (0) Creation of backups of directories: beginning
+0000.163 (0) No backup of plugins: excluded by user's options
+0000.175 (0) Beginning creation of dump of themes (split every: 25 Mb)
+0002.426 (0) Total entities for the zip file: 232 directories, 1500 files (0 skipped as non-modified), 24.5 Mb
+0002.521 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.640 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 Mb, 185 (185) files added so far); re-opening (prior size: 0 Kb)
+0003.295 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 200 files added (on-disk size: 687.4 Kb)
+0003.499 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 300 files added (on-disk size: 687.4 Kb)
+0003.712 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 400 files added (on-disk size: 687.4 Kb)
+0003.923 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 500 files added (on-disk size: 687.4 Kb)
+0004.142 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 600 files added (on-disk size: 687.4 Kb)
+0004.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.7 Mb, 1500 files batched, 501 (686) added so far); re-opening (prior size: 687.4 Kb)
+0006.504 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 700 files added (on-disk size: 2387.3 Kb)
+0006.679 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 800 files added (on-disk size: 2387.3 Kb)
+0006.833 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 900 files added (on-disk size: 2387.3 Kb)
+0007.005 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 1000 files added (on-disk size: 2387.3 Kb)
+0007.198 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 1100 files added (on-disk size: 2387.3 Kb)
+0007.368 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.4 Mb, 1500 files batched, 501 (1187) added so far); re-opening (prior size: 2387.3 Kb)
+0009.794 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 1200 files added (on-disk size: 10813.5 Kb)
+0009.924 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 1300 files added (on-disk size: 10813.5 Kb)
+0010.040 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 1400 files added (on-disk size: 10813.5 Kb)
+0010.175 (0) Zip: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip.tmp: 1500 files added (on-disk size: 10813.5 Kb)
+0011.192 (0) Created themes zip (0) - 13193.9 Kb in 11 s (1198.6 Kb/s) (SHA1 checksum: 723ae41d80ef05f5e5c23aac4abaabdf47ed0477)
+0011.205 (0) No backup of uploads: excluded by user's options
+0011.208 (0) No backup of wpcore: excluded by user's options
+0011.216 (0) No backup of others: excluded by user's options
+0011.225 (0) No backup of more: excluded by user's options
+0011.242 (0) Saving backup status to database (elements: 2)
+0011.253 (0) No database backup (wp) - not part of this run
+0011.262 (0) Saving backup history
+0011.266 (0) backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.287 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0011.307 (0) Cloud backup selection (1/1): none (last)
+0011.310 (0) No remote despatch: user chose no remote backup service
+0011.330 (0) Recording as successfully uploaded: backup_2015-12-19-0937_Papersfm_32f8e25f117c-themes.zip (e7c8bb402311453d82bd71894c5d9a67)
+0011.361 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0011.370 (0) Number of backup sets in history: 3
+0011.373 (0) Examining backup set with datestamp: 1450517853 (Dec 19 2015 09:37:33)
+0011.382 (0) 1450517853: this backup set remains non-empty (1/0); will retain in history
+0011.391 (0) Examining backup set with datestamp: 1450504667 (Dec 19 2015 05:57:47)
+0011.394 (0) 1450504667: this backup set remains non-empty (0/1); will retain in history
+0011.403 (0) Examining backup set with datestamp: 1450122587 (Dec 14 2015 19:49:47)
+0011.411 (0) themes: 1450122587: over retain limit (1); will delete this file (backup_2015-12-14-1949_Papersfm_667b7824cbc8-themes.zip)
+0011.414 (0) Delete file: backup_2015-12-14-1949_Papersfm_667b7824cbc8-themes.zip, service=none
+0011.423 (0) Deleting local copy (backup_2015-12-14-1949_Papersfm_667b7824cbc8-themes.zip)
+0011.445 (0) 1450122587: this backup set is now empty; will remove from history
+0011.448 (0) 1450122587: deleting log file (log.667b7824cbc8.txt)
+0011.451 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0011.470 (0) Resume backup (32f8e25f117c, 0): finish run
+0011.489 (0) Decremented the semaphore (f) by 1
+0011.500 (0) Semaphore (f) unlocked
+0011.508 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.528 (0) No email will/can be sent - the user has not configured an email address.
+0011.537 (0) The backup apparently succeeded and is now complete

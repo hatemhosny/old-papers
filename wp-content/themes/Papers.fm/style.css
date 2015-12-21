@@ -100,9 +100,8 @@ font-size:16px;    color:#777;}
 }
 
 .playing {
-    color: #f9aa72 !important;
+/*    color: #b8ec79 !important; */
 }
-
 
 .entry-list-title a{
        color:#777;
@@ -172,7 +171,7 @@ top:65% !important;
     margin: 0; 
     padding: 0; 
     height: 5px; 
-    background-color: #f9aa72;
+    background-color: #bcf7be;
     width: 0;
 }
 
@@ -209,19 +208,6 @@ a#player-bar-title .small
     vertical-align: middle;
     float: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 * {
@@ -261,8 +247,8 @@ a#player-bar-title .small
   right: 0;
   left: 0;
   height: 50px;
-  padding: 10px;
-  background: #2d2d2d;
+  padding: 5px 10px;
+  background: #1e1d1d;
   border: 0;
 }
 #full-player .modal-title {
@@ -271,10 +257,15 @@ a#player-bar-title .small
   color: #fff;
   line-height: 30px;
 }
+#full-player .modal-header a#full-player-minimize{
+    color: #fff;
+    font-size: 20pt;
+    padding: 0 10px;
+}
 #full-player .modal-body {
   position: absolute;
   top: 50px;
-  bottom: 200px;
+  bottom: 170px;
   width: 100%;
   font-weight: 300;
   overflow: auto;
@@ -284,18 +275,30 @@ a#player-bar-title .small
   right: 0;
   bottom: 0;
   left: 0;
-  height: 200px;
-  padding: 10px;
+  height: 170px;
+  padding: 5px 0;
   background-color: #1e1d1d;
   text-align: center;
 }
 #full-player .modal-footer a{
     color: #fff;
-    margin: 5px;
     display: inline-block;
     vertical-align: middle;
     float: none;
-    margin: auto 20px;
+    margin: 0 10px;
+}
+
+#full-player-audio-title{
+    height: 45pt;
+    line-height: 15pt;
+    color: #fff;
+    text-align: left;
+    padding: auto 10px;
+    margin-bottom: 10px;
+    overflow-y: hidden;
+    -o-text-overflow: ellipsis;    /* Opera < 11*/
+    text-overflow:    ellipsis;    /* IE, Safari (WebKit), Opera >= 11, FF > 6 */
+
 }
 
 ::-webkit-scrollbar {
@@ -306,5 +309,33 @@ a#player-bar-title .small
 }
 ::-webkit-scrollbar-thumb {
   background: #b5c0cb;
+}
+
+#playlist {
+list-style: none;
+padding: 0;
+margin: 0;
+color: #fff;
+}
+
+#playlist li{
+    margin: 0 !important;
+    padding: 0 !important;
+} 
+#playlist li:nth-child(odd) {
+    background-color: #efefef;
+}
+
+#playlist li:nth-child(even) {
+    background-color:#fbfbfb;
+}
+
+#playlist a{
+    display: block;
+    margin: 0 !important;
+    padding: 5px;
+}
+#playlist a.playing {
+    background-color: #cbeba5 !important; 
 }
 
